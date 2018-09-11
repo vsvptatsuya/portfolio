@@ -166,7 +166,7 @@ a.btn {
   position: relative;
   width: 80%;
   margin: 20px auto;
-  padding: 3px;
+  padding: 10px 3px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   text-align: center;
@@ -352,12 +352,13 @@ a.btn {
             color: #222;
           }
           .ttl{
-            background: #edff00;
+            background: #222;
+            color: #fff;
             padding: 5px;
             text-align: center;
           }
         }
-        &.imgHolder {
+        a.imgHolder {
           position: relative;
           display: block;
           overflow: hidden;
@@ -376,7 +377,7 @@ a.btn {
             background: rgba(0, 0, 0, 0.8);
             padding: 0;
           }
-          img {
+          img{
             max-width: 100%;
             -webkit-transition: .5s;
             transition: .5s;
@@ -465,14 +466,19 @@ a.btn {
       margin: 0 auto;
     }
   }
+  .works{
+    .inn{
+      .flexbox{
+        .worksSec {
+          width: 100%;
+        }
+      }
+    }
+  }
   .topimg {
     height: 400px;
   }
   #svg {
     display: none;
-  }
-  .works .multiple-items {
-    width: 86%;
-    margin: 0 auto;
   }
 }

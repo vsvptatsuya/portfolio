@@ -1,0 +1,1676 @@
+// ダーティ ファイルの自動保存を制御します。自動保存について詳しくは、[こちら](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save) をご覧ください。
+//  - off: ダーティ ファイルを自動的に保存することはしません。
+//  - afterDelay: `files.autoSaveDelay` で構成された時間の経過後に、ダーティ ファイルを自動的に保存します。
+//  - onFocusChange: エディターがフォーカスを失った時点で、ダーティ ファイルを自動的に保存します。
+//  - onWindowChange: ウィンドウがフォーカスを失った時点で、ダーティ ファイルを自動的に保存します。
+"files.autoSave": "off",
+// フォント サイズをピクセル単位で制御します。
+"editor.fontSize": 12,
+// フォント ファミリを制御します。
+"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+// 1 つのタブに相当するスペースの数。`editor.detectIndentation` がオンの場合、この設定はファイル コンテンツに基づいて上書きされます。
+"editor.tabSize": 4,
+// エディターで空白文字を表示するかどうかを制御します。
+//  - none
+//  - boundary: 単語間の単一スペース以外の空白文字を表示します。
+//  - all
+"editor.renderWhitespace": "none",
+// カーソルのスタイルを制御します。
+"editor.cursorStyle": "line",
+// マウスを使用して複数のカーソルを追加するときに使用する修飾キーです。「定義に移動」や「リンクを開く」のマウス操作は、マルチカーソルの修飾キーと競合しないように適用されます。[詳細](https://code.visualstudio.com/docs/editor/codebasics#_multicursor-modifier)
+//  - ctrlCmd: Windows および Linux 上の `Control` キーと macOS 上の `Command` キーに割り当てます。
+//  - alt: Windows および Linux 上の `Alt` キーと macOS 上の `Option` キーに割り当てます。
+"editor.multiCursorModifier": "alt",
+// `Tab` キーを押すとスペースが挿入されます。`editor.detectIndentation` がオンの場合、この設定はファイル コンテンツに基づいて上書きされます。
+"editor.insertSpaces": true,
+// 行の折り返しを制御します。
+//  - off: 行を折り返しません。
+//  - on: 行をビューポートの幅で折り返します。
+//  - wordWrapColumn: `editor.wordWrapColumn` で行を折り返します。
+//  - bounded: ビューポートと `editor.wordWrapColumn` の最小値で行を折り返します。
+"editor.wordWrap": "off",
+// ファイルとフォルダーを除外するための glob パターンを構成します。たとえば、ファイル エクスプローラーではこの設定に基づいてファイルとフォルダーの表示や非表示を決定します。glob パターンについての詳細は [こちら](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) を参照してください。
+"files.exclude": {
+  "**/.git": true,
+  "**/.svn": true,
+  "**/.hg": true,
+  "**/CVS": true,
+  "**/.DS_Store": true
+},
+// 言語に対するファイルの関連付け (例: `"*.extension": "html") を構成します。これらの関連付けは、インストールされている言語の既定の関連付けより優先されます。
+"files.associations": {}
+},
+{
+// 差分エディターが、先頭または末尾の空白の変更を差分として表示するかどうかを制御します。
+"diffEditor.ignoreTrimWhitespace": true,
+// 差分エディターが追加/削除された変更に +/- インジケーターを示すかどうかを制御します。
+"diffEditor.renderIndicators": true,
+// 差分エディターが差分を横に並べて表示するか、行内に表示するかを制御します。
+"diffEditor.renderSideBySide": true,
+// コミット文字で候補を受け入れるかどうかを制御します。たとえば、JavaScript ではセミコロン (`;`) をコミット文字にして、候補を受け入れてその文字を入力することができます。
+"editor.acceptSuggestionOnCommitCharacter": true,
+// `Tab` キーに加えて `Enter` キーで候補を受け入れるかどうかを制御します。改行の挿入や候補の反映の間であいまいさを解消するのに役立ちます。
+//  - on
+//  - smart: テキストの変更を行うとき、`Enter` を使用する場合にのみ候補を受け付けます。
+//  - off
+"editor.acceptSuggestionOnEnter": "on",
+// エディターをスクリーン リーダーに最適化されたモードで実行するかどうかを制御します。
+//  - auto: エディターはスクリーン リーダーがいつ接続されたかを検出するためにプラットフォーム API を使用します。
+//  - on: エディターは永続的にスクリーン リーダー向けに最適化されます。
+//  - off: エディターはスクリーン リーダー向けに最適化されません。
+"editor.accessibilitySupport": "auto",
+// エディターで左角かっこを追加した後に自動的に右角かっこを挿入するかどうかを制御します。
+//  - always
+//  - languageDefined: 言語設定を使用して、いつかっこを自動クローズするか決定します。
+//  - beforeWhitespace: カーソルが空白文字の左にあるときだけ、かっこを自動クローズします。
+//  - never
+"editor.autoClosingBrackets": "languageDefined",
+// ユーザーが開始引用符を追加した後、エディター自動的に引用符を閉じるかどうかを制御します。 
+//  - always
+//  - languageDefined: 言語設定を使用して、いつ引用符を自動クローズするか決定します。
+//  - beforeWhitespace: カーソルが空白文字の左にあるときだけ、引用符を自動クローズします。
+//  - never
+"editor.autoClosingQuotes": "languageDefined",
+// ユーザーが入力や貼り付け、行の移動をしたとき、エディターがインデントを自動的に調整するかどうかを制御します。言語のインデント ルールを持つ拡張機能を使用できる必要があります。
+"editor.autoIndent": true,
+// エディターが自動的に選択範囲を囲む必要があるかどうかを制御します。
+//  - languageDefined: 言語構成を使用して、選択範囲をいつ自動的に囲むかを判断します。 
+//  - brackets: 引用符ではなく、角かっこで囲みます。
+//  - quotes: 角かっこではなく、引用符で囲みます。
+//  - never
+"editor.autoSurround": "languageDefined",
+// 保存時に実行されるコードアクションの種類。
+"editor.codeActionsOnSave": {},
+// 保存時に実行されるコード アクションを取り消した後のタイムアウト (ミリ秒)。
+"editor.codeActionsOnSaveTimeout": 750,
+// CodeLens をエディターに表示するかどうかを制御します。
+"editor.codeLens": true,
+// エディターでインライン カラー デコレーターと色の選択を表示する必要があるかどうかを制御します。
+"editor.colorDecorators": true,
+// カーソルのアニメーション方式を制御します。
+"editor.cursorBlinking": "blink",
+// カーソルのスタイルを制御します。
+"editor.cursorStyle": "line",
+// `editor.cursorStyle` が `line` に設定されている場合、カーソルの幅を制御します。
+"editor.cursorWidth": 0,
+// ファイルがファイルの内容に基づいて開かれる場合、`editor.tabSize#` と `#editor.insertSpaces` を自動的に検出するかどうかを制御します。
+"editor.detectIndentation": true,
+// ドラッグ アンド ドロップによる選択範囲の移動をエディターが許可するかどうかを制御します。
+"editor.dragAndDrop": true,
+// 選択範囲を指定しないでコピーする場合に現在の行をコピーするかどうかを制御します。
+"editor.emptySelectionClipboard": true,
+// エディターでの検索操作の実行対象を、選択したテキストとファイル全体のどちらにするかを制御します。
+"editor.find.autoFindInSelection": false,
+// macOS で検索ウィジェットが共有の検索クリップボードを読み取りまたは変更するかどうかを制御します。
+"editor.find.globalFindClipboard": false,
+// エディターの選択範囲から検索ウィジェット内の検索文字列を与えるかどうかを制御します。
+"editor.find.seedSearchStringFromSelection": true,
+// エディターでコードの折りたたみを有効にするかどうかを制御します
+"editor.folding": true,
+// 折りたたみ範囲の計算方式を制御します。`auto` は利用可能であれば言語固有の折りたたみ方式を使用します。`indentation` はインデントに基づく折りたたみ方式を使用します。
+"editor.foldingStrategy": "auto",
+// フォント ファミリを制御します。
+"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+// フォントの合字を有効/無効にします。
+"editor.fontLigatures": false,
+// フォント サイズをピクセル単位で制御します。
+"editor.fontSize": 12,
+// フォントの太さを制御します。
+"editor.fontWeight": "normal",
+// 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御します。フォーマッタを使用可能にする必要があります。また、フォーマッタがドキュメント内の範囲をフォーマットできなければなりません。
+"editor.formatOnPaste": false,
+// ファイルを保存するときにフォーマットしてください。フォーマッタを使用可能にして、ファイルを自動保存せず、エディターをシャットダウンしないでください。
+"editor.formatOnSave": false,
+// ファイルの保存時に実行される書式設定を取り消した後のタイムアウト (ミリ秒)。
+"editor.formatOnSaveTimeout": 750,
+// エディターで入力後に自動的に行のフォーマットを行うかどうかを制御します。
+"editor.formatOnType": false,
+// エディターで縦のグリフ余白が表示されるかどうかを制御します。ほとんどの場合、グリフ余白はデバッグに使用されます。
+"editor.glyphMargin": true,
+// 概要ルーラーでカーソルを非表示にするかどうかを制御します。
+"editor.hideCursorInOverviewRuler": false,
+// エディターでアクティブなインンデントのガイドを強調表示するかどうかを制御します。
+"editor.highlightActiveIndentGuide": true,
+// ホバーを表示後の遅延時間 (ミリ秒)。
+"editor.hover.delay": 300,
+// ホバーを表示するかどうかを制御します。
+"editor.hover.enabled": true,
+// ホバーにマウスを移動したときに、ホバーを表示し続けるかどうかを制御します。
+"editor.hover.sticky": true,
+// `Tab` キーを押すとスペースが挿入されます。`editor.detectIndentation` がオンの場合、この設定はファイル コンテンツに基づいて上書きされます。
+"editor.insertSpaces": true,
+// 大きなファイルでメモリが集中する特定の機能を無効にするための特別な処理。
+"editor.largeFileOptimizations": true,
+// 文字の間隔をピクセル単位で制御します。
+"editor.letterSpacing": 0,
+// エディターでコード アクションの電球を有効にします。
+"editor.lightbulb.enabled": true,
+// 行の高さを制御します。フォント サイズに基づいて行の高さを計算する場合には、0 を使用します。
+"editor.lineHeight": 0,
+// 行番号の表示を制御します。
+//  - off: 行番号は表示されません。
+//  - on: 行番号は、絶対数として表示されます。
+//  - relative: 行番号は、カーソル位置までの行数として表示されます。
+//  - interval: 行番号は 10 行ごとに表示されます。
+"editor.lineNumbers": "on",
+// エディターがリンクを検出してクリック可能な状態にするかどうかを制御します。
+"editor.links": true,
+// かっこを選択すると、対応するかっこを強調表示します。
+"editor.matchBrackets": true,
+// ミニマップを表示するかどうかを制御します。
+"editor.minimap.enabled": true,
+// 表示するミニマップの最大幅を特定の列数に制限します。
+"editor.minimap.maxColumn": 120,
+// 行にカラー ブロックではなく実際の文字を表示します。
+"editor.minimap.renderCharacters": true,
+// ミニマップのスライダーを自動的に非表示にするかどうかを制御します。
+"editor.minimap.showSlider": "mouseover",
+// ミニマップを表示する場所を制御します。
+"editor.minimap.side": "right",
+// マウス ホイール スクロール イベントの `deltaX` と `deltaY` で使用される乗数。
+"editor.mouseWheelScrollSensitivity": 1,
+// `Ctrl` キーを押しながらマウス ホイールを使用してエディターのフォントをズームします。
+"editor.mouseWheelZoom": false,
+// 複数のカーソルが重なっているときは、マージします。
+"editor.multiCursorMergeOverlapping": true,
+// マウスを使用して複数のカーソルを追加するときに使用する修飾キーです。「定義に移動」や「リンクを開く」のマウス操作は、マルチカーソルの修飾キーと競合しないように適用されます。[詳細](https://code.visualstudio.com/docs/editor/codebasics#_multicursor-modifier)
+//  - ctrlCmd: Windows および Linux 上の `Control` キーと macOS 上の `Command` キーに割り当てます。
+//  - alt: Windows および Linux 上の `Alt` キーと macOS 上の `Option` キーに割り当てます。
+"editor.multiCursorModifier": "alt",
+// エディターでセマンティック シンボルの出現箇所を強調表示するかどうかを制御します。
+"editor.occurrencesHighlight": true,
+// 概要ルーラーの周囲に境界線が描画されるかどうかを制御します。
+"editor.overviewRulerBorder": true,
+// 概要ルーラーの同じ位置に表示できる装飾の数を制御します。
+"editor.overviewRulerLanes": 3,
+// パラメーター ヒント メニューを周回するか、リストの最後で閉じるかどうかを制御します。
+"editor.parameterHints.cycle": false,
+// 入力時にパラメーター ドキュメントと型情報を表示するポップアップを有効にします。
+"editor.parameterHints.enabled": true,
+// 入力中に候補を自動的に表示するかどうかを制御します。
+"editor.quickSuggestions": {
+  "other": true,
+  "comments": false,
+  "strings": false
+},
+// クイック候補が表示されるまでのミリ秒を制御します。
+"editor.quickSuggestionsDelay": 10,
+// エディターで制御文字を表示するかどうかを制御します。
+"editor.renderControlCharacters": false,
+// エディターでインデント ガイドを表示するかどうかを制御します。
+"editor.renderIndentGuides": true,
+// エディターが現在の行をどのように強調表示するかを制御します。
+//  - none
+//  - gutter
+//  - line
+//  - all: 余白と現在の行を強調表示します。
+"editor.renderLineHighlight": "line",
+// エディターで空白文字を表示するかどうかを制御します。
+//  - none
+//  - boundary: 単語間の単一スペース以外の空白文字を表示します。
+//  - all
+"editor.renderWhitespace": "none",
+// 選択範囲の角を丸くするかどうかを制御します。
+"editor.roundedSelection": true,
+// 特定の等幅文字数の後に垂直ルーラーを表示します。複数のルーラーには複数の値を使用します。配列が空の場合はルーラーを表示しません。
+"editor.rulers": [],
+// エディターが水平方向に余分にスクロールする文字数を制御します。
+"editor.scrollBeyondLastColumn": 5,
+// エディターが最後の行を越えてスクロールするかどうかを制御します。
+"editor.scrollBeyondLastLine": true,
+// エディターで選択範囲に類似する一致箇所を強調表示するかどうかを制御します
+"editor.selectionHighlight": true,
+// 余白上の折りたたみコントロールを自動的に非表示にするかどうかを制御します 。
+"editor.showFoldingControls": "mouseover",
+// 使用されていないコードのフェードアウトを制御します。
+"editor.showUnused": true,
+// アニメーションでエディターをスクロールするかどうかを制御します。
+"editor.smoothScrolling": false,
+// 他の修正候補と一緒にスニペットを表示するかどうか、およびその並び替えの方法を制御します。
+//  - top: 他の候補の上にスニペットの候補を表示します。
+//  - bottom: 他の候補の下にスニペットの候補を表示します。
+//  - inline: 他の候補と一緒にスニペットの候補を表示します。
+//  - none: スニペットの候補を表示しません。
+"editor.snippetSuggestions": "inline",
+// エディターのコンテンツをダブルクリックするか、`Escape` キーを押しても、ピーク エディターを開いたままにします。
+"editor.stablePeek": false,
+// 候補のフィルター処理と並び替えでささいな入力ミスを考慮するかどうかを制御します。
+"editor.suggest.filterGraceful": true,
+// アクティブなスニペットがクイック候補を止めるかどうかを制御します。
+"editor.suggest.snippetsPreventQuickSuggestions": true,
+// 候補のウィジェットのフォント サイズ。
+"editor.suggestFontSize": 0,
+// 候補のウィジェットの行の高さ。
+"editor.suggestLineHeight": 0,
+// トリガー文字の入力時に候補が自動的に表示されるようにするかどうかを制御します。
+"editor.suggestOnTriggerCharacters": true,
+// 候補リストを表示するときに候補を事前に選択する方法を制御します。
+//  - first: 常に最初の候補を選択します。
+//  - recentlyUsed: 追加入力によって選択されたものがなければ、最近の候補を選択します。例: `console.| -> console.log` (`log` は最近入力されたため)。
+//  - recentlyUsedByPrefix: これらの候補を入力した前のプレフィックスに基づいて候補を選択します。例: `co -> console`、`con -> const`。
+"editor.suggestSelection": "recentlyUsed",
+// プレフィックスが一致する場合にスニペットを挿入します。'quickSuggestions' が無効な場合に最適です。
+"editor.tabCompletion": false,
+// 1 つのタブに相当するスペースの数。`editor.detectIndentation` がオンの場合、この設定はファイル コンテンツに基づいて上書きされます。
+"editor.tabSize": 4,
+// 現在選択している配色テーマで配色とフォント スタイルを上書きします。
+"editor.tokenColorCustomizations": {},
+// 自動挿入された末尾の空白を削除します。
+"editor.trimAutoWhitespace": true,
+// 空白の挿入や削除はタブ位置に従って行われます。
+"editor.useTabStops": true,
+// ドキュメント内の単語に基づいて入力候補を計算するかどうかを制御します。
+"editor.wordBasedSuggestions": true,
+// 単語に関連したナビゲーションまたは操作を実行するときに、単語の区切り文字として使用される文字。
+"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+// 行の折り返しを制御します。
+//  - off: 行を折り返しません。
+//  - on: 行をビューポートの幅で折り返します。
+//  - wordWrapColumn: `editor.wordWrapColumn` で行を折り返します。
+//  - bounded: ビューポートと `editor.wordWrapColumn` の最小値で行を折り返します。
+"editor.wordWrap": "off",
+// `editor.wordWrap` が `wordWrapColumn` または `bounded` の場合に、エディターの折り返し桁を制御します。
+"editor.wordWrapColumn": 80,
+// 折り返し行のインデントを制御します。
+//  - none: インデントしません。 折り返し行は列 1 から始まります。
+//  - same: 折り返し行は、親と同じインデントになります。
+//  - indent: 折り返し行は、親 +1 のインデントになります。
+//  - deepIndent: 折り返し行は、親 +2 のインデントになります。
+"editor.wrappingIndent": "same"
+},
+{
+// ソース管理プロバイダーのセクションを常に表示するかどうかを制御します。
+"scm.alwaysShowProviders": false,
+// エディターの差分デコレーターを制御します。
+"scm.diffDecorations": "all",
+// (追加や修正を示す) ガター内の差分デコレーター幅 (px) を制御します。
+"scm.diffDecorationsGutterWidth": 3
+},
+{
+// ワークベンチでのアクティビティ バーの表示をコントロールします。
+"workbench.activityBar.visible": true,
+// 現在選択している配色テーマで配色を上書きします。
+"workbench.colorCustomizations": {},
+// ワークベンチで使用する配色テーマを指定します。
+"workbench.colorTheme": "Default Dark+",
+// コマンド パレットで最近使用したコマンド履歴を保持する数を制御します。0 に設定するとコマンド履歴を無効にします。
+"workbench.commandPalette.history": 50,
+// コマンド パレットを次回開いたとき、コマンド パレットの最後の入力を復元するかどうかを制御します。
+"workbench.commandPalette.preserveInput": false,
+// 空のエディターのグループにある最後のタブを閉じたときの動作を制御します。有効であるとき、空のグループは自動的に閉じられます。無効であるとき、空のグループはグリッドの一部として残ります。
+"workbench.editor.closeEmptyGroups": true,
+// セッション中のファイルを表示しているエディターが、その他のプロセスによって削除されるか名前を変更された場合に、エディターを自動的に閉じるかどうかを制御します。これを無効にすると、このような場合にエディターを開き続けます。アプリケーション内で削除すると、エディターは常に閉じられ、ダーティ ファイルをデータを保存して閉じることはありません。
+"workbench.editor.closeOnFileDelete": false,
+// 開かれるエディターをプレビューとして表示するかどうかを制御します。プレビュー エディターは (例: ダブル クリックまたは編集などによって) 変更されるときまで再利用され、斜体で表示されます。
+"workbench.editor.enablePreview": true,
+// Quick Open から開かれるエディターをプレビューとして表示するかどうかを制御します。プレビュー エディターは (例: ダブル クリックまたは編集などによって) 変更されるときまで再利用されます。
+"workbench.editor.enablePreviewFromQuickOpen": true,
+// エディターに表示するラベルの書式を制御します。
+//  - default: ファイルの名前を表示します。タブが有効かつ 1 つのグループ内の 2 つの同名ファイルがあるときに各ファイルのパスの区切り記号が追加されます。タブを無効にすると、エディターがアクティブな時にワークスペース フォルダーの相対パスが表示されます。
+//  - short: ディレクトリ名に続けてファイル名を表示します。
+//  - medium: ワークスペース フォルダーからの相対パスに続けてファイル名を表示します。
+//  - long: 絶対パスに続けてファイル名を表示します。
+"workbench.editor.labelFormat": "default",
+// エディターを開く場所を制御します。`left` または `right` を選択すると現在アクティブになっているエディターの左または右にエディターを開きます。`first` または `last` を選択すると現在アクティブになっているエディターとは別個にエディターを開きます。
+"workbench.editor.openPositioning": "right",
+// (たとえば、エクスプローラーから) 並べて開く複数のエディターの既定の向きを制御します。既定では、エディターを現在アクティブなエディターの右側に開きます。`down` に変更すると、エディターを現在アクティブなエディターの下側に開きます。
+"workbench.editor.openSideBySideDirection": "right",
+// エディターを開くときに、どこの表示グループにエディターを表示するかどうかを制御します。無効にした場合、エディターは現在のアクティブなエディター グループに優先して開かれます。有効にした場合は、現在のアクティブなエディター グループで開くのではなく、既に開かれた状態のエディターを表示します。特定のグループ内や現在アクティブなグループの横に強制的にエディターを開いた場合などに、この設定が無視される場合もあることにご注意ください。
+"workbench.editor.revealIfOpen": false,
+// 開いているエディターをアイコン付きで表示するかどうかを制御します。これにはアイコン テーマも有効にする必要があります。
+"workbench.editor.showIcons": true,
+// 開いているエディターをタブで表示するかどうかを制御します。
+"workbench.editor.showTabs": true,
+// 3 本の指で横方向にスワイプすると、開いているファイル間を移動できます。
+"workbench.editor.swipeToNavigate": false,
+// エディター タブの閉じるボタンの位置を制御し、'off' にするとこの機能を無効にします。
+"workbench.editor.tabCloseButton": "right",
+// エディターのタブの大きさを制御します。
+//  - fit: 常に完全なエディター ラベルを表示するのに足りるタブの大きさを維持します。
+//  - shrink: すべてのタブを一度に表示するには利用可能なスペースが足りない場合に、タブを縮小するようにします。
+"workbench.editor.tabSizing": "fit",
+// Microsoft のオンライン サービスから実行する実験を取得します。
+"workbench.enableExperiments": true,
+// ワークベンチ内のフォント エイリアシング方法を制御します。
+//  - default: サブピクセル方式でフォントを滑らかにします。ほとんどの非 Retina ディスプレイでもっとも鮮明なテキストを提供します。
+//  - antialiased: サブピクセルとは対照的に、ピクセルのレベルでフォントを滑らかにします。フォント全体がより細く見えるようになります。
+//  - none: フォントのスムージングを無効にします。テキストをぎざぎざな尖ったエッジで表示します。
+//  - auto: ディスプレイの DPI に基づいて自動的に `default` か `antialiased` を適用します。
+"workbench.fontAliasing": "default",
+// ワークベンチで使用するアイコンのテーマを指定します。'null' を指定するとファイル アイコンが表示されなくなります。
+//  - null: ファイル アイコンがありません
+//  - vs-minimal
+//  - vs-seti
+"workbench.iconTheme": "vs-seti",
+// マウスを使用して項目を複数選択するときに使用する修飾キーです (たとえば、エクスプローラーでエディターと scm ビューを開くなど)。'横に並べて開く' マウス ジェスチャー (がサポートされている場合) は、複数選択の修飾キーと競合しないように調整されます。
+//  - ctrlCmd: Windows および Linux 上の `Control` キーと macOS 上の `Command` キーに割り当てます。
+//  - alt: Windows および Linux 上の `Alt` キーと macOS 上の `Option` キーに割り当てます。
+"workbench.list.multiSelectModifier": "ctrlCmd",
+// マウスを使用して、ツリー リスト内の項目を開く方法を制御します (サポートされている場合)。ツリー内の子を持つ親項目で、この設定は親項目をシングル クリックで展開するか、ダブル クリックで展開するかどうかを制御します。この設定の選択 (適応するかどうか) を無視するツリー リストがあることに注意してください。
+"workbench.list.openMode": "singleClick",
+// パネルの既定の位置を制御します (ターミナル, デバッグコンソール, 出力, 問題)。ワークベンチの下または右のいずれかに表示させることができます。
+"workbench.panel.defaultLocation": "bottom",
+// フォーカスを失ったときに Quick Open を自動的に閉じるかどうかを制御します。
+"workbench.quickOpen.closeOnFocusLost": true,
+// 既定で使用する設定エディターを指定します。
+//  - ui: UI の設定エディターを使用します。
+//  - json: JSON ファイル エディターを使用します。
+"workbench.settings.editor": "ui",
+// 設定で自然文検索モードを有効にするかどうかを制御します。自然文検索はオンライン サービスによって提供されます。
+"workbench.settings.enableNaturalLanguageSearch": true,
+// キーバインド設定を開いたときに、すべての既定のキーバインド設定を表示するエディターも開くかどうかを制御します。
+"workbench.settings.openDefaultKeybindings": true,
+// 設定を開いたときに、すべての既定の設定を表示するエディターも開くかどうかを制御します。
+"workbench.settings.openDefaultSettings": true,
+// 検索中の設定エディターの目次の動作を制御します。
+//  - hide: 検索中の目次を非表示にします。
+//  - filter: 目次をフィルターして、一致している設定を持つカテゴリだけを表示します。カテゴリをクリックするとそのカテゴリに結果が絞り込まれます。
+"workbench.settings.settingsSearchTocBehavior": "filter",
+// サイド バーの位置を制御します。ワークベンチの左右のいずれかに表示できます。
+"workbench.sideBar.location": "left",
+// 起動時にどのエディターを表示するかを制御します。無い場合、前のセッションを復元します。
+//  - none: エディターなしで開始
+//  - welcomePage: ウェルカムページを開きます (既定)。
+//  - newUntitledFile: 無題の新規ファイルを開きます (空のワークスペースが開かれているときのみ)。
+"workbench.startupEditor": "welcomePage",
+// ワークベンチ下部にあるステータス バーで Twitter のフィードバック (スマイル) を表示するかどうかを制御します。
+"workbench.statusBar.feedback.visible": true,
+// ワークベンチの下部にステータス バーを表示するかどうかを制御します。
+"workbench.statusBar.visible": true,
+// 有効にすると、エディターを 1 つも開いていないときに透かしのヒントが表示されます。
+"workbench.tips.enabled": true,
+// ワークベンチでツリーが水平スクロールをサポートするかどうかを制御します。
+"workbench.tree.horizontalScrolling": false,
+// ビュー ヘッダー アクションを表示するかどうかを制御します。ビュー ヘッダー アクションは常に表示されるか、パネルをフォーカスやホバーしたときのみ表示のいずれかです。
+"workbench.view.alwaysShowHeaderActions": false
+},
+{
+// 最後のエディターを閉じたときに、ウィンドウも閉じるかどうかを制御します。この設定はフォルダーを表示していないウィンドウにのみ適用されます。
+"window.closeWhenEmpty": false,
+// アクティブなエディターに基づいてウィンドウのタイトルを制御します。変数は、コンテキストに基づいて置換されます:
+// - `${activeEditorShort}`: ファイル名 (例: myFile.txt)。
+// - `${activeEditorMedium}`: ワークスペース フォルダーへの相対パス (例:  myFolder/myFile.txt)。
+// - `${activeEditorLong}`: ファイルの完全パス (例: /Users/Development/myProject/myFolder/myFile.txt)。
+// - `${folderName}`: ファイルが含まれているワークスペース フォルダー名 (例: myFolder)。
+// - `${folderPath}`: ファイルが含まれているワークスペース フォルダーのファイルパス (例: /Users/Development/myFolder)。
+// - `${rootName}`: ワークスペースの名前 (例: myFolder や myWorkspace)。
+// - `${rootPath}`: ワークスペースのファイル パス (例: /Users/Development/myWorkspace)。
+// - `${appName}`: 例: VS Code。
+// - `${dirty}`: アクティブなエディターがダーティである場合のダーティ インジゲーター。
+// - `${separator}`: 値のある変数または静的テキストで囲まれた場合にのみ表示される条件付き区切り記号 (" - ")。
+"window.title": "${activeEditorShort}${separator}${rootName}",
+// ウィンドウのズーム レベルを調整します。元のサイズは 0 で、1 つ上げるごとに (1 など) 20% ずつ拡大することを表し、1 つ下げるごとに (-1 など) 20% ずつ縮小することを表します。小数点以下の桁数を入力して、さらに細かくズーム レベルを調整することもできます。
+"window.zoomLevel": 0
+},
+{
+// Zen Mode をオンにしたときに、レイアウトを中央寄せにするかどうかを制御します。
+"zenMode.centerLayout": true,
+// Zen Mode をオンにしたときに、ワークベンチを自動的に全画面モードに切り替えるかどうかを制御します。
+"zenMode.fullScreen": true,
+// Zen Mode をオンにしたときに、ワークベンチの左側にあるアクティビティ バーを非表示にするかどうかを制御します。
+"zenMode.hideActivityBar": true,
+// Zen Mode をオンにするとワークベンチの下部にあるステータス バーを非表示にするかどうかを制御します。
+"zenMode.hideStatusBar": true,
+// Zen Mode をオンにしたときにワークベンチ タブも非表示にするかどうかを制御します。
+"zenMode.hideTabs": true,
+// Zen Mode で終了したウィンドウを Zen Mode に復元するかどうかを制御します。
+"zenMode.restore": false
+},
+{
+// 言語に対するファイルの関連付け (例: `"*.extension": "html") を構成します。これらの関連付けは、インストールされている言語の既定の関連付けより優先されます。
+"files.associations": {},
+// 有効な場合、ファイルを開くときに文字セット エンコードをエディターが推測します。言語ごとに構成することも可能です。
+"files.autoGuessEncoding": false,
+// ダーティ ファイルの自動保存を制御します。自動保存について詳しくは、[こちら](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save) をご覧ください。
+//  - off: ダーティ ファイルを自動的に保存することはしません。
+//  - afterDelay: `files.autoSaveDelay` で構成された時間の経過後に、ダーティ ファイルを自動的に保存します。
+//  - onFocusChange: エディターがフォーカスを失った時点で、ダーティ ファイルを自動的に保存します。
+//  - onWindowChange: ウィンドウがフォーカスを失った時点で、ダーティ ファイルを自動的に保存します。
+"files.autoSave": "off",
+// ダーティ ファイルの自動保存の遅延をミリ秒単位で制御します。`files.autoSave` が `afterDelay` に設定されている場合のみ適用されます。
+"files.autoSaveDelay": 1000,
+// 新しいファイルに割り当てられる既定の言語モード。
+"files.defaultLanguage": "",
+// ファイルの読み取り/書き込みで使用する既定の文字セット エンコーディング。言語ごとに構成することも可能です。
+//  - utf8: UTF-8
+//  - utf8bom: UTF-8 with BOM
+//  - utf16le: UTF-16 LE
+//  - utf16be: UTF-16 BE
+//  - windows1252: Western (Windows 1252)
+//  - iso88591: Western (ISO 8859-1)
+//  - iso88593: Western (ISO 8859-3)
+//  - iso885915: Western (ISO 8859-15)
+//  - macroman: Western (Mac Roman)
+//  - cp437: DOS (CP 437)
+//  - windows1256: Arabic (Windows 1256)
+//  - iso88596: Arabic (ISO 8859-6)
+//  - windows1257: Baltic (Windows 1257)
+//  - iso88594: Baltic (ISO 8859-4)
+//  - iso885914: Celtic (ISO 8859-14)
+//  - windows1250: Central European (Windows 1250)
+//  - iso88592: Central European (ISO 8859-2)
+//  - cp852: Central European (CP 852)
+//  - windows1251: Cyrillic (Windows 1251)
+//  - cp866: Cyrillic (CP 866)
+//  - iso88595: Cyrillic (ISO 8859-5)
+//  - koi8r: Cyrillic (KOI8-R)
+//  - koi8u: Cyrillic (KOI8-U)
+//  - iso885913: Estonian (ISO 8859-13)
+//  - windows1253: Greek (Windows 1253)
+//  - iso88597: Greek (ISO 8859-7)
+//  - windows1255: Hebrew (Windows 1255)
+//  - iso88598: Hebrew (ISO 8859-8)
+//  - iso885910: Nordic (ISO 8859-10)
+//  - iso885916: Romanian (ISO 8859-16)
+//  - windows1254: Turkish (Windows 1254)
+//  - iso88599: Turkish (ISO 8859-9)
+//  - windows1258: Vietnamese (Windows 1258)
+//  - gbk: Simplified Chinese (GBK)
+//  - gb18030: Simplified Chinese (GB18030)
+//  - cp950: Traditional Chinese (Big5)
+//  - big5hkscs: Traditional Chinese (Big5-HKSCS)
+//  - shiftjis: Japanese (Shift JIS)
+//  - eucjp: Japanese (EUC-JP)
+//  - euckr: Korean (EUC-KR)
+//  - windows874: Thai (Windows 874)
+//  - iso885911: Latin/Thai (ISO 8859-11)
+//  - koi8ru: Cyrillic (KOI8-RU)
+//  - koi8t: Tajik (KOI8-T)
+//  - gb2312: Simplified Chinese (GB 2312)
+//  - cp865: Nordic DOS (CP 865)
+//  - cp850: Western European DOS (CP 850)
+"files.encoding": "utf8",
+// 既定の改行文字。
+//  - \n: LF
+//  - \r\n: CRLF
+"files.eol": "\n",
+// ファイルとフォルダーを除外するための glob パターンを構成します。たとえば、ファイル エクスプローラーではこの設定に基づいてファイルとフォルダーの表示や非表示を決定します。glob パターンについての詳細は [こちら](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) を参照してください。
+"files.exclude": {
+  "**/.git": true,
+  "**/.svn": true,
+  "**/.hg": true,
+  "**/CVS": true,
+  "**/.DS_Store": true
+},
+// エディターを終了するときに保存を確認するダイアログを省略し、保存されていないファイルをセッション後も保持するかどうかを制御します。
+//  - off: Hot Exit を無効にします。
+//  - onExit: Windows/Linux で最後のウィンドウが閉じるとき、または `workbench.action.quit` コマンドがトリガーされるとき (コマンド パレット、キー バインド、メニュー)、Hot Exit がトリガーされます。バックアップされているすべてのウィンドウは、次の起動時に復元されます。
+//  - onExitAndWindowClose: Windows/Linux で最後のウィンドウが閉じるとき、または `workbench.action.quit` コマンドがトリガーするとき (コマンド パレット、キー バインド、メニュー)、Hot Exit がトリガーされます。また、フォルダーが開かれているウィンドウについても、それが最後のウィンドウかどうかに関係なく、Hot Exit がトリガーされます。フォルダーが開かれていないウィンドウはすべて、次回の起動時に復元されます。フォルダーのウィンドウをシャットダウン前と同じ状態に復元するには、`window.restoreWindows` を `all` に設定します。
+"files.hotExit": "onExit",
+// 有効にすると、ファイルの保存時に最新の行を末尾に挿入します。
+"files.insertFinalNewline": false,
+// 大きなファイルを開こうとしたとき、VS Code の再起動後に使用できるメモリを制御します。コマンド ラインで `--max-memory=NEWSIZE` を指定するのと同じ効果があります。
+"files.maxMemoryForLargeFilesMB": 4096,
+// 有効にすると、ファイルの保存時に最終行以降の新しい行をトリミングします。
+"files.trimFinalNewlines": false,
+// 有効にすると、ファイルの保存時に末尾の空白をトリミングします。
+"files.trimTrailingWhitespace": false,
+// 新しい試験的な File Watcher を使用します。
+"files.useExperimentalFileWatcher": false,
+// ファイル監視から除外するファイル パスの glob パターンを設定します。パターンは絶対パスで一致する必要があります (つまり、適切に一致するには、プレフィックス ** を指定するか、完全パスを指定します
+// )。この設定を変更した場合は、再起動が必要になります。始動時に Code が消費する CPU 時間が多い場合は、大きいフォルダーを除外すれば初期の負荷を減らすことができます。
+"files.watcherExclude": {
+  "**/.git/objects/**": true,
+  "**/.git/subtree-cache/**": true,
+  "**/node_modules/**": true
+}
+},
+{
+// エクスプローラーでファイルを開くとき、自動的にファイルの内容を表示して選択するかどうかを制御します。
+"explorer.autoReveal": true,
+// ごみ箱を経由したファイル削除時にエクスプローラーが確認を求めるかどうかを制御します。
+"explorer.confirmDelete": true,
+// ドラッグ アンド ドロップを使用したファイルやフォルダーの移動時にエクスプローラーが確認を求めるかどうかを制御します。
+"explorer.confirmDragAndDrop": true,
+// ファイルの装飾にバッジを使用するかどうかを制御します。
+"explorer.decorations.badges": true,
+// ファイルの装飾に配色を使用するかどうかを制御します。
+"explorer.decorations.colors": true,
+// ドラッグ アンド ドロップを使用したファイルとフォルダーの移動をエクスプローラーが可能にするかどうかを制御します。
+"explorer.enableDragAndDrop": true,
+// [開いているエディター] ウィンドウに表示するエディターの数。
+"explorer.openEditors.visible": 9,
+// エクスプローラーでのファイルとフォルダーの並べ替え順を制御します。
+//  - default: ファイルとフォルダーをアルファベット順に名前で並び替えます。フォルダーはファイルの前に表示されます。
+//  - mixed: ファイルとフォルダーをアルファベット順に名前で並び替えます。ファイルはフォルダーと混交して表示されます。
+//  - filesFirst: ファイルとフォルダーをアルファベット順に名前で並び替えます。ファイルはフォルダーの前に表示されます。
+//  - type: ファイルとフォルダーをアルファベット順に拡張子で並び替えます。フォルダーはファイルの前に表示されます。
+//  - modified: ファイルとフォルダーを降順に最終更新日で並び替えます。フォルダーはファイルの前に表示されます。
+"explorer.sortOrder": "default"
+},
+{
+// 検索結果を折りたたむか展開するかどうかを制御します。
+//  - auto: Files with less than 10 results are expanded. Others are collapsed.
+//  - alwaysCollapse
+//  - alwaysExpand
+"search.collapseResults": "auto",
+// 検索でファイルとフォルダーを除外するために glob パターンを構成します。`files.exclude` 設定からすべての glob パターンを継承します。glob パターンについての詳細は [こちら](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) を参照してください。
+"search.exclude": {
+  "**/node_modules": true,
+  "**/bower_components": true
+},
+// 検索中にシンボリック リンクをたどるかどうかを制御します。
+"search.followSymlinks": true,
+// macOS で検索ビューが共有の検索クリップボードを読み取りまたは変更するかどうかを制御します。
+"search.globalFindClipboard": false,
+// 検索をサイドバーのビューとして表示するか、より水平方向の空間をとるためにパネル領域のパネルとして表示するかを制御します。
+"search.location": "sidebar",
+// グローバル シンボル検索の結果を、Quick Open の結果ファイルに含めるかどうか。
+"search.quickOpen.includeSymbols": false,
+// すべて小文字のパターンの場合、大文字と小文字を区別しないで検索し、そうでない場合は大文字と小文字を区別して検索します。
+"search.smartCase": false,
+// ファイルを検索するときに、`.gitignore` ファイルと `.ignore` ファイルを使用するかどうかを制御します。
+"search.useIgnoreFiles": true,
+// テキストとファイル検索で ripgrep を使用するかどうかを制御します。
+"search.useRipgrep": true
+},
+{
+// 使用するプロキシ設定。設定されていない場合、環境変数 http_proxy および https_proxy から取得されます。
+"http.proxy": "",
+// すべてのネットワーク要求に対して 'Proxy-Authorization' ヘッダーとして送信する値。
+"http.proxyAuthorization": null,
+// 提供された CA の一覧と照らしてプロキシ サーバーの証明書を確認するかどうか制御します。
+"http.proxyStrictSSL": true
+},
+{
+// `code` (推奨) または `keyCode` のいずれかを使用するキー操作のディスパッチ ロジックを制御します。
+"keyboard.dispatch": "code",
+// 利用可能であれば macOS の Touch Bar ボタンを有効にします。
+"keyboard.touchbar.enabled": true
+},
+{
+// 更新後にリリース ノートを表示します。リリース ノートはオンライン サービスから取得されます。
+"update.showReleaseNotes": true
+},
+{
+// HTML タグの自動クローズを有効/無効にします。
+"html.autoClosingTags": true,
+// コンテンツを再フォーマットしてはならないタグをコンマで区切ってリストにします。'null' は、既定値の 'pre' タグを表します。
+"html.format.contentUnformatted": "pre,code,textarea",
+// 既定の HTML フォーマッタを有効/無効にします。
+"html.format.enable": true,
+// 末尾に改行を入れます。
+"html.format.endWithNewline": false,
+// 直前に改行を 1 つ入れるタグの、コンマで区切られたリストです。'null' は、既定値の "head, body, /html" を表します。
+"html.format.extraLiners": "head, body, /html",
+// 書式設定とインデント {{#foo}} および {{/foo}}。
+"html.format.indentHandlebars": false,
+// <head> セクションと <body> セクションをインデントします。
+"html.format.indentInnerHtml": false,
+// 1 つのチャンク内に保持できる改行の最大数。無制限にするには、'null' を使います。
+"html.format.maxPreserveNewLines": null,
+// 要素の前にある既存の改行を保持するかどうかを制御します。要素の前でのみ機能し、タグの内側やテキストに対しては機能しません。
+"html.format.preserveNewLines": true,
+// 再フォーマットしてはならないタグの、コンマ区切りの一覧。'null' の場合、既定で https://www.w3.org/TR/html5/dom.html#phrasing-content にリストされているすべてのタグになります。
+"html.format.unformatted": "wbr",
+// 属性を折り返します。
+//  - auto: 行の長さが超過した場合のみ属性を折り返します。
+//  - force: 先頭以外の各属性を折り返します。
+//  - force-aligned: 先頭以外の各属性を折り返して位置を合わせます。
+//  - force-expand-multiline: 各属性を折り返します。
+//  - aligned-multiple: 行の長さが超過したときに、属性を垂直方向に整列させます。
+"html.format.wrapAttributes": "auto",
+// 1 行あたりの最大文字数 (0 = 無効にする)。
+"html.format.wrapLineLength": 120,
+// ビルトイン HTML 言語サポートが Angular V1 のタグおよびプロパティを候補表示するかどうかを制御します。
+"html.suggest.angular1": false,
+// ビルトイン HTML 言語サポートが HTML5 のタグ、プロパティ、および値を候補表示するかどうかを制御します。
+"html.suggest.html5": true,
+// ビルトイン HTML 言語サポートが Ionic のタグ、プロパティ、および値を候補表示するかどうかを制御します。
+"html.suggest.ionic": false,
+// VS Code と HTML 言語サーバー間の通信をトレースします。
+"html.trace.server": "off",
+// ビルトイン HTML 言語サポートが埋め込みスクリプトを検証するかどうかを制御します。
+"html.validate.scripts": true,
+// ビルトイン HTML 言語サポートが埋め込みスタイルを検証するかどうかを制御します。
+"html.validate.styles": true
+},
+{
+// 設定 `json.colorDecorators.enable` は使用されなくなりました。`editor.colorDecorators` を使用してください。
+// カラー デコレーターを有効または無効にします
+"json.colorDecorators.enable": true,
+// 既定の JSON フォーマッタを有効/無効にします
+"json.format.enable": true,
+// スキーマを現在のプロジェクトの JSON ファイルに関連付けます
+"json.schemas": [],
+// VS Code と JSON 言語サーバー間の通信をトレースします。
+"json.trace.server": "off"
+},
+{
+// マークダウン プレビューで改行をレンダリングする方法を設定します。'true' に設定すると改行ごとに <br> を作成します。
+"markdown.preview.breaks": false,
+// マークダウンのプレビューでダブルクリックすると、エディターに切り替わります。
+"markdown.preview.doubleClickToSwitchToEditor": true,
+// マークダウン プレビューで使用されるフォント ファミリを制御します。
+"markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif",
+// マークダウン プレビューで使用されるフォント サイズ (ピクセル単位) を制御します。
+"markdown.preview.fontSize": 14,
+// マークダウン プレビューで使用される行の高さを制御します。この数値はフォント サイズを基準とします。
+"markdown.preview.lineHeight": 1.6,
+// マークダウン プレビューで URL 形式のテキストからリンクへの変換を有効または無効にします。
+"markdown.preview.linkify": true,
+// マークダウンのプレビューに、エディターの現在の選択範囲を示すマークが付きます。
+"markdown.preview.markEditorSelection": true,
+// マークダウンのプレビューをスクロールすると、エディターのビューが更新されます 。
+"markdown.preview.scrollEditorWithPreview": true,
+// マークダウンのエディターをスクロールすると、プレビューのビューが更新されます。
+"markdown.preview.scrollPreviewWithEditor": true,
+// この設定は 'markdown.preview.scrollPreviewWithEditor' に置き換えられ、もはや有効ではありません。
+// [非推奨] エディターの現在選択されている行を表示するためにマークダウン プレビューをスクロールします。
+"markdown.preview.scrollPreviewWithEditorSelection": true,
+// マークダウン プレビューで YAML front matter がレンダリングされる方法を設定します。'hide' の場合、front matter が削除されます。その他の場合には、front matter はマークダウン コンテンツとして処理されます。
+"markdown.previewFrontMatter": "hide",
+// マークダウン プレビューから使用する CSS スタイル シートの URL またはローカル パスの一覧。相対パスは、エクスプローラーで開かれているフォルダーへの絶対パスと解釈されます。開かれているフォルダーがない場合、マークダウン ファイルの場所を基準としていると解釈されます。'\' はすべて '\\' と入力する必要があります。
+"markdown.styles": [],
+// マークダウン拡張機能のデバッグ ログを有効にします。
+"markdown.trace": "off"
+},
+{
+// 組み込みの PHP 言語候補機能を有効にするかどうかを制御します。このサポートによって、PHP グローバルと変数の候補が示されます。
+"php.suggest.basic": true,
+// 組み込みの PHP 検証を有効/無効にします。
+"php.validate.enable": true,
+// PHP 実行可能ファイルを指定します。
+"php.validate.executablePath": null,
+// リンターを保存時に実行するか、入力時に実行するか。
+"php.validate.run": "onSave"
+},
+{
+// JSX タグの自動クローズを有効/無効にします。ワークスペースで TypeScript 3.0 以上を使用する必要があります。
+"javascript.autoClosingTags": true,
+// 既定の JavaScript フォーマッタを有効/無効にします。
+"javascript.format.enable": true,
+// コンマ区切り記号の後のスペース処理を定義します。
+"javascript.format.insertSpaceAfterCommaDelimiter": true,
+// コンストラクター キーワードの後にあるスペース処理を定義します。ワークスペースで TypeScript 2.3.0 以降を使用する必要があります。
+"javascript.format.insertSpaceAfterConstructor": false,
+// 匿名関数の関数キーワードの後のスペース処理を定義します。
+"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+// 制御フロー ステートメント内のキーワードの後のスペース処理を定義します。
+"javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+// JSX 式の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+// 左右の空でないかっこの間のスペース処理を定義します。ワークスペースで TypeScript 2.3.0 以上を使用する必要があります。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+// 左右の空でない角かっこの間のスペース処理を定義します。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+// 左右の空でないかっこの間のスペース処理を定義します。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+// テンプレート文字列の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+//  for ステートメント内のセミコロンの後のスペース処理を定義します。
+"javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+// 2 項演算子の後のスペース処理を定義します。
+"javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+// 関数の引数のかっこの前にあるスペース処理を定義します。
+"javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+// 新しい行にコントロール ブロックの始め波かっこを配置するかどうかを定義します。
+"javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+// 新しい行に関数の始め波かっこを配置するかどうかを定義します。
+"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+// JavaScript ファイルのセマンティック チェックを有効/無効にします。既存の jsconfi.json ファイルや tsconfi.json ファイルの設定はこれより優先されます。ワークスペースで TypeScript 2.3.1 以上を使用する必要があります。
+"javascript.implicitProjectConfig.checkJs": false,
+// プロジェクト外の JavaScript ファイルの `experimentalDecorators` を有効/無効にします。既存の jsconfig.json ファイルや tsconfig.json ファイルの設定はこれより優先されます。ワークスペースで Ty`eScript 2.3.1 以上を使用する必要があります。
+"javascript.implicitProjectConfig.experimentalDecorators": false,
+// JavaScript の候補リスト内でファイルから一意の名前を含むかどうかを有効/無効にします。
+"javascript.nameSuggestions": true,
+// 自動 import の優先パス スタイル。
+//  - auto: 最短のパスの種類を推測します。
+//  - relative: ファイルの場所を基準にします。
+//  - non-relative: `jsconfig.json` / `tsconfig.json` で構成されている `baseUrl` に基づきます。
+"javascript.preferences.importModuleSpecifier": "auto",
+// クイック修正に使用するのに好ましい引用符のスタイル: `single` 引用符、`double` 引用符、既存の import から種類を推測する `auto`。ワークスペースで TypeScript 2.9 以上を使用する必要があります。
+"javascript.preferences.quoteStyle": "auto",
+// JavaScript ファイル内で CodeLens の参照を有効/無効にします。
+"javascript.referencesCodeLens.enabled": false,
+// エディター内で JavaScript ファイルの診断の提案を有効/無効にします。ワークスペースで TypeScript 2.8 以上を使用する必要があります。
+"javascript.suggestionActions.enabled": true,
+// VS Code で名前変更や移動したファイルのインポート パスの自動更新を有効/無効にします。ワークスペースで TypeScript 2.9 以上を使用する必要があります。
+"javascript.updateImportsOnFileMove.enabled": "prompt",
+// JavaScript の検証を有効/無効にします。
+"javascript.validate.enable": true,
+//  自動 JSDoc コメントを有効/無効にします。
+"jsDocCompletion.enabled": true,
+// JSX タグの自動クローズを有効/無効にします。ワークスペースで TypeScript 3.0 以上を使用する必要があります。
+"typescript.autoClosingTags": true,
+// 自動インポートの提案を有効/無効にします。ワークスペースで TypeScript 2.6.1 以上を使用する必要があります。
+"typescript.autoImportSuggestions.enabled": true,
+// 型定義の自動取得に NPM がインストールされているかどうかを確認します。
+"typescript.check.npmIsInstalled": true,
+// 種類の自動的な取得を無効にします。
+"typescript.disableAutomaticTypeAcquisition": false,
+// 既定の TypeScript フォーマッタを有効/無効にします。
+"typescript.format.enable": true,
+// コンマ区切り記号の後のスペース処理を定義します。
+"typescript.format.insertSpaceAfterCommaDelimiter": true,
+// コンストラクター キーワードの後にあるスペース処理を定義します。ワークスペースで TypeScript 2.3.0 以降を使用する必要があります。
+"typescript.format.insertSpaceAfterConstructor": false,
+// 匿名関数の関数キーワードの後のスペース処理を定義します。
+"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+// 制御フロー ステートメント内のキーワードの後のスペース処理を定義します。
+"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+// JSX 式の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+// 左右の空でないかっこの間のスペース処理を定義します。ワークスペースで TypeScript 2.3.0 以上を使用する必要があります。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+// 左右の空でない角かっこの間のスペース処理を定義します。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+// 左右の空でないかっこの間のスペース処理を定義します。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+// テンプレート文字列の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+//  for ステートメント内のセミコロンの後のスペース処理を定義します。
+"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+// TypeScript の型アサーションの後のスペース処理を定義します。ワークスペースで TypeScript 2.4 以上を使用する必要があります。
+"typescript.format.insertSpaceAfterTypeAssertion": false,
+// 2 項演算子の後のスペース処理を定義します。
+"typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+// 関数の引数のかっこの前にあるスペース処理を定義します。
+"typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+// 新しい行にコントロール ブロックの始め波かっこを配置するかどうかを定義します。
+"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+// 新しい行に関数の始め波かっこを配置するかどうかを定義します。
+"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+// CodeLens の実装を有効/無効にします。この CodeLens は interface の実装を表示します。
+"typescript.implementationsCodeLens.enabled": false,
+// JavaScript と TypeScript のエラーを報告するために使用するロケールを設定します。ワークスペースで TypeScript 2.6.0 以上を使用する必要があります。既定値の `null` では VS Code のロケールを使用します。
+"typescript.locale": null,
+// 自動 import の優先パス スタイル。
+//  - auto: 最短のパスの種類を推測します。
+//  - relative: ファイルの場所を基準にします。
+//  - non-relative: `jsconfig.json` / `tsconfig.json` で構成されている `baseUrl` に基づきます。
+"typescript.preferences.importModuleSpecifier": "auto",
+// クイック修正に使用するのに好ましい引用符のスタイル: `single` 引用符、`double` 引用符、既存の import から種類を推測する `auto`。ワークスペースで TypeScript 2.9 以上を使用する必要があります。
+"typescript.preferences.quoteStyle": "auto",
+// Import パスを入力するときのクイック候補を有効/無効にします。
+"typescript.quickSuggestionsForPaths": true,
+// TypeScript ファイルで CodeLens の参照を有効/無効にします。
+"typescript.referencesCodeLens.enabled": false,
+// スタイル チェックの警告として報告します。
+"typescript.reportStyleChecksAsWarnings": true,
+// エディター内で TypeScript ファイルの診断の提案を有効/無効にします。ワークスペースで TypeScript 2.8 以上を使用する必要があります。
+"typescript.suggestionActions.enabled": true,
+// tsc タスクの自動検出を制御します。
+//  - on: ビルドとウォッチ、両方のタスクを作成します。
+//  - off: この機能を無効にします。
+//  - build: 単一の実行コンパイルタスクのみを作成します。
+//  - watch: コンパイルタスクとウォッチタスクのみを作成します。
+"typescript.tsc.autoDetect": "on",
+// 使用する tsserver と lib*.d.ts ファイルが含まれているフォルダーのパスを指定します。
+"typescript.tsdk": null,
+// ファイルへの TS サーバーのログを有効にします。このログは TS サーバーの問題を診断するために使用できます。ログには、プロジェクトのファイルパス、ソースコード、その他の潜在的に機密性の高い情報が含まれている場合があります。
+"typescript.tsserver.log": "off",
+// TS サーバーに送信されるメッセージのトレースを有効にします。このトレースは TS サーバーの問題を診断するために使用できます。トレースには、プロジェクトのファイルパス、ソースコード、その他の潜在的に機密性の高い情報が含まれている場合があります。
+"typescript.tsserver.trace": "off",
+// VS Code で名前変更や移動したファイルのインポート パスの自動更新を有効/無効にします。ワークスペースで TypeScript 2.9 以上を使用する必要があります。
+//  - prompt: 名前を変更するときに確認をします。
+//  - always: 常に自動的にパスを更新します。
+//  - never: パスの名前を変更せず確認も行いません。
+"typescript.updateImportsOnFileMove.enabled": "prompt",
+// パラメーター シグネチャを含む完全な関数。
+"typescript.useCodeSnippetsOnMethodSuggest": false,
+// TypeScript の検証を有効/無効にします。
+"typescript.validate.enable": true
+},
+{
+// 任意のファイルにブレークポイントを設定できるようにします。
+"debug.allowBreakpointsEverywhere": false,
+// デバッグ中に非デバッグ ホバーを有効にするかどうかを制御します。有効にした場合、ホバーを提供するためにホバー プロバイダーが呼び出されます。この設定を有効にしても、通常のホバーは表示されません。
+"debug.enableAllHovers": false,
+// デバッグ中にエディターの行内に変数値を表示します。
+"debug.inlineValues": false,
+// いつ内部デバッグ コンソールを開くかを制御します。
+"debug.internalConsoleOptions": "openOnFirstSessionStart",
+// いつデバッグ ビューを開くかを制御します。
+"debug.openDebug": "openOnSessionStart",
+// デバッグ セッションの終わりにエクスプローラー ビューを自動的に開きます
+"debug.openExplorerOnEnd": false,
+// いつデバッグ ステータス バーを表示するかを制御します。
+//  - never: 今後ステータス バーにデバッグを表示しない
+//  - always: ステータス バーにデバッグを常に表示する
+//  - onFirstSessionStart: 初めてデバッグが開始されたときのみステータス バーにデバッグを表示する
+"debug.showInStatusBar": "onFirstSessionStart",
+// デバッグ ツールバーを制御します。ビューにする `floating`、デバッグビューに表示する `docked`、非表示の `hidden` のいずれかです
+"debug.toolBarLocation": "floating",
+// グローバル デバッグ起動構成。ワークスペース間で共有される 'launch.json' の代わりとして使用する必要があります
+"launch": {
+  "configurations": [],
+  "compounds": []
+}
+},
+{
+// 設定 `css.colorDecorators.enable` は使用されなくなりました。`editor.colorDecorators` を使用してください。
+// カラー デコレーターを有効または無効にします。
+"css.colorDecorators.enable": true,
+// 無効なパラメーター数値です。
+"css.lint.argumentsInColorFunction": "error",
+// `padding` や `border` を使用するときに `width` や `height` を使用しないでください。
+"css.lint.boxModel": "ignore",
+// ベンダー プレフィックスを使用するときは、他すべてのベンダー プレフィックスも必ず含めてください。
+"css.lint.compatibleVendorPrefixes": "ignore",
+// 重複するスタイル定義を使用しないでください。
+"css.lint.duplicateProperties": "ignore",
+// 空の規則セットを使用しないでください。
+"css.lint.emptyRules": "warning",
+// `float` の使用を避けてください。float は脆弱な CSS につながり、レイアウトの一部が変更されたときに CSS が破損しやすくなります。
+"css.lint.float": "ignore",
+// `@font-face` 規則で `src` プロパティと `font-family` プロパティを定義する必要があります。
+"css.lint.fontFaceProperties": "warning",
+// Hex には 3 つまたは 6 つの 16 進数が含まれる必要があります。
+"css.lint.hexColorLength": "error",
+// セレクターには ID を含めないでください。これらの規則と HTML の結合が密接すぎます。
+"css.lint.idSelector": "ignore",
+// IE ハックは、IE7 以前をサポートする場合にのみ必要です。
+"css.lint.ieHack": "ignore",
+// `!important` の使用を避けてください。これは CSS 全体の特定性が制御不能になり、リファクタリングが必要になります。
+"css.lint.important": "ignore",
+// 複数の Import ステートメントを同時に読み込むことはできません。
+"css.lint.importStatement": "ignore",
+// display によってプロパティを無視します。例: `display: inline` の場合、`width`、`height`、`margin-top`、`margin-bottom`、`float` プロパティには効果がありません。
+"css.lint.propertyIgnoredDueToDisplay": "warning",
+// ユニバーサル セレクター (`*`) を使用すると処理速度が低下することが知られています。
+"css.lint.universalSelector": "ignore",
+// 不明な @ 規則。
+"css.lint.unknownAtRules": "warning",
+// 不明なプロパティ。
+"css.lint.unknownProperties": "warning",
+// 不明なベンダー固有のプロパティ。
+"css.lint.unknownVendorSpecificProperties": "ignore",
+// ベンダー プレフィックスを使用するときは、標準のプロパティーも含めます。
+"css.lint.vendorPrefix": "warning",
+// 0 に単位は必要ありません。
+"css.lint.zeroUnits": "ignore",
+// VS Code と CSS 言語サーバー間の通信をトレースします。
+"css.trace.server": "off",
+// すべての検証を有効または無効にします。
+"css.validate": true
+},
+{
+// 設定 `less.colorDecorators.enable` は使用されなくなりました。`editor.colorDecorators` を使用してください。
+// カラー デコレーターを有効または無効にします。
+"less.colorDecorators.enable": true,
+// 無効なパラメーター数値です。
+"less.lint.argumentsInColorFunction": "error",
+// `padding` や `border` を使用するときに `width` や `height` を使用しないでください。
+"less.lint.boxModel": "ignore",
+// ベンダー プレフィックス を使用するときは、他すべてのベンダー プレフィックスも必ず含めてください。
+"less.lint.compatibleVendorPrefixes": "ignore",
+// 重複するスタイル定義を使用しないでください。
+"less.lint.duplicateProperties": "ignore",
+// 空の規則セットを使用しないでください。
+"less.lint.emptyRules": "warning",
+// `float` の使用を避けてください。float は脆弱な CSS につながり、レイアウトの一部が変更されたときに CSS が破損しやすくなります。
+"less.lint.float": "ignore",
+// `@font-face` 規則で `src` プロパティと `font-family` プロパティを定義する必要があります。
+"less.lint.fontFaceProperties": "warning",
+// 16 進数色には、3 つまたは 6 つの 16 進数が含まれてる必要があります。
+"less.lint.hexColorLength": "error",
+// セレクターには ID を含めないでください。これらの規則と HTML の結合が密接すぎます。
+"less.lint.idSelector": "ignore",
+// IE ハックは、IE7 以前をサポートする場合にのみ必要です。
+"less.lint.ieHack": "ignore",
+// !important は使用しないでください。これは CSS 全体の特定性が制御不能になり、リファクタリングが必要なことを示しています。
+"less.lint.important": "ignore",
+// 複数の Import ステートメントを同時に読み込むことはできません。
+"less.lint.importStatement": "ignore",
+// display によってプロパティを無視します。例: `display: inline` の場合、`width`、`height`、`margin-top`、`margin-bottom`、`float` プロパティには効果がありません。
+"less.lint.propertyIgnoredDueToDisplay": "warning",
+// ユニバーサル セレクター (`*`) を使用すると処理速度が低下することが知られています。
+"less.lint.universalSelector": "ignore",
+// 不明なプロパティ。
+"less.lint.unknownProperties": "warning",
+// 不明なベンダー固有のプロパティ。
+"less.lint.unknownVendorSpecificProperties": "ignore",
+// ベンダー プレフィックスを使用するとき、標準のプロパティーも含めます。
+"less.lint.vendorPrefix": "warning",
+// 0 に単位は必要ありません。
+"less.lint.zeroUnits": "ignore",
+// すべての検証を有効または無効にします。
+"less.validate": true
+},
+{
+// 設定 `scss.colorDecorators.enable` は使用されなくなりました。`editor.colorDecorators` を使用してください。
+// カラー デコレーターを有効または無効にします。
+"scss.colorDecorators.enable": true,
+// 無効なパラメーター数値です。
+"scss.lint.argumentsInColorFunction": "error",
+// `padding` や `border` を使用するときに `width` や `height` を使用しないでください
+"scss.lint.boxModel": "ignore",
+// ベンダー プレフィックス を使用するときは、他すべてのベンダー プレフィックスも必ず含めてください。
+"scss.lint.compatibleVendorPrefixes": "ignore",
+// 重複するスタイル定義を使用しないでください。
+"scss.lint.duplicateProperties": "ignore",
+// 空の規則セットを使用しないでください。
+"scss.lint.emptyRules": "warning",
+// `float` の使用を避けてください。float は脆弱な CSS につながり、レイアウトの一部が変更されたときに CSS が破損しやすくなります。
+"scss.lint.float": "ignore",
+// `@font-face` 規則で `src` プロパティと `font-family` プロパティを定義する必要があります。
+"scss.lint.fontFaceProperties": "warning",
+// Hex には 3 つまたは 6 つの 16 進数が含まれる必要があります。
+"scss.lint.hexColorLength": "error",
+// セレクターには ID を含めないでください。これらの規則と HTML の結合が密接すぎます。
+"scss.lint.idSelector": "ignore",
+// IE ハックは、IE7 以前をサポートする場合にのみ必要です。
+"scss.lint.ieHack": "ignore",
+// !important は使用しないでください。これは CSS 全体の特定性が制御不能になり、リファクタリングが必要なことを示しています。
+"scss.lint.important": "ignore",
+// 複数の Import ステートメントを同時に読み込むことはできません。
+"scss.lint.importStatement": "ignore",
+// display によってプロパティを無視します。例: `display: inline` の場合、`width`、`height`、`margin-top`、`margin-bottom`、`float` プロパティには効果がありません。
+"scss.lint.propertyIgnoredDueToDisplay": "warning",
+// ユニバーサル セレクター (`*`) を使用すると処理速度が低下することが知られています。
+"scss.lint.universalSelector": "ignore",
+// 不明なプロパティ。
+"scss.lint.unknownProperties": "warning",
+// 不明なベンダー固有のプロパティ。
+"scss.lint.unknownVendorSpecificProperties": "ignore",
+// ベンダー プレフィックスを使用するとき、標準のプロパティーも含めます。
+"scss.lint.vendorPrefix": "warning",
+// 0 に単位は必要ありません。
+"scss.lint.zeroUnits": "ignore",
+// すべての検証を有効または無効にします。
+"scss.validate": true
+},
+{
+// 有効にした場合、拡張機能の詳細を表示したエディターは拡張機能ビューから移動すると自動的に閉じられるようになります。
+"extensions.closeExtensionDetailsOnViewChange": false,
+// 有効にした場合、拡張機能の推奨事項の通知を表示しません。
+"extensions.ignoreRecommendations": false,
+// 有効にした場合、ユーザーが特別に要求しない限り、推奨事項を取得したり表示したりしません。いくつかの推奨事項はオンライン サービスから取得されます。
+"extensions.showRecommendationsOnlyOnDemand": false
+},
+{
+// 起動するターミナルの種類をカスタマイズします。
+//  - integrated: VS Code の統合ターミナルを使用します。
+//  - external: 構成済みの外部ターミナルを使用します。
+"terminal.explorerKind": "integrated"
+},
+{
+// キーバインドがシェルに送信されず、代わりに常に Code で処理されるコマンド ID のセット。これにより、ターミナルがフォーカスされていない場合と同じ動作をするシェルによって通常使用されるキーバインドを使用できるようになります。例: Ctrl+p で Quick Open を起動します。
+"terminal.integrated.commandsToSkipShell": [
+  "editor.action.toggleTabFocusMode",
+  "workbench.action.debug.continue",
+  "workbench.action.debug.pause",
+  "workbench.action.debug.restart",
+  "workbench.action.debug.run",
+  "workbench.action.debug.start",
+  "workbench.action.debug.stepInto",
+  "workbench.action.debug.stepOut",
+  "workbench.action.debug.stepOver",
+  "workbench.action.debug.stop",
+  "workbench.action.firstEditorInGroup",
+  "workbench.action.focusActiveEditorGroup",
+  "workbench.action.focusEighthEditorGroup",
+  "workbench.action.focusFifthEditorGroup",
+  "workbench.action.focusFirstEditorGroup",
+  "workbench.action.focusFourthEditorGroup",
+  "workbench.action.focusLastEditorGroup",
+  "workbench.action.focusSecondEditorGroup",
+  "workbench.action.focusSeventhEditorGroup",
+  "workbench.action.focusSixthEditorGroup",
+  "workbench.action.focusThirdEditorGroup",
+  "workbench.action.lastEditorInGroup",
+  "workbench.action.navigateDown",
+  "workbench.action.navigateLeft",
+  "workbench.action.navigateRight",
+  "workbench.action.navigateUp",
+  "workbench.action.openNextRecentlyUsedEditorInGroup",
+  "workbench.action.openPreviousRecentlyUsedEditorInGroup",
+  "workbench.action.quickOpen",
+  "workbench.action.quickOpenPreviousEditor",
+  "workbench.action.quickOpenView",
+  "workbench.action.showCommands",
+  "workbench.action.tasks.build",
+  "workbench.action.tasks.restartTask",
+  "workbench.action.tasks.runTask",
+  "workbench.action.tasks.showLog",
+  "workbench.action.tasks.showTasks",
+  "workbench.action.tasks.terminate",
+  "workbench.action.tasks.test",
+  "workbench.action.terminal.clear",
+  "workbench.action.terminal.clearSelection",
+  "workbench.action.terminal.copySelection",
+  "workbench.action.terminal.deleteWordLeft",
+  "workbench.action.terminal.deleteWordRight",
+  "workbench.action.terminal.focus",
+  "workbench.action.terminal.focusAtIndex1",
+  "workbench.action.terminal.focusAtIndex2",
+  "workbench.action.terminal.focusAtIndex3",
+  "workbench.action.terminal.focusAtIndex4",
+  "workbench.action.terminal.focusAtIndex5",
+  "workbench.action.terminal.focusAtIndex6",
+  "workbench.action.terminal.focusAtIndex7",
+  "workbench.action.terminal.focusAtIndex8",
+  "workbench.action.terminal.focusAtIndex9",
+  "workbench.action.terminal.focusFindWidget",
+  "workbench.action.terminal.focusNext",
+  "workbench.action.terminal.focusNextPane",
+  "workbench.action.terminal.focusPrevious",
+  "workbench.action.terminal.focusPreviousPane",
+  "workbench.action.terminal.hideFindWidget",
+  "workbench.action.terminal.kill",
+  "workbench.action.terminal.moveToLineEnd",
+  "workbench.action.terminal.moveToLineStart",
+  "workbench.action.terminal.new",
+  "workbench.action.terminal.newInActiveWorkspace",
+  "workbench.action.terminal.paste",
+  "workbench.action.terminal.resizePaneDown",
+  "workbench.action.terminal.resizePaneLeft",
+  "workbench.action.terminal.resizePaneRight",
+  "workbench.action.terminal.resizePaneUp",
+  "workbench.action.terminal.runActiveFile",
+  "workbench.action.terminal.runSelectedText",
+  "workbench.action.terminal.scrollDown",
+  "workbench.action.terminal.scrollDownPage",
+  "workbench.action.terminal.scrollToBottom",
+  "workbench.action.terminal.scrollToNextCommand",
+  "workbench.action.terminal.scrollToPreviousCommand",
+  "workbench.action.terminal.scrollToTop",
+  "workbench.action.terminal.scrollUp",
+  "workbench.action.terminal.scrollUpPage",
+  "workbench.action.terminal.selectAll",
+  "workbench.action.terminal.selectToNextCommand",
+  "workbench.action.terminal.selectToNextLine",
+  "workbench.action.terminal.selectToPreviousCommand",
+  "workbench.action.terminal.selectToPreviousLine",
+  "workbench.action.terminal.split",
+  "workbench.action.terminal.splitInActiveWorkspace",
+  "workbench.action.terminal.toggleTerminal",
+  "workbench.action.togglePanel"
+],
+// アクティブなターミナル セッションがある場合に終了の確認をするかどうかを制御します。
+"terminal.integrated.confirmOnExit": false,
+// ターミナルで選択したテキストがクリップボードにコピーされるかどうかを制御します。
+"terminal.integrated.copyOnSelection": false,
+// ターミナルのカーソルを点滅させるかどうかを制御します。
+"terminal.integrated.cursorBlinking": false,
+// 端末のカーソルのスタイルを制御します。
+"terminal.integrated.cursorStyle": "block",
+// 端末を起動する明示的な開始パスです。これはシェル プロセスの現在の作業ディレクトリ (cwd) として使用されます。特にルート ディレクトリが cwd に適していない場合に、ワークスペースの設定で役立ちます。
+"terminal.integrated.cwd": "",
+// ターミナルの太字テキストが常に "明るい" ANSI 配色を使用するかどうかを制御します。
+"terminal.integrated.drawBoldTextInBrightColors": true,
+// ターミナルのベルが有効かどうかを制御します。
+"terminal.integrated.enableBell": false,
+// Linux のターミナルで使用される VS Code のプロセスに追加される環境変数を持つオブジェクト。環境変数を削除する場合は `null` に設定します。
+"terminal.integrated.env.linux": {},
+// macOS のターミナルで使用される VS Code のプロセスに追加される環境変数を持つオブジェクト。環境変数を削除する場合は `null` に設定します。
+"terminal.integrated.env.osx": {},
+// Windows のターミナルで使用される VS Code のプロセスに追加される環境変数を持つオブジェクト。環境変数を削除する場合は `null` に設定します。
+"terminal.integrated.env.windows": {},
+// 端末のフォント ファミリを制御します。既定値は `editor.fontFamily` になります。
+"terminal.integrated.fontFamily": "",
+// ターミナルのフォント サイズをピクセル単位で制御します。
+"terminal.integrated.fontSize": 12,
+// ターミナル内で太字ではないテキストに使用するフォントの太さ。
+"terminal.integrated.fontWeight": "normal",
+// ターミナル内で太字のテキストに使用するフォントの太さ。
+"terminal.integrated.fontWeightBold": "bold",
+// ターミナルの文字間隔を制御します。これは文字間の追加ピクセル数を表す整数値です。
+"terminal.integrated.letterSpacing": 0,
+// ターミナルの行の高さを制御します。この数値にターミナルのフォント サイズを乗算すると、実際の行の高さ (ピクセル単位) になります。
+"terminal.integrated.lineHeight": 1,
+// macOS で Option キーとクリックを同時に使用するときに選択を強制するかどうかを制御します。これにより、通常選択 (行選択) が有効になり、列選択モードは使用できなくなります。tmux でマウス モードが有効な場合など、通常のターミナル選択を使用してコピーと貼り付けを行えるようになります。
+"terminal.integrated.macOptionClickForcesSelection": false,
+// macOS のターミナルで、オプション キーをメタ キーとして扱うかどうかを制御します。
+"terminal.integrated.macOptionIsMeta": false,
+// ターミナルのレンダー方法を制御します。
+//  - auto: VS Code にどのレンダラーを使うか推測させます。
+//  - canvas: 標準の GPU/キャンバス ベースのレンダラーを使用します。
+//  - dom: 代替的な DOM ベースのレンダラーを使用します。
+"terminal.integrated.rendererType": "auto",
+// ターミナルが右クリックにどのように反応するかを制御します。
+//  - default: コンテキスト メニューを表示します。
+//  - copyPaste: 選択範囲があるとコピーし、そうでない場合は貼り付けを行います。
+//  - selectWord: カーソルの下にある単語を選択し、コンテキスト メニューを表示します。
+"terminal.integrated.rightClickBehavior": "selectWord",
+// 端末がそのバッファーに保持できる最大行数を制御します。
+"terminal.integrated.scrollback": 1000,
+// ターミナルの開始時にロケール変数を設定するかどうかを制御します。macOS では既定で `true` になり、その他のプラットフォームでは `false` です。
+"terminal.integrated.setLocaleVariables": true,
+// Linux でターミナルが使用するシェルのパス。[シェルの構成について詳細を表示](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)。
+"terminal.integrated.shell.linux": "/bin/bash",
+// macOS でターミナルが使用するシェルのパス。[シェルの構成について詳細を表示](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)。
+"terminal.integrated.shell.osx": "/bin/bash",
+// Windows でターミナルが使用するシェルのパス。[シェルの構成について詳細を表示](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)。
+"terminal.integrated.shell.windows": "cmd.exe",
+// Linux のターミナルで使用するコマンド ライン引数。[シェルの構成について詳細を表示](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)。
+"terminal.integrated.shellArgs.linux": [],
+// macOS のターミナルで使用するコマンドライン引数。[シェルの構成について詳細を表示](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)。
+"terminal.integrated.shellArgs.osx": [
+  "-l"
+],
+// Windows のターミナルで使用するコマンドライン引数。[シェルの構成について詳細を表示](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration)。
+"terminal.integrated.shellArgs.windows": [],
+// 0 以外の終了コードのとき「終了コードを伴ってターミナルの処理が終了しました」と警告を表示するかどうかを制御します。
+"terminal.integrated.showExitAlert": true
+},
+{
+// ファイルを開くとき、問題ビューに自動的にそのファイルを表示するかどうかを制御します
+"problems.autoReveal": true,
+// ファイルとフォルダーにエラーと警告を表示します。
+"problems.decorations.enabled": true
+},
+{
+// 階層リンク ナビゲーションを有効/無効にします
+"breadcrumbs.enabled": false,
+// 階層リンク ビューでファイル パスをどのように表示するかどうかを制御します。
+//  - on: 階層リンク ビューでファイル パスを表示します。
+//  - off: 階層リンク ビューでファイル パスを表示しません。
+//  - last: 階層リンク ビューでファイル パスの最後の要素のみを表示します。
+"breadcrumbs.filePath": "on",
+// 階層リンク ビューでシンボルをどのように表示するかどうかを制御します。
+//  - on: 階層リンク ビューですべてのシンボルを表示します。
+//  - off: 階層リンク ビューでシンボルを表示しません。
+//  - last: 階層リンク ビューで現在のシンボルのみを表示します。
+"breadcrumbs.symbolPath": "on"
+},
+{
+// クラッシュ レポートを Microsoft のオンライン サービス に送信するように設定します。
+// このオプションを有効にするには、再起動が必要です。
+"telemetry.enableCrashReporter": true,
+// 利用状況データとエラーを Microsoft のオンライン サービスに送信できるようにします。
+"telemetry.enableTelemetry": true
+},
+{
+// アイコン付きでアウトライン要素を表示します。
+"outline.icons": true,
+// エラーと警告の表示にバッジを使用します。
+"outline.problems.badges": true,
+// エラーと警告の表示に配色を使用します。
+"outline.problems.colors": true,
+// アウトライン要素のエラーと警告を表示します 。
+"outline.problems.enabled": true
+},
+{
+// エディター内のマージ競合ブロックのコード レンズを作成します。
+"merge-conflict.codeLens.enabled": true,
+// エディター内のマージ競合ブロックのデコレータを作成します。
+"merge-conflict.decorators.enabled": true
+},
+{
+// Emmet 省略記法を展開すべきでない言語の配列。
+"emmet.excludeLanguages": [
+  "markdown"
+],
+// Emmet のプロファイルとスニペットを含むフォルダーへのパス。
+"emmet.extensionsPath": null,
+// 既定でサポートされていない言語で Emmet 略語を有効にします。ここに、その言語と Emmet でサポートされる言語のマッピングを追加します。
+//  例: `{"vue-html":"html"、"javascript":"javascriptreact"}`
+"emmet.includeLanguages": {},
+// `false` に設定すると、現在位置が Emmet 略語の展開位置として有効かどうかを判定するためにファイル全体を解析します。`true` に設定すると、css/scss/less ファイルの現在位置周辺のコンテンツのみを解析します。
+"emmet.optimizeStylesheetParsing": true,
+// Emmet の一部のアクションやリゾルバーの動作の変更に使用される基本設定。
+"emmet.preferences": {},
+// 利用できる Emmet 省略記法を候補として表示します。スタイルシートや emmet.showExpandedAbbreviation を `"never"` に設定していると適用されません。
+"emmet.showAbbreviationSuggestions": true,
+// 展開された Emmet 省略記法を候補として表示します。
+// `"inMarkupAndStylesheetFilesOnly"` オプションは、html、haml、jade、slim、xml、xsl、css、scss、sass、less、stylus に適用されます。
+// "always" オプションは markup/css に関係なくファイルのすべての部分に適用されます。
+"emmet.showExpandedAbbreviation": "always",
+// `true` の場合、Emmet 候補をスニペットとして表示して `editor.snippetSuggestions` 設定に従ってそれらを並び替えます。
+"emmet.showSuggestionsAsSnippets": false,
+// 指定した構文に対してプロファイルを定義するか、特定の規則がある独自のプロファイルをご使用ください。
+"emmet.syntaxProfiles": {},
+// 有効にすると、TAB キーを押したときに Eemmet 省略記法が展開されます。
+"emmet.triggerExpansionOnTab": false,
+// Emmet のスニペットで使用される変数
+"emmet.variables": {}
+},
+{
+// Controls the maximum number of problems produced by the server.
+"textlintConfig.maxNumberOfProblems": 100,
+// Traces the communication between VSCode and the language server.
+"textlintConfig.trace.server": "off"
+},
+{
+// Jake タスクの自動検出をオンにするかオフにするかを制御します。既定はオンです。
+"jake.autoDetect": "on"
+},
+{
+// Grunt タスクの自動検出をオンにするかオフにするかを制御します。既定はオンです。
+"grunt.autoDetect": "on"
+},
+{
+// Enable line breaks
+"markdown-pdf.breaks": false,
+// height of clipping area.
+"markdown-pdf.clip.height": null,
+// width of clipping area.
+"markdown-pdf.clip.width": null,
+// x-coordinate of top-left corner of clip area.
+"markdown-pdf.clip.x": null,
+// y-coordinate of top-left corner of clip area.
+"markdown-pdf.clip.y": null,
+// Enable Auto convert on save
+"markdown-pdf.convertOnSave": false,
+// Excluded file name of convertOnSave option
+"markdown-pdf.convertOnSaveExclude": [],
+// pdf only. Display header and footer.
+"markdown-pdf.displayHeaderFooter": true,
+// Enable emoji. http://www.webpagefx.com/tools/emoji-cheat-sheet/
+"markdown-pdf.emoji": true,
+// Path to a Chromium or Chrome executable to run instead of the bundled Chromium.
+"markdown-pdf.executablePath": "",
+// pdf only. HTML template for the print footer.
+"markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+// pdf only. Paper format [Letter, Legal, Tabloid, Ledger, A0, A1, A2, A3, A4, A5, A6].
+"markdown-pdf.format": "A4",
+// pdf only. HTML template for the print header.
+"markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\"> <span class='title'></span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \"> <span class='date'></span></div>",
+// pdf only. Paper height, accepts values labeled with units(mm, cm, in, px). If it is set, it overrides the markdown-pdf.format option.
+"markdown-pdf.height": "",
+// Enable Syntax highlighting
+"markdown-pdf.highlight": true,
+// Set the style file name. for example: github.css, monokai.css ... https://github.com/isagalaev/highlight.js/tree/master/src/styles
+"markdown-pdf.highlightStyle": "",
+// Enable the inclusion of default Markdown styles (VSCode, markdown-pdf)
+"markdown-pdf.includeDefaultStyles": true,
+// Page Option. Border bottom. units: mm, cm, in, px
+"markdown-pdf.margin.bottom": "1cm",
+// Page Option. Border left. units: mm, cm, in, px
+"markdown-pdf.margin.left": "1cm",
+// Page Option. Border right. units: mm, cm, in, px
+"markdown-pdf.margin.right": "1cm",
+// Page Option. Border Top. units: mm, cm, in, px
+"markdown-pdf.margin.top": "1.5cm",
+// Hides default white background and allows capturing screenshots with transparency.
+"markdown-pdf.omitBackground": false,
+// pdf only. Paper orientation. portrait or landscape.
+"markdown-pdf.orientation": "portrait",
+// Output Directory. All '\' need to be written as '\\' (Windows)
+"markdown-pdf.outputDirectory": "",
+// If markdown-pdf.outputDirectoryRelativePathFile option is set to true, the relative path set with markdown-pdf.styles is interpreted as relative from the file
+"markdown-pdf.outputDirectoryRelativePathFile": false,
+// pdf only. Paper ranges to print, e.g., '1-5, 8, 11-13'.
+"markdown-pdf.pageRanges": "",
+// pdf only. Print background graphics.
+"markdown-pdf.printBackground": true,
+// jpeg only. The quality of the image, between 0-100. Not applicable to png images.
+"markdown-pdf.quality": 100,
+// Scale of the page rendering.
+"markdown-pdf.scale": 1,
+// Statusbar message timeout [milliseconds]
+"markdown-pdf.StatusbarMessageTimeout": 10000,
+// A list of local paths to the stylesheets to use from the markdown-pdf. All '\' need to be written as '\\'.
+"markdown-pdf.styles": [],
+// If markdown-pdf.stylesRelativePathFile option is set to true, the relative path set with markdown-pdf.styles is interpreted as relative from the file
+"markdown-pdf.stylesRelativePathFile": false,
+// Output format: pdf, html, png, jpeg. Multiple output formats support
+"markdown-pdf.type": [
+  "pdf"
+],
+// pdf only. Paper width, accepts values labeled with units(mm, cm, in, px). If it is set, it overrides the markdown-pdf.format option.
+"markdown-pdf.width": ""
+},
+{
+// Note: If it is not Null, It will override CustomBrowser and ChromeDebuggingAttachment settings.
+// 
+//  Examples : 
+// chrome --incognito --headless --remote-debugging-port=9222 
+//  C:\\Program Files\\Firefox Developer Edition\\firefox.exe --private-window
+"liveServer.settings.AdvanceCustomBrowserCmdLine": null,
+// Enable Chrome Debugging Attachment to Live Server at Debuging Port 9222.
+//  NOTE: You have to install 'Debugger for Chrome' 
+// If the value is true, Select 'Attach to Chrome' from Debug Window to start debugging. 
+// 
+//  CAUTION: If it is true, 'Launch Chrome against localhost' may not work.
+"liveServer.settings.ChromeDebuggingAttachment": false,
+// Specify custom browser settings for Live Server. 
+// By Default it will open your default favorite browser.
+"liveServer.settings.CustomBrowser": null,
+// To disable information pop up messages.
+"liveServer.settings.donotShowInfoMsg": false,
+// To turn off prompt warning message if body or head or other supporting tag is missing in your HTML.
+"liveServer.settings.donotVerifyTags": false,
+// When set, serve this file (server root relative) for every 404 (useful for single-page applications)
+"liveServer.settings.file": "",
+// By Default Live Server inject CSS changes without full reloading of browser. You can change this behviour by making this setting as `true`
+"liveServer.settings.fullReload": false,
+// To switch between localhost or 127.0.0.1 or anything else. Default is 127.0.0.1
+"liveServer.settings.host": "127.0.0.1",
+// Setup https configuration
+"liveServer.settings.https": {
+  "enable": false,
+  "cert": "",
+  "key": "",
+  "passphrase": ""
+},
+// To ignore specific file changes
+"liveServer.settings.ignoreFiles": [
+  ".vscode/**",
+  "**/*.scss",
+  "**/*.sass",
+  "**/*.ts"
+],
+// Mount a directory to a route. Such as [['/components', './node_modules']]
+"liveServer.settings.mount": [],
+// This the entry point of server when you're in multiroot workspace
+"liveServer.settings.multiRootWorkspaceName": null,
+// If it is true live server will start without browser opened.
+"liveServer.settings.NoBrowser": false,
+// Set Custom Port Number of Live Server. Set 0 if you want random port.
+"liveServer.settings.port": 5500,
+// To Setup Proxy
+"liveServer.settings.proxy": {
+  "enable": false,
+  "baseUri": "/",
+  "proxyUri": "http://127.0.0.1:80"
+},
+// Set Custom root of Live Server. 
+// To change root the the server to sub folder of workspace, use '/' and relative path from workspace. 
+// Example: /subfolder1/subfolder2
+"liveServer.settings.root": "/",
+// Change this to false if you don't want the button to show in the statusbar
+"liveServer.settings.showOnStatusbar": true,
+// Use local IP as host
+"liveServer.settings.useLocalIp": false,
+// You have to install a browser extension. That will be works for your dynamic pages (like PHP).
+"liveServer.settings.useWebExt": false,
+// Delay before live reloading. Value in milliseconds. Default is 100
+"liveServer.settings.wait": 100
+},
+{
+// Automatically add vendor prefixes to unsupported CSS properties (e. g. transform -> -ms-transform). Specify what browsers to target with an array of strings (uses [Browserslist](https://github.com/ai/browserslist)). Pass `null` to turn off. 
+// Default is `null`
+"liveSassCompile.settings.autoprefix": [
+  "> 1%",
+  "last 2 versions"
+],
+// All Sass/Scss files inside the folders will be excluded. 
+// 
+// Examples: 
+// '**/node_modules/**',
+// '.vscode/**', 
+// '.history/**' 
+// 
+// Glob Patterns are accepted.
+"liveSassCompile.settings.excludeList": [
+  "**/node_modules/**",
+  ".vscode/**"
+],
+// Set your exported CSS Styles, Formats & save location.
+"liveSassCompile.settings.formats": [
+  {
+    "format": "expanded",
+    "extensionName": ".css",
+    "savePath": null
+  }
+],
+// Set it as `false` if you don't want `.map` file for compiled CSS. 
+// Default is `true`
+"liveSassCompile.settings.generateMap": true,
+// This setting is useful when you deals with only few of sass files. Only mentioned Sass files will be included. 
+// NOTE: No need to include partial sass files.
+"liveSassCompile.settings.includeItems": null,
+// Set this to `false` if you do not want the output window to show.
+// Note: You can use the command palette to open the Live Sass output window.
+// Default is `true`
+"liveSassCompile.settings.showOutputWindow": true
+},
+{
+// Use color decorators in vue
+"vetur.colorDecorators.enable": true,
+// Include completion for module export and auto import them
+"vetur.completion.autoImport": true,
+// Enable/disable Vetur's built-in scaffolding snippets
+"vetur.completion.useScaffoldSnippets": true,
+// Default formatter for <style> region
+//  - none: disable formatting
+//  - prettier: css formatter using css parser from prettier
+"vetur.format.defaultFormatter.css": "prettier",
+// Default formatter for <template> region
+//  - none: disable formatting
+//  - js-beautify-html: html formatter of js-beautify
+"vetur.format.defaultFormatter.html": "none",
+// Default formatter for <script> region
+//  - none: disable formatting
+//  - prettier: js formatter from prettier
+//  - vscode-typescript: js formatter from TypeScript
+"vetur.format.defaultFormatter.js": "prettier",
+// Default formatter for <style lang='less'> region
+//  - none: disable formatting
+//  - prettier: less formatter using postcss parser from prettier
+"vetur.format.defaultFormatter.less": "prettier",
+// Default formatter for <style lang='postcss'> region
+//  - none: disable formatting
+//  - prettier: postcss formatter using css parser from prettier
+"vetur.format.defaultFormatter.postcss": "prettier",
+// Default formatter for <style lang='scss'> region
+//  - none: disable formatting
+//  - prettier: scss formatter using scss parser from prettier
+"vetur.format.defaultFormatter.scss": "prettier",
+// Default formatter for <style lang='stylus'> region
+//  - none: disable formatting
+//  - stylus-supremacy: stylus formatter from stylus-supremacy
+"vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+// Default formatter for <script> region
+//  - none: disable formatting
+//  - prettier: ts formatter using typescript parser from prettier
+//  - vscode-typescript: ts formatter from TypeScript
+"vetur.format.defaultFormatter.ts": "prettier",
+// Options for all default formatters
+"vetur.format.defaultFormatterOptions": {
+  "js-beautify-html": {}
+},
+// Whether to have initial indent for <script> region
+"vetur.format.scriptInitialIndent": false,
+// Whether to have initial indent for <style> region
+"vetur.format.styleInitialIndent": false,
+// Mapping from custom block tag name to language name. Used for generating grammar to support syntax highlighting for custom blocks.
+"vetur.grammar.customBlocks": {
+  "docs": "md",
+  "i18n": "json"
+},
+// Traces the communication between VS Code and Vue Language Server.
+"vetur.trace.server": "off",
+// Validate js/ts in <script>
+"vetur.validation.script": true,
+// Validate css/scss/less/postcss in <style>
+"vetur.validation.style": true,
+// Validate vue-html in <template> using eslint-plugin-vue
+"vetur.validation.template": true
+},
+{
+// 統合ターミナルからデバッグ モードで node.js が起動されたときに、自動的に node デバッガーをアタッチします。
+//  - disabled: 自動アタッチが無効になっており、ステータス バーに表示されません。
+//  - on: 自動アタッチがアクティブです。
+//  - off: 自動アタッチが非アクティブです。
+"debug.node.autoAttach": "disabled"
+},
+{
+// Gulp タスクの自動検出をオンにするかオフにするかを制御します。既定はオンです。
+"gulp.autoDetect": "on"
+},
+{
+// (試験的) 試験的な検索プロバイダー拡張機能を有効にします。有効な場合、vscode のビルトイン検索よりもこちらが優先されます。
+"searchRipgrep.enable": false
+},
+{
+// すべてのコミットのサインオフ フラグを制御します。
+"git.alwaysSignOff": false,
+// 自動フェッチの有効/無効。
+"git.autofetch": false,
+// 自動更新の有効/無効。
+"git.autorefresh": true,
+// レポジトリを自動的に検出するかどうかを構成します。
+//  - true: 現在開いているフォルダーのサブフォルダーと、開いているファイルの親フォルダーの両方をスキャンします。
+//  - false: リポジトリの自動的なスキャンを無効にします。
+//  - subFolders: 現在開いているフォルダーのサブフォルダーをスキャンします。
+//  - openEditors: 開いているファイルの親フォルダーをスキャンします。
+"git.autoRepositoryDetection": true,
+// `チェックアウト先...`を実行するとき、どの種類の分岐を一覧表示するか制御します。
+//  - all: すべての参照を表示します。
+//  - local: ローカル ブランチのみを表示します。
+//  - tags: タグのみを表示します。
+//  - remote: リモート ブランチのみを表示します。
+"git.checkoutType": "all",
+// Git リポジトリを同期する前に確認します。
+"git.confirmSync": true,
+// Git バッジ カウンターを制御します。
+//  - all: すべての変更をカウントする。
+//  - tracked: 変更履歴のみをカウントする。
+//  - off: カウンターをオフにする。
+"git.countBadge": "all",
+// Git が配色とバッジをエクスプローラーと開いているエディターのビューに提供するかどうかを制御します。
+"git.decorations.enabled": true,
+// Git リポジトリをクローンする既定の場所。
+"git.defaultCloneDirectory": null,
+// Git のサブモジュールを自動的に検出するかどうかを制御します。
+"git.detectSubmodules": true,
+// Git サブモジュールの検出の制限を制御します。
+"git.detectSubmodulesLimit": 10,
+// GPG によりデジタル署名されたコミットを有効にします。
+"git.enableCommitSigning": false,
+// Git が有効になっているかどうか。
+"git.enabled": true,
+// ステージされた変更がない場合はすべての変更をコミットします。
+"git.enableSmartCommit": false,
+// 無視する git リポジトリのリスト。
+"git.ignoredRepositories": [],
+// 古い Git である警告を無視します。
+"git.ignoreLegacyWarning": false,
+// リポジトリ内に変更が多い場合の警告を無視します。
+"git.ignoreLimitWarning": false,
+// Git が見つからない場合の警告を無視します。
+"git.ignoreMissingGitWarning": false,
+// コミット メッセージの入力検証をいつ表示するかを制御します。
+"git.inputValidation": "warn",
+// コミット前に Git が保存していないファイルを確認すべきかどうかを制御します。
+"git.promptToSaveFilesBeforeCommit": false,
+// Git 変更の表示内にインラインのファイルを開くアクションを表示するかどうかを制御します。
+"git.showInlineOpenFileAction": true,
+// プッシュが成功したときに通知を表示するかどうかを制御します。
+"git.showPushSuccessNotification": false
+},
+{
+// npm スクリプトを自動的に検出するかどうかを制御します。
+"npm.autoDetect": "on",
+// npm スクリプトのエクスプ ローラー ビューを有効にします。
+"npm.enableScriptExplorer": false,
+// 自動スクリプト検出から除外するフォルダーの glob パターンを構成します。
+"npm.exclude": "",
+// npm 依存関係の自動補完とホバー時の情報を提供するために https://registry.npmjs/org と https://registry.bower.io からデータをフェッチします。
+"npm.fetchOnlinePackageInfo": true,
+// スクリプトを実行するために使用するパッケージ マネージャー。
+"npm.packageManager": "npm",
+// `--silent` オプションを使用して npm コマンドを実行する。
+"npm.runSilent": false,
+// スクリプト エクスプローラーで使用される既定のクリック アクション: `open` もしくは `run`。既定値は `open` です。
+"npm.scriptExplorerAction": "open"
+},
+{
+// Set your exported CSS Styles, Formats & save location.
+"liveSassCompile.settings.formats": [
+  {
+    "format": "expanded",
+    "extensionName": ".css",
+    "savePath": null
+  }
+]
+},
+{
+// TypeScript の型アサーションの後のスペース処理を定義します。ワークスペースで TypeScript 2.4 以上を使用する必要があります。
+"typescript.format.insertSpaceAfterTypeAssertion": false,
+// 新しい行にコントロール ブロックの始め波かっこを配置するかどうかを定義します。
+"javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+// 新しい行に関数の始め波かっこを配置するかどうかを定義します。
+"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+// 新しい行に関数の始め波かっこを配置するかどうかを定義します。
+"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+// 新しい行にコントロール ブロックの始め波かっこを配置するかどうかを定義します。
+"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+// テンプレート文字列の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+// 端末のカーソルのスタイルを制御します。
+"terminal.integrated.cursorStyle": "block",
+// ターミナルのカーソルを点滅させるかどうかを制御します。
+"terminal.integrated.cursorBlinking": false,
+// Hex には 3 つまたは 6 つの 16 進数が含まれる必要があります。
+"scss.lint.hexColorLength": "error",
+// エディターで入力後に自動的に行のフォーマットを行うかどうかを制御します。
+"editor.formatOnType": false,
+// 16 進数色には、3 つまたは 6 つの 16 進数が含まれてる必要があります。
+"less.lint.hexColorLength": "error",
+// テンプレート文字列の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+// カーソルのスタイルを制御します。
+"editor.cursorStyle": "line",
+// `float` の使用を避けてください。float は脆弱な CSS につながり、レイアウトの一部が変更されたときに CSS が破損しやすくなります。
+"css.lint.float": "ignore",
+// 無効なパラメーター数値です。
+"css.lint.argumentsInColorFunction": "error",
+// IE ハックは、IE7 以前をサポートする場合にのみ必要です。
+"css.lint.ieHack": "ignore",
+// 左右の空でないかっこの間のスペース処理を定義します。
+"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+// ベンダー プレフィックス を使用するときは、他すべてのベンダー プレフィックスも必ず含めてください。
+"less.lint.compatibleVendorPrefixes": "ignore",
+// `@font-face` 規則で `src` プロパティと `font-family` プロパティを定義する必要があります。
+"less.lint.fontFaceProperties": "warning",
+// VS Code と CSS 言語サーバー間の通信をトレースします。
+"css.trace.server": "off",
+//  for ステートメント内のセミコロンの後のスペース処理を定義します。
+"javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+// ベンダー プレフィックス を使用するときは、他すべてのベンダー プレフィックスも必ず含めてください。
+"scss.lint.compatibleVendorPrefixes": "ignore",
+// `@font-face` 規則で `src` プロパティと `font-family` プロパティを定義する必要があります。
+"scss.lint.fontFaceProperties": "warning",
+// カーソルのアニメーション方式を制御します。
+"editor.cursorBlinking": "blink",
+// 書式設定とインデント {{#foo}} および {{/foo}}。
+"html.format.indentHandlebars": false,
+// 複数の Import ステートメントを同時に読み込むことはできません。
+"css.lint.importStatement": "ignore",
+// 指定した構文に対してプロファイルを定義するか、特定の規則がある独自のプロファイルをご使用ください。
+"emmet.syntaxProfiles": {},
+// 設定を開いたときに、すべての既定の設定を表示するエディターも開くかどうかを制御します。
+"workbench.settings.openDefaultSettings": true,
+// すべての検証を有効または無効にします。
+"css.validate": true,
+// 再フォーマットしてはならないタグの、コンマ区切りの一覧。'null' の場合、既定で https://www.w3.org/TR/html5/dom.html#phrasing-content にリストされているすべてのタグになります。
+"html.format.unformatted": "wbr",
+// 既定で使用する設定エディターを指定します。
+//  - ui: UI の設定エディターを使用します。
+//  - json: JSON ファイル エディターを使用します。
+"workbench.settings.editor": "ui",
+// 直前に改行を 1 つ入れるタグの、コンマで区切られたリストです。'null' は、既定値の "head, body, /html" を表します。
+"html.format.extraLiners": "head, body, /html",
+// Hex には 3 つまたは 6 つの 16 進数が含まれる必要があります。
+"css.lint.hexColorLength": "error",
+// <head> セクションと <body> セクションをインデントします。
+"html.format.indentInnerHtml": false,
+// コンテンツを再フォーマットしてはならないタグをコンマで区切ってリストにします。'null' は、既定値の 'pre' タグを表します。
+"html.format.contentUnformatted": "pre,code,textarea",
+// 検索中の設定エディターの目次の動作を制御します。
+//  - hide: 検索中の目次を非表示にします。
+//  - filter: 目次をフィルターして、一致している設定を持つカテゴリだけを表示します。カテゴリをクリックするとそのカテゴリに結果が絞り込まれます。
+"workbench.settings.settingsSearchTocBehavior": "filter",
+// 末尾に改行を入れます。
+"html.format.endWithNewline": false,
+// 要素の前にある既存の改行を保持するかどうかを制御します。要素の前でのみ機能し、タグの内側やテキストに対しては機能しません。
+"html.format.preserveNewLines": true,
+// 1 つのチャンク内に保持できる改行の最大数。無制限にするには、'null' を使います。
+"html.format.maxPreserveNewLines": null,
+// 設定で自然文検索モードを有効にするかどうかを制御します。自然文検索はオンライン サービスによって提供されます。
+"workbench.settings.enableNaturalLanguageSearch": true,
+// 概要ルーラーでカーソルを非表示にするかどうかを制御します。
+"editor.hideCursorInOverviewRuler": false,
+// キーバインド設定を開いたときに、すべての既定のキーバインド設定を表示するエディターも開くかどうかを制御します。
+"workbench.settings.openDefaultKeybindings": true,
+// 既定の HTML フォーマッタを有効/無効にします。
+"html.format.enable": true,
+// ビルトイン HTML 言語サポートが埋め込みスタイルを検証するかどうかを制御します。
+"html.validate.styles": true,
+// ベンダー プレフィックスを使用するときは、他すべてのベンダー プレフィックスも必ず含めてください。
+"css.lint.compatibleVendorPrefixes": "ignore",
+// 無効なパラメーター数値です。
+"scss.lint.argumentsInColorFunction": "error",
+// `float` の使用を避けてください。float は脆弱な CSS につながり、レイアウトの一部が変更されたときに CSS が破損しやすくなります。
+"scss.lint.float": "ignore",
+// `@font-face` 規則で `src` プロパティと `font-family` プロパティを定義する必要があります。
+"css.lint.fontFaceProperties": "warning",
+// 左右の空でないかっこの間のスペース処理を定義します。
+"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+// VS Code と JSON 言語サーバー間の通信をトレースします。
+"json.trace.server": "off"

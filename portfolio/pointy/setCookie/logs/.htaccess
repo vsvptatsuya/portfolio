@@ -1,0 +1,7 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+order deny,allow
+allow from 202.212.92.129
+deny from all 

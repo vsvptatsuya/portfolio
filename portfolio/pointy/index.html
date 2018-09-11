@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無料通話アプリ・IP電話「ポインティ-pointy-」</title>
+<meta name="description" content="スマホから通話料無料・格安で通話できるIP電話アプリの「ポインティ-pointy-」。しかも、ポインティなら通話するたびにポイントが貯まる！" />
+<meta name="keywords" content="無料通話,IP電話,格安,ポインティ,スマホ" />
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/pointy.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+(function(){
+    var ua = navigator.userAgent.toUpperCase();
+    var url = document.location.pathname;
+    var spDir = '/sm/';
+    (ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1))?
+        isSP() :
+        isPC();
+    function isSP(){
+        if(url.match(spDir)){
+            return false;
+        }else{
+            location.href = spDir;
+        }
+    }
+    function isPC(){
+        if(!url.match(spDir)){
+            return false;
+        }else{
+            location.href = '/';
+        }
+    }
+}());
+</script>
+</head>
+
+<body>
+
+<div id="headertop">
+	<h1>スマホ無料通話アプリ・IP電話ならポイントの貯まる「ポインティ-pointy-」</h1>
+</div>
+<div id="header">
+	<div id="header_btn">
+        <form name="signup" id="member" method="post" action="https://my.pointy.jp/myorder/OrderApply/addContractor" target="_blank">
+            <input type="hidden" name="agency_cd" id="hid" value="3011" />
+            <input type="image" src="images/moushikomi.jpg" class="hover" onclick="javascript: _gaq.push(['_trackPageview', '/click/Top/entryBtnHead']);" />
+        </form>
+        <a class="hover" href="https://my.pointy.jp/mypage/" target="_blank"><img src="images/mypage.jpg" width="167" height="38" alt="マイページ" /></a>
+    </div>
+    
+    
+	<p>
+    	<a href="http://www.pointy.jp/"><img src="images/pointy_logo.jpg" width="110" height="55" alt="ポインティ" /></a>
+    	<img src="images/pointy_text01.jpg" width="303" height="55" alt="ビジネスにかける人を応援する通話アプリ！" />
+	</p>
+</div>
+
+<div id="gnav" class="clearfix">
+	<ul>
+    	<li class="hover"><a href="http://www.pointy.jp/details/"><img src="images/navi01a.jpg" alt="pointyとは" /></a></li>
+    	<li class="hover"><a href="http://www.pointy.jp/price/"><img src="images/navi02a.jpg"  alt="おトクな料金" /></a></li>
+    	<li class="hover"><a href="http://www.pointy.jp/point/"><img src="images/navi03a.jpg" alt="おトクなポイント制度" /></a></li>
+    	<li class="hover"><a href="http://www.pointy.jp/support/"><img src="images/navi05a.jpg" alt="サポート" /></a></li>
+    	<li class="hover"><a href="http://www.pointy.jp/type/"><img src="images/navi06a.jpg" alt="推奨機種" /></a></li>
+    	<li class="hover"><a href="http://www.pointy.jp/sim/"><img src="images/navi04a.jpg" alt="SIMカード" /></a></li>
+    	<li class="hover"><a href="http://www.pointy.jp/support/form"><img src="images/navi07a.jpg" alt="お問い合わせ" /></a></li>
+    </ul>
+</div>
+<!--
+<div id="pankuzu">
+	<ol>
+    	<li><a href="#">無料通話アプリ・IP電話ならポイントの貯まる「ポインティ-pointy-」</a></li>/<li>ポインティとは？</li>
+    </ol>
+</div>
+-->
+<div id="top_bg"><img src="images/back02.jpg" /></div>
+<div id="wrap" class="top clearfix">
+	<div id="topslider">
+    	<div id="jslidernews2" class="lof-slidecontent">
+			
+            <div class="preload"><div></div></div>
+      
+            <div  class="button-previous">Previous</div>
+                   
+       	  <!-- MAIN CONTENT --> 
+            <div class="main-slider-content">
+                <ul class="sliders-wrap-inner">
+                    <li class="hover"><a href="http://www.pointy.jp/sim/"><img src="images/topsim01.png" alt="pointy simカード" title="pointy simカード" /></a></li>
+                    <li class="hover"><a href="http://www.pointy.jp/price/"><img src="images/top01.png" alt="「やすさ」で選ぶなら、pointy" title="「やすさ」で選ぶなら、pointy" /></a></li>
+                    <li class="hover"><a href="http://www.pointy.jp/details/"><img src="images/top03.png" alt="仕事をとるか？プライベートをとるか？" title="仕事をとるか？プライベートをとるか？"  /></a></li>
+                </ul>  	
+            </div>
+ 		   <!-- END MAIN CONTENT --> 
+           <!-- NAVIGATOR -->
+           	<div class="navigator-content">
+                  <div class="navigator-wrapper">
+                        <ul class="navigator-wrap-inner">
+                            <li class="hover"><div><img src="images/topsim01sum.png" alt="pointy simカード" /></div></li>
+                            <li class="hover"><div><img src="images/top_slider_thmb02.jpg" alt="「やすさ」で選ぶなら、pointyサムネイル" /></div></li>
+                            <li class="hover"><div><img src="images/top_slider_thmb01.jpg" alt="仕事をとるか？プライベートをとるか？サムネイル" /></div></li>
+                            
+                            
+                        </ul>
+                  </div>
+   
+             </div> 
+          <!-- END OF NAVIGATOR -->
+          <div class="button-next">Next</div>
+ 
+ 		 <!-- BUTTON PLAY-STOP -->
+          <!--<div class="button-control"><span></span></div>-->
+          <!-- END OF BUTTON PLAY-STOP -->
+           
+ </div> 
+    
+    </div><!--topslider end-->
+    
+    <div id="top01" class="sec clearfix">
+    	<div class="top01box">
+        	<img src="images/topsp01.jpg" width="305" height="100" alt="2つの番号イメージ" />
+            <h2 class="none"><img src="images/toptext01.jpg" width="305" height="55" alt="1台のスマホに2つの番号を設定できる！" /></h2>
+            <p>仕事の電話もプライベートな電話も1台のスマホで対応。複数台持ちすることなく、スマートに通話できます。</p>
+            <h3><img src="images/pointy_point.jpg" width="305" height="37" alt="ポインティのここがポイント" /></h3>
+            <ul>
+            	<li>通話料金を分けて管理できるから経理処理も簡単</li>
+                <li>社用の電話として新たにスマホを支給する必要がなく、経費を削減できる</li>
+            </ul>
+        </div>
+    	<div class="top01box">
+        	<img src="images/topsp02.jpg" width="305" height="100" alt="通話料が断然安いイメージ" />
+            <h2 class="none"><img src="images/toptext02.jpg" width="305" height="55" alt="国内も海外も通話料が断然安い！ " /></h2>
+            <p>スマホにかけても、固定電話にかけても、さらに海外通話も断然安い。ビジネスの経費削減に大きく貢献します。</p>
+            <h3><img src="images/pointy_point.jpg" width="305" height="37" alt="ポインティのここがポイント" /></h3>
+            <ul>
+            	<li>通話料が安いからガンガン営業通話できて、経費削減にも貢献します</li>
+				<li>海外出張も、海外の工場や取引先との商談だって安心して通話できます</li>
+            </ul>
+        </div>
+    	<div class="top01box">
+        	<img src="images/topsp03.jpg" width="305" height="100" alt="ポイントが貯まるイメージ" />
+            <h2 class="none"><img src="images/toptext03.jpg" width="305" height="55" alt="通話料が安い上に、ポイントが貯まる！" /></h2>
+            <p>通話料が安いポインティは、通話するたびにポイントが貯まってオトク度UP！貯まったポイントは、amazonギフト券やクオカードなど魅力的な商品と交換できます。</p>
+            <h3><img src="images/pointy_point.jpg" width="305" height="37" alt="ポインティのここがポイント" /></h3>
+            <ul>
+            	<li>貯まったポイントを、通話料に充当できるから、さらに経費削減できます。</li>
+				<li>amazonギフト券や図書カードと交換すればビジネス書の購入費用も削減できます。</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="top02" class="sec">
+    	<h2><span>つながりやすい！</span></h2>
+        <img src="images/top_tsunagariyasui.jpg" width="938" height="200" alt="安いだけじゃない！ポインティはつながりやすい" />
+        <p>世界最高レベルの着信の確実性、通話の切れにくさ、音声品質の高さを実現。使用帯域はわずか10Kbps以下。<br />
+        回線速度が大きく下がりやすい3G回線や、安価な低速SIM上でも安定して動作します！</p>
+
+    </div>
+    
+    <div id="top03" class="sec">
+    	<h2><span> おトクなポイント制度が、キャンペーンでもっとおトクに！</span></h2>
+        <a href="http://www.pointy.jp/point/" class="hover"><img src="images/top_present.jpg" width="937" height="211" alt="プレゼント" /></a>
+       
+        
+        <p>通話するだけで、無料ポイントサービス「エルネ」のポイントが貯まる、<br />
+		お得な「ポインティ」が、さらにお得になるキャンペーン！<br />
+		デビューキャンペーンで<span>ポイントが5倍</span>、さらに、紹介したお友達にご入会いただくと<br />
+        <span>最大1年間毎月500ポイントプレゼント</span>。キャンペーンを利用して、大幅ポイントアップ！
+    	</p>
+    </div>
+    
+    <div id="top04" class="sec clearfix">
+    	<h2><span>お申し込みの流れ</span></h2>
+        <p class="step_title">お申し込みは簡単3ステップ！</p>
+        <div id="top_step01">
+             <form name="signup" id="member" method="post" action="https://my.pointy.jp/myorder/OrderApply/addContractor" target="_blank">
+                <input type="hidden" name="agency_cd" id="hid" value="3011" />
+                <input type="image" src="images/top_step01_btn.png" class="hover" onclick="javascript: _gaq.push(['_trackPageview', '/click/Top/entryBtnHead']);" />
+        	</form>
+            <p>ボタンから申込み！</p>
+        </div>
+        <div id="top_step02">
+        	<a class="hover gp" href="https://play.google.com/store/apps/details?id=com.pointy.app.pointy" target="_blank" rel="nofollow"><img src="images/gplay.png" width="83" height="33" alt="googleplay" /></a>
+        	<a class="hover app" href="https://itunes.apple.com/jp/app/pointy/id610282106?mt=8" target="_blank" rel="nofollow"><img src="images/appstore.png" width="83" height="33" alt="appstore" /></a>
+        	<p>アプリをダウンロード<br />して、IDとパスワード<br />を入力</p>
+        </div>
+        <div id="top_step03">
+        	<p>安くてお得な<br />ポインティ通話が<br />スタート！</p>
+        </div>
+        
+    </div>
+    
+    <div id="top05" class="sec clearfix">
+        <div id="news">
+            <h2 class="none"><img src="images/news_banner.jpg" width="620" height="42" alt="NEWS" /></h2>
+                <dl>
+                	<!--
+                    <dt><img src="images/news_camp.jpg" width="70" height="18" alt="キャンペーン" /><span>2013/07/08</span></dt>
+                    <dd><a href="#">推奨機種に、iPhone5を追加しました。</a></dd>
+                    -->
+<!--2014/03/26 add-->
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2014/03/26</span></dt>
+                    <dd style="height: 370px;"><span style="font-weight: bold;">pointyシステムメンテナンスのお知らせ</span><br /><br /> 平素は弊社サービスをご利用いただき、ありがとうございます。<br />
+<br />
+この度、下記要領にてシステムメンテナンスを実施いたします。<br />
+大変ご不便をおかけいたしますが、ご理解・ご協力のほど<br />
+お願い申し上げます。<br />
+<br />
+ご不明点等ございましたら、お問い合わせ窓口まで<br />
+ご連絡下さいませ。<br />
+<br />
+<br />
+＜ 記 ＞<br />
+<br />
+ 　作業日時　： 2014年 4月 11日（金）00:00 - 06:00<br />
+ 　影響内容　：上記時間帯において、以下のサービスが止まることがあります。<br />
+ 　　　　　　：・サービスのお申し込み及び解約<br />
+ 　　　　　　：・会員専用ページへのアクセス<br />
+ 　　　　　　：・pointyを使った発信および着信動作<br />
+<br />
+ 以上</dd>
+<!--2014/03/26 add end-->
+
+<!--2014/01/14 add-->
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2014/01/14</span></dt>
+                    <dd style="height: 70px;"><span style="font-weight: bold;">Android版 通話アプリpointy Ver4.3.251をリリースしました。</span><br /><br />バージョン 4.3.251 の新機能<br />
+  ・バグフィックスしました。</dd>
+<!--2014/01/14 add end-->
+<!--2014/01/01 add-->
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/12/27</span></dt>
+                    <dd>pointySIMサイトオープン&nbsp;&nbsp;<a href="http://www.pointy.jp/sim/">http://www.pointy.jp/sim/</a></dd>
+<!--2014/01/01 add end-->
+
+<!--2013/12/18 add -->
+                    <dt><img src="http://www.pointy.jp/images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/12/18</span></dt>
+                    <dd style="height: 105px;"><span style="font-weight: bold;">iOS版 通話アプリpointy Ver1.3.241をリリースしました。</span><br /><br />バージョン 1.3.241 の新機能<br />
+  ・消費電力を削減することで、バッテリー使用時の稼働時間を延長いたしました。<br />
+  ・通話履歴の保存出来ない可能性がある不具合を修正いたしました。<br />
+  ・アプリの設定を修正することにより、ネットワーク接続の安定性を向上させました。</dd>
+<!--2013/12/18 add end -->
+<!--2013/11/29 add-->
+<!--
+                    <dt><img src="http://www.pointy.jp/images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/11/29</span></dt>
+                    <dd style="height: 150px;"><span style="font-weight: bold;">システムメンテナンスのお知らせ</span><br /><br />下記日程でシステムメンテナンスを実施します。<br />ご利用中のお客さまにはご不便をおかけしますが、ご理解のほどお願い申し上げます。<br />&nbsp;&nbsp;■実施日<br />&nbsp;&nbsp;&nbsp;&nbsp;2013年12月5日 AM0:00 ～AM6:00<br />&nbsp;&nbsp;■以下の機能がご利用いただけません。<br />&nbsp;&nbsp;&nbsp;&nbsp;・マイページ機能<br />&nbsp;&nbsp;&nbsp;&nbsp;・pointyの新規お申し込み</dd>
+-->
+<!--2013/11/29 add end -->
+<!--2013/09/09 add-->
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/09/03</span></dt>
+                    <dd>テレビ東京さま、プロモーション開始&nbsp;&nbsp;<a href="http://www.tv-tokyo.co.jp/pointy/" target="_blank">http://www.tv-tokyo.co.jp/pointy/</a></dd>
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/09/03</span></dt>
+                    <dd>ランサーズさま、プロモーション開始&nbsp;&nbsp;<a href="http://www.lancers.jp/landingpage/pointy/pointy.html" target="_blank">http://www.lancers.jp/landingpage/pointy/pointy.html</a></dd>
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/09/03</span></dt>
+                    <dd>DNPソーシャルリンクさま、好評プロモーション中&nbsp;&nbsp;<a href="http://elne.jp/pointy/" target="_blank">http://elne.jp/pointy/</a></dd>
+                    <dt><img src="images/news_oshirase.jpg" width="70" height="18" alt="お知らせ" /><span>2013/09/02</span></dt>
+                    <dd>pointyホームページをリニューアルしました</dd>
+<!--2013/09/09 add end-->
+                </dl>
+        </div>
+        <div id="top_banner">
+        	<a class="hover" href="http://www.pointy.jp/sim/"><img src="images/simBanner.jpg" alt="pointy simカード" /></a>
+            <form name="signup" id="member" method="post" action="https://my.pointy.jp/myorder/OrderApply/addContractor" target="_blank">
+                <input type="hidden" name="agency_cd" id="hid" value="3011" />
+                <input type="image" src="images/top_banner01.jpg" alt="お申込みはこちら" class="hover" onclick="javascript: _gaq.push(['_trackPageview', '/click/Top/entryBtnHead']);" />
+        	</form>
+            
+        	<a class="hover" href="#top04"><img src="images/top_banner02.jpg" width="240" height="65" alt="お申込みの流れ" /></a>
+        	<a class="hover" href="support/pointyOperationManual.pdf" target="_blank"><img src="images/top_banner03.jpg" width="240" height="65" alt="操作マニュアルダウンロード" /></a>
+        </div>
+    
+            
+    </div>
+    
+    
+    
+    
+<div id="backtotop" class="hover"><a href="#"><img src="images/backtotop.jpg" width="168" height="30" alt="トップへ戻る" /></a></div>
+
+</div><!--wrap end-->
+
+<div id="footer_outer">
+    <div id="footer">
+        <ul class="clearfix">
+            <li><a href="http://www.pointy.jp/">無料通話アプリ・IP電話「ポインティ-pointy-」</a></li>
+            <li><a href="http://www.pointy.jp/details/">ポインティとは？</a></li>
+            <li><a href="http://www.pointy.jp/price/">おトクな料金</a></li>
+            <li><a href="http://www.pointy.jp/point/">おトクなポイント制度</a></li>
+            <li><a href="http://www.pointy.jp/support/">サポート・よくあるご質問</a></li>
+            <li><a href="http://www.pointy.jp/type/">推奨機種</a></li>
+            <li><a href="http://www.pointy.jp/sim/">SIMカード</a></li>
+            <li><a href="http://www.pointy.jp/support/form/">お問い合わせ</a></li>
+            <li><a href="http://www.pointy.jp/company/">企業情報</a></li>
+            <li><a href="http://www.pointy.jp/privacy/">プライバシーポリシー</a></li>
+            <li><a href="http://www.pointy.jp/sitemap.html">サイトマップ</a></li>
+        </ul>
+        
+        <div class="footer_logo"><img src="images/accelia_logo.png" width="47" height="25" alt="アクセリア" /></div>
+        <address>アクセリア株式会社　COPYRIGHT ©ACCELIA INC, ALL RIGHT RESERVED.</address>
+        
+    </div>
+</div>
+
+</body>
+</html>

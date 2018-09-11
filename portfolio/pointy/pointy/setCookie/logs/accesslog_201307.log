@@ -1,0 +1,250 @@
+2013-07-09 12:12:44 [INFO] 
+Array
+(
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 12:14:42 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3011&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3011
+            [EXP] => Mon 07-10-2013 12:14:42 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 13:29:47 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Mon 07-10-2013 01:29:47 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 13:36:24 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Mon 07-10-2013 01:36:24 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 13:38:51 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Mon 07-10-2013 01:38:51 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 13:42:32 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Mon 07-10-2013 01:42:32 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-07-09 13:55:18 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Mon 07-10-2013 01:55:18 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-07-09 13:58:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3010&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3010
+            [EXP] => Mon 07-10-2013 01:58:25 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-07-09 14:35:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Mon 07-10-2013 02:35:25 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-07-09 15:04:30 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=http://elne.jp
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3012
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 15:05:28 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=http://elne.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3012
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 15:12:52 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=http://www.pointy.jp/price/index.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3012
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Tue, 09 Jul 2013 06:12:52 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Wed, 12 Jun 2013 00:02:03 GMT
+            [4] => ETag: "180241-2f9c-4dee9b93e85e1"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 12188
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-07-09 15:14:59 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=http://www.pointy.jp/price/index.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3012
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Tue, 09 Jul 2013 06:14:59 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Wed, 12 Jun 2013 00:02:03 GMT
+            [4] => ETag: "180241-2f9c-4dee9b93e85e1"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 12188
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html?
+)
+
+2013-07-09 15:27:32 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=http://www.pointy.jp/price/index.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3012
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Tue, 09 Jul 2013 06:27:32 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Wed, 12 Jun 2013 00:02:03 GMT
+            [4] => ETag: "180241-2f9c-4dee9b93e85e1"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 12188
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/price/index.html
+)
+

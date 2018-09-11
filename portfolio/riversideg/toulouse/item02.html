@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/style_test.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript"> 
+//<![CDATA[
+$(function() {
+	$("#tab li").click(function() {
+		var num = $("#tab li").index(this);
+		$(".content_wrap").addClass('disnon');
+		$(".content_wrap").eq(num).removeClass('disnon');
+		$("#tab li").removeClass('select');
+		$(this).addClass('select')
+	});
+});
+//]]>
+</script> 
+
+<title>toulouse | Item</title>
+</head>
+
+<body>
+<style>
+#sample {
+  margin-top: 20px;
+  width:765px;
+  margin-left:20px;
+}
+#main {
+}
+#tab{
+	float:left;
+	margin-left:3px;
+	width:157px;
+	}
+#tab li {
+  padding: 10px;
+  height:57px;
+  list-style: none;
+  cursor: pointer;
+  background: #eee;
+  border:1px solid #000;
+  
+}
+#tab li.select {
+  background: yellow;
+}
+.disnon {
+  display: none;
+}
+.content_wrap {
+	float:left;
+  width: 600px;
+  height:1150px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  background: #ccc;
+  color: #fff;
+  border:1px solid #000;
+}
+
+</style>
+
+<!--ヘッダーここから-->
+<div id="nav_outer">
+<div id="nav" class="clearfix">
+		<h1><a name="top"><img src="images/top_logo.gif" alt="ロゴ" width="172" height="47"></a></h1>
+		<ul>
+				<li><a href="index.html" class="nav">Home</a></li>
+				<li><a href="news.html" class="nav">News</a></li>
+				<li><a href="concept.html" class="nav">Concept</a></li>
+				<li class="item">Item</li>
+				<li><a href="styling.html" class="nav">Styling</a></li>
+				<li><a href="http://toulouse77.exblog.jp" target="_blank" class="nav">Blog</a></li>
+		</ul>
+</div>
+</div>
+<!--ヘッダここまで--> 
+<!--メインここから-->
+<div id="content" class="clearfix itemstyle">
+		<div id="title">
+				<div class="title_left">
+						<h2><img src="images/item.gif" alt="item" width="71" height="35"></h2>
+				</div>
+				<div class="title_right">
+						<p>アイテム一覧</p>
+				</div>
+		</div>
+  <div id="main">
+
+<h5>jqueryによるタブ切替</h5>
+
+<div id="sample">
+<ul id="tab">
+<li class="select">タブ1</li>
+<li>タブ2</li>
+<li>タブ3</li>
+<li>タブ4</li>
+<li>タブ5</li>
+</ul>
+<div class="content_wrap">
+
+
+
+
+</div>
+<div class="content_wrap disnon">内容2</div>
+<div class="content_wrap disnon">内容3</div>
+<div class="content_wrap disnon">内容4</div>
+<div class="content_wrap disnon">内容5</div>
+</div><!--sample-->
+
+</div><!--main-->
+        
+		<div class="item_nav">
+				<ul>
+                	<li><a href="#">New</a></li>
+                    <li><a href="item_tops.html">Tops</a></li>
+                    <li><a href="item_bottom.html">Bottom</a></li>
+                    <li><a href="item_outer.html">Outer</a></li>
+                    <li><a href="item_goods.html">Goods</a></li>
+                </ul>
+                
+                
+                <!--
+                <div class="new navparts">
+						<p>New</p>
+				</div>
+				<div class="tops navparts">
+						<p><a href="item_tops.html">Tops</a></p>
+				</div>
+				<div class="bottom navparts">
+						<p><a href="item_bottom.html">Bottom</a></p>
+				</div>
+				<div class="outer navparts">
+						<p><a href="item_outer.html">Outer</a></p>
+				</div>
+				<div class="goods navparts">
+						<p><a href="item_goods.html">Goods</a></p>
+				</div>
+                -->
+		</div>
+		<div class="item clearfix">
+				<div id="item1">
+						<div class="item1">
+								<p><img src="images/toulouse_item1.jpg" alt="item1" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+						<div class="item2">
+								<p><img src="images/toulouse_item2.jpg" alt="item2" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+						<div class="item3">
+								<p><img src="images/toulouse_item3.jpg" alt="item3" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+				</div>
+				<div id="item2">
+						<div class="item4">
+								<p><img src="images/toulouse_item4.jpg" alt="item4" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+						<div class="item5">
+								<p><img src="images/toulouse_item5.jpg" alt="item5" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+						<div class="item6">
+								<p><img src="images/toulouse_item6.jpg" alt="item6" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+				</div>
+				<div id="item3">
+						<div class="item7">
+								<p><img src="images/toulouse_item1.jpg" alt="item1" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+						<div class="item8">
+								<p><img src="images/toulouse_item2.jpg" alt="item2" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+						<div class="item9">
+								<p><img src="images/toulouse_item3.jpg" alt="item3" width="140" height="186"></p>
+								<p>Tops<br>
+										0000円</p>
+						</div>
+				</div>
+		</div>
+</div>
+<!--メインここまで--> 
+<!--フッターここから-->
+<div id="footer_outer">
+<div id="footer" class="clearfix">
+		<p class="pagetop"><a href="#top"><img src="images/pagetop.gif" alt="pagetop" width="156" height="30"></a></p>
+		<div class="footer1">
+				<ul>
+						<li><a href="index.html" class="footer">Home</a></li>
+						<li><a href="news.html" class="footer">News</a></li>
+						<li><a href="concept.html" class="footer">Concept</a></li>
+						<li><a href="item.html" class="footer">Item</a></li>
+						<li><a href="styling.html" class="footer">Styling</a></li>
+						<li class="blog"><a href="http://toulouse77.exblog.jp" target="_blank" class="footer">Blog</a></li>
+				</ul>
+		</div>
+		<div class="footer2">
+				<ul>
+						<li><a href="contact.html" class="footer">Contact</a></li>
+						<li><a href="access.html" class="footer">Access</a></li>
+				</ul>
+		</div>
+		<address>
+		Copyright&copy;2013 copyrights toulouse All Rights Reserved.
+		</address>
+</div>
+</div>
+<!--フッターここまで-->
+
+</body>
+</html>

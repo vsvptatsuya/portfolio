@@ -1,0 +1,310 @@
+
+.colorbl01{color:#3374ca;}
+.bgcolorbl01{background:#3374ca;}
+.bgcolorbl02{background:#d3ddeb;}
+.bgcolorgr01{background:#909090;}
+.bgcolorgr02{background:#f5f7f7;}
+.box{
+    padding:15px;
+    margin-bottom:15px;
+}
+.box ul>ul{
+    margin-left:1em;}
+
+h4{
+    padding-left:1em;
+    margin-bottom:2px;
+    line-height:32px;
+    color:#fff;
+}
+
+#center_contents{
+}
+#center_contents .contents_in{
+	width:100%;}
+
+.ticket .ticketBoxl{
+    width:46.46098%;
+    margin-right:2.54083%;
+    margin-bottom: 40px;
+    float:left;}
+.ticket .ticketBoxr{
+    width:49.0018149%;
+    margin-bottom: 40px;
+    float:left;}
+.ticket table{width:100%;margin-bottom: 5px;}
+.ticket table tr{
+}
+.ticket table th{
+    text-align:left;
+    border-right:2px solid #fff;
+    border-bottom:2px solid #fff;
+    width:22.22323%;
+    background:#909090;
+    color:#fff;
+    padding: 5px 10px;}
+.ticket table td{
+    background:#f5f7f7;
+    border-bottom:2px solid #fff;
+    padding: 5px 0 5px 2em;}
+.ticket table th.th{background:#3374ca;}
+.ticket table td.th{background:#d3ddeb;}
+.ticket table th.margin{
+    width:5%;
+    background:#777;
+    border:none;
+    }
+.ticket table th.margin.last{
+    border-bottom:2px solid #fff;
+    }
+.ticket p.cap span{
+    font-size:13px;
+    font-weight:bold;   
+}
+/*
+.ticket dt,.ticket dd{
+padding:10px;}
+.ticket dl dt{
+    float:left;
+    clear:left;
+    width:27.22323%;
+    margin-right:0.90744%;
+    margin-bottom:5px;
+    background:#909090;
+    color:#fff;}
+.ticket dl dd{
+    margin-left:27.5%;
+    margin-bottom:5px;
+    background:#f5f7f7;}
+.ticket dl dt.th{background:#3374ca;}
+.ticket dl dd.th{background:#d3ddeb;}
+*/
+.topicsPage{}
+.topicsTitle{
+    background:#3374ca;
+    color:#fff;
+    padding:10px;}
+.topicsPage .day{
+    color:#666;
+    font-size:11px;
+    text-align:right;   
+    margin:0 10px 0 0;
+    padding-top:10px;}
+.topicsMain{
+    background:#ebf1fa;}
+.topicsMain p.topicsText{
+    padding:10px 15px 40px 15px;}
+
+
+ul.schMonth{
+	background:#ddd;
+	width:100%;
+    text-align:center;
+    margin-bottom:10px;
+    padding: 3px;
+    float:left
+}
+ul.schMonth li{
+	float:left;
+	width:9.2%;
+	display:block;
+	background:#eee;
+	height:27px;
+	margin-right:0.18%;
+}
+ul.schMonth li a{
+    display:block;}
+ul.schMonth li.current a,ul.schMonth li a:hover{
+    background:#d3ddeb;
+    color:#3374ca;}
+ul.schMonth .year{
+	background:#3e3a39;
+    color:#fff;}
+li.nextMonth{
+    font-size:20px;
+    width:6% !important;
+    background:#ddd !important;}
+.scheduleBox {
+    width:100%;
+    margin-bottom:10px;
+}
+.schedule .day {
+    width:6.363636%;
+    float:left;
+    background:#3e3a39;
+    color:#fff;
+    text-align:center;
+    position:relative;
+}
+.schedule .day p{
+    position: absolute;
+    top: 50%;
+    margin-top: -2em;
+    width:100%;}
+.day .pink{
+    color:#fe8bcc;}
+.scheduleBoxr{
+    background:#eee;
+    float:left;
+    margin-left:0.9%;
+    width:92.730%;
+}
+.scheduleBoxr .photo{
+    float:left;
+    width:30.8529%;
+}
+.scheduleBoxr .photo img{
+    margin-top:10px;
+}
+.scheduleBoxr .text{
+    float:left;
+    width:65%;
+    margin-left:2.54%;
+    margin-top:10px;
+}
+.scheduleBoxr .text a{
+    color:#3374ca;
+}
+
+.recruit{
+}
+.recruit .box{
+}
+.recruit .box ul>ul{
+    margin-left:1em;}
+
+h5.bg05{
+    width:200px;
+	height:46px;
+    margin:0 auto;
+    text-align:center;
+	background:url(../images/h2_bg05.jpg)  repeat-x;}
+h5.bg05 a{
+    color:#fff;
+	line-height:46px;
+    display:block;
+    
+}
+h5.bg05 a:before{
+	content:url(../images/arrow02.png);
+	margin-right:5px;
+}
+.memberProf ul li{
+    text-indent:-1em;
+    margin-left:1em;
+}
+
+.privacypolicy{
+}
+.privacypolicy h5{
+    font-weight:bold;
+    margin:10px 0; 
+}
+.privacypolicy p{
+    margin-left:1em;
+}
+.privacypolicy ul{
+    margin-left:1em;
+}
+.privacypolicy ul>ul{
+    margin-left:1em;
+    
+}
+.privacypolicy ul>ul li{
+    }
+.company table{
+    width:100%;}
+.company table tr{
+    border-bottom:2px solid #fff;}
+.company table th{
+    width:30%;
+    background:#3374ca;
+    color:#fff;
+    border-right:2px solid #fff;}
+.company table td{
+    width:70%;
+    background:#d3ddeb;
+    padding:5px;}
+
+.faq{}
+.faq dl dt{
+    background:url(../images/faq_q.jpg) 0 3px no-repeat;
+    padding-left:9%;
+}
+.faq dl dd{
+    background:url(../images/faq_a.jpg) 0 3px no-repeat;
+    padding-left:9%;
+    border-bottom:1px solid #838383;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+
+.faq dd:last-child{
+    border:none;}
+/* PC用のスタイル記述 
+*********************************************************************************************************/
+@media screen and (min-width: 769px) {
+
+
+}
+
+
+
+/* タブレット用のスタイル記述　
+*********************************************************************************************************/
+@media screen and (max-width: 768px) {
+
+
+}
+
+
+/* スマートフォン用のスタイル記述 
+*********************************************************************************************************/
+
+@media screen and (max-width: 620px) {
+.box{
+    padding:2%;
+}
+   
+.ticket table th{
+    padding: 5px;}
+
+.ticket table td{
+    padding: 5px 0 5px 0.5em;}
+	
+ul.schMonth li{
+	width:18%;
+	display:block;
+	background:#eee;
+	height:27px;
+	margin-right:0.5%;
+}
+
+li.nextMonth{}    
+.scheduleBox {
+    width:100%;
+    margin-bottom:10px;
+}
+.schedule .day {
+    width:10%;
+}
+.schedule .day p{}
+
+.scheduleBoxr{
+    margin-left:0.5%;
+    width:89.5%;
+}
+.scheduleBoxr .photo{
+    width:100%;
+    text-align:center;
+}
+.scheduleBoxr .photo img{
+}
+.scheduleBoxr .text{
+    width:100%;
+}
+
+
+
+
+}

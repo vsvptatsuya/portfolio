@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://www.pointy.jp/sitemap.xml
+Disallow: /setCookie/

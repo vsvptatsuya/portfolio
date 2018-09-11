@@ -1,0 +1,343 @@
+
+<!DOCTYPE html> 
+
+<html> 
+
+	<head> 
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,  initial-scale=1">
+	<title>Endor.com mobile site</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="themes/endormobile.css"/>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+
+	<script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+
+	<script>
+
+	$(document).bind("mobileinit", function() {
+
+	  $.mobile.page.prototype.options.addBackBtn = true;
+
+	});
+
+	</script>
+
+	<script src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+	
+	<style>
+	.ui-page{
+		background:transparent url(../images/footer_back.png)}
+	
+
+	.ui-body-b{
+
+		background:#CCC;
+
+		background-image: -moz-linear-gradient(top,#FFF, #CCC);
+
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #CCC));
+
+		-ms-filter: 	"progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFF', EndColorStr='#CCC')";
+
+	}
+		.ui-header .ui-title {
+			display:block;
+			text-indent:-9999px; /*テキストを外に*/
+			width:145px;/*画像のサイズ*/
+			height:92px;/*画像のサイズ*/
+			margin: 0.6em auto 0.8em;
+			background: url(../images/endor_logo_off.png) no-repeat center center;/*通常サイズのロゴ画像*/
+		}
+		
+			
+	.ui-footer{
+		text-align:center;}
+		
+		h2{
+			font-size:18px;}
+
+	
+	</style>
+	
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="index" data-theme="a" >
+
+		<div data-role="header">
+			<h1>Endor.com Mobile</h1>
+				<div data-role="navbar"  data-position="fixed">
+						<ul>			
+								<li><a href="#about">ABOUT</a></li>
+								<li><a href="http://a787.sunaba.biz/endor/ladies.html" target="_blank" data-transition="flip">LADIES</a></li>
+								<li><a href="http://a787.sunaba.biz/endor/mens.html" target="_blank" data-transition="flip">MENS</a></li>
+								<li><a href="#goods" data-transition="flip">GOODS</a></li>
+								<li><a href="#contact" data-transition="flip">CONTACT</a></li>
+						</ul>
+				</div><!--nav-->
+		</div><!--header-->
+
+		<div data-role="content">
+		
+			  <h2>News</h2>		  
+
+					<div data-role="collapsible-set">
+		
+						<div data-role="collapsible" data-collapsed="true">
+		
+							<h3>2012年12月20日 年末年始休暇のお知らせ</h3>
+							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>		
+							
+		
+						</div>
+		
+						<div data-role="collapsible" data-collapsed="true">
+		
+							<h3>新店舗オープンします。</h3>
+		
+							
+							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+		
+						</div>
+		
+						<div data-role="collapsible" data-collapsed="true">
+		
+							<h3>新商品入荷いたしました</h3>
+		
+							
+							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+		
+							</div>
+
+					</div><!--news-->
+
+
+        <p><a href="mail:to" data-role="button" data-icon="info" data-iconpos="right" data-theme="b">お問合せ:contact@endor.com</a></p>
+
+        <p><a href="tel:03XXXXXXXX" data-role="button" data-icon="grid" data-iconpos="right" data-theme="b">お電話:03-XXXX-XXXX</a></p>
+
+        <p><a href="http://www.facebook.com/" target="_blank" data-role="button" data-icon="plus" data-theme="b" data-iconpos="right">Facebook</a></p>
+
+        <p><a href="http://twitter.com/" target="_blank" data-role="button" data-icon="plus" data-theme="b" data-iconpos="right">twitter</a></p>
+
+		<div data-role="footer">
+			<p>表示:スマートフォン | <a href="http://a787.sunaba.biz/endor/about.html" target="_blank">PC</a></p>
+
+
+			<h4>&copy; 2012 Endor</h4>
+
+		</div>
+</div>
+</div><!-----------------------------------------end--------------------------------------------------->
+
+
+
+	<div data-role="page" id="about" data-theme="a">
+
+		<div data-role="header">
+			<h1>Endor.com Mobile</h1>
+				<div data-role="navbar"  data-position="fixed">
+						<ul>			
+								<li><a href="#about" class="ui-btn-active">ABOUT</a></li>
+								<li><a href="http://a787.sunaba.biz/endor/ladies.html" target="_blank" data-transition="flip">LADIES</a></li>
+								<li><a href="http://a787.sunaba.biz/endor/mens.html" target="_blank" data-transition="flip">MENS</a></li>
+								<li><a href="#goods" data-transition="flip">GOODS</a></li>
+								<li><a href="#contact" data-transition="flip">CONTACT</a></li>
+						</ul>
+				</div><!--nav-->
+		</div><!--header-->
+		<div data-role="content">
+
+			<h2 class="h1">Endor.com</h2>
+
+			<p>『<span id="blue">E</span>ndor.com』は、『<span id="blue">E</span>ndor』運営のサイトです。<br />
+            			ここでしか見ることのできないアンダーグラウンドなブランドアイテムから、ハイエンドなコレクションブランドまで、<br />
+                        トレンドにとらわれずセレクトしたアイテムが24時間いつでもお買い求めいただけます。<br />
+						『<span id="blue">E</span>ndor』は、コンセプトが異なる各階の店舗（1F Endor / 2F GALLERY Endor）が独自の視点でファッションに<br />
+                        アプローチする、2010年4月にスタートしたファッション・スポット。<br />
+						『<span id="blue">E</span>ndor』では、そのファッション感度の高いコミュニティを活かしたスナップやブログなど、オリジナルのメディア機能を加えることで、新しい形のショッピング・サイトを提案します。</p>
+
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+
+			<h4>&copy; 2012 Endor.com</h4>
+
+		</div>
+
+	</div><!-----------------------------------------end--------------------------------------------------->
+
+
+	
+
+<div data-role="page" id="ladies" data-theme="a">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h3>アクセス</h3>
+
+			<p>アクセス</p>
+
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div>
+
+	</div><!-----------------------------------------end--------------------------------------------------->
+
+	
+
+	<div data-role="page" id="mens" data-theme="a">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h3>お問い合わせ</h3>
+
+			<p>お問い合わせ</p>
+
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div><!-----------------------------------------end--------------------------------------------------->
+
+	</div><div data-role="page" id="goods" data-theme="a">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+			<h2 class="h1">GOODS</h2>
+
+			<ul data-role="listview" data-inset="true">
+
+				<li><a href="http://a787.sunaba.biz/endor/goods.html"
+					target="_blank">
+
+					<h3>GOODS</h3>
+
+					<p>GOODS</p>
+
+
+				</a></li>
+
+				<li><a href="http://a787.sunaba.biz/endor/iphone.html"
+					target="_blank">
+
+					<h3>iphone GOODS</h3>
+
+					<p>iphone GOODS</p> 
+
+				</a></li>
+
+			</ul>
+
+
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div><!-----------------------------------------end--------------------------------------------------->
+
+
+	</div><div data-role="page" id="contact" data-theme="a">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h3>お問い合わせ</h3>
+
+				<div data-role="fieldcontain">
+				    <label for="name">Name</label>
+				    <input type="text" name="name" id="name" value=""  />
+				</div>
+				<div data-role="fieldcontain">
+				    <label for="name">Mail Address</label>
+				    <input type="text" name="mail" id="mail" value=""  />
+				</div>
+				
+				<div data-role="fieldcontain">
+				     <label for="password">Password</label>
+				     <input type="password" name="password" id="password" value="" />
+				   </div>
+				
+				<div data-role="fieldcontain">
+				      <label for="select-choice-1" class="select">Gender</label>
+				      <select name="select-choice-1" id="select-choice-1">
+				        <option value="choice-1">Male</option>
+					    <option value="choice-2">Female</option>
+				      </select>
+				    </div>
+				   
+				   		   
+				   <div data-role="fieldcontain">
+				      <fieldset data-role="controlgroup">
+				
+				        <legend>Favorite things</legend>
+				
+				        <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" />
+				        <label for="radio-choice-1">Endor</label>
+				        <input type="radio" name="radio-choice-2" id="radio-choice-2" value="choice-2" />
+				        <label for="radio-choice-2">DISSBORN</label>
+				        <input type="radio" name="radio-choice-3" id="radio-choice-3" value="choice-3" />
+				        <label for="radio-choice-3">Chiristian DADA</label>
+				        <input type="radio" name="radio-choice-3" id="radio-choice-4" value="choice-4" />
+				        <label for="radio-choice-4">EFFECTOR</label>
+				
+				      </fieldset>
+				    </div>
+					  <div data-role="fieldcontain">         
+					  <label for="textarea">Message</label>         
+					  <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>       
+					  </div>       
+					  <input type="submit" value="Cancel" data-theme="a" data-icon="delete" data-inline="true">       
+					  <input type="submit" value="Submit" data-theme="a" data-icon="arrow-r" data-inline="true">     </form>   
+					  </div>
+
+
+
+		<div data-role="footer">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div><!-----------------------------------------end--------------------------------------------------->
+
+	</div>
+
+</body>
+
+</html>

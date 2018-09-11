@@ -1,0 +1,269 @@
+
+<!DOCTYPE html> 
+
+<html> 
+
+	<head> 
+
+	<meta charset="UTF-8">
+
+	<title>jQuery Mobile Sample</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="themes/endormobile.css"/>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+
+	<script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+
+	<script>
+
+	$(document).bind("mobileinit", function() {
+
+	  $.mobile.page.prototype.options.addBackBtn = true;
+
+	});
+
+	</script>
+
+	<script src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+
+	<style>
+
+	.ui-body-b{
+
+		background:#CCC;
+
+		background-image: -moz-linear-gradient(top,#FFF, #CCC);
+
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFF),color-stop(1, #CCC));
+
+		-ms-filter: 	"progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFF', EndColorStr='#CCC')";
+
+	}
+	.ui-content .h1{
+
+		color:#5E87B0;
+
+		font-size:17px;
+
+		text-shadow:1px 0 0 #FFF;
+
+	}
+
+	
+	</style>
+	
+
+
+</head>
+
+<body>
+
+	<div data-role="page" id="index" data-theme="b">
+
+		<div data-role="header">
+
+			<h1>Endor.com Mobile</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<ul data-role="listview" data-inset="true">
+				<li data-role="list-divider">Navi</li>
+
+				<li><a href="#about" data-transition="flip">
+
+					<h3>ABOUT US</h3>
+
+				</a></li>
+
+				<li><a href="#ladies" data-transition="slideup">
+
+					<h3>LADIES</h3>
+
+				</a></li>
+
+				<li><a href="#mens"data-transition="slidedown">
+
+					<h3>MENS</h3>
+
+				</a></li>
+
+				<li><a href="#goods" data-transition="pop">
+
+					<h3>GOODS</h3>
+
+				</a></li>
+
+				<li><a href="#contact" data-transition="fade">
+
+					<h3>CONTACT US</h3>
+
+				</a></li>
+
+			</ul>
+
+		</div>
+
+		<div data-role="footer">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div>
+
+	</div>
+
+
+
+	<div data-role="page" id="about" data-theme="b">
+
+		<div data-role="header">
+
+			<h1>Endor.com</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h2 class="h1">Endor.com</h2>
+
+			<p>『<span id="blue">E</span>ndor.com』は、『<span id="blue">E</span>ndor』運営のサイトです。<br />
+            			ここでしか見ることのできないアンダーグラウンドなブランドアイテムから、ハイエンドなコレクションブランドまで、<br />
+                        トレンドにとらわれずセレクトしたアイテムが24時間いつでもお買い求めいただけます。<br />
+						『<span id="blue">E</span>ndor』は、コンセプトが異なる各階の店舗（1F Endor / 2F GALLERY Endor）が独自の視点でファッションに<br />
+                        アプローチする、2010年4月にスタートしたファッション・スポット。<br />
+						『<span id="blue">E</span>ndor』では、そのファッション感度の高いコミュニティを活かしたスナップやブログなど、オリジナルのメディア機能を加えることで、新しい形のショッピング・サイトを提案します。</p>
+
+		</div>
+
+		<div data-role="footer">
+
+			<h4>&copy; 2012 Endor.com</h4>
+
+		</div>
+
+	</div>
+
+
+	
+
+	<div data-role="page" id="ladies" data-theme="b">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h3>アクセス</h3>
+
+			<p>アクセス</p>
+
+		</div>
+
+		<div data-role="footer">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div>
+
+	</div>
+
+	
+
+	<div data-role="page" id="mens" data-theme="b">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h3>お問い合わせ</h3>
+
+			<p>お問い合わせ</p>
+
+		</div>
+
+		<div data-role="footer">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div>
+
+	</div><div data-role="page" id="goods" data-theme="b">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+			<h2 class="h1">セミナー情報</h2>
+
+			<ul data-role="listview" data-inset="true">
+
+				<li><a href="http://a787.sunaba.biz/endor/goods.html"
+					target="_blank">
+
+					<h3>GOODS</h3>
+
+					<p>GOODS</p>
+
+
+				</a></li>
+
+				<li><a href="http://a787.sunaba.biz/endor/iphone.html"
+					target="_blank">
+
+					<h3>iphone GOODS</h3>
+
+					<p>iphone GOODS</p> 
+
+				</a></li>
+
+			</ul>
+
+
+		</div>
+
+		<div data-role="footer">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div>
+
+	</div><div data-role="page" id="contact" data-theme="b">
+
+		<div data-role="header">
+
+			<h1>Endor</h1>
+
+		</div>
+
+		<div data-role="content">
+
+			<h3>お問い合わせ</h3>
+
+			<p>お問い合わせ</p>
+
+		</div>
+
+		<div data-role="footer">
+
+			<h4>&copy; 2011 Endor</h4>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>premiere</title>
+<link rel="stylesheet" href="css/style.css" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/jquery.scrollParallax.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.s_02').scrollParallax({'speed': -0.2});
+	$('.s_04').scrollParallax({'speed': -0.4});
+	$('.s_06').scrollParallax({'speed': -0.6});
+	$('.s_08').scrollParallax({'speed': -0.8});
+	$('.s_12').scrollParallax({'speed': -1.2});
+	$('.s_10').scrollParallax({'speed': -1.0});
+	$('.s_14').scrollParallax({'speed': -1.4});
+	$('.s_16').scrollParallax({'speed': -1.6});
+	$('.s_18').scrollParallax({'speed': -1.8});
+	$('.s_20').scrollParallax({'speed': -2.0});
+	
+	$('.s02').scrollParallax({'speed': 0.2});
+	$('.s04').scrollParallax({'speed': 0.4});
+	$('.s06').scrollParallax({'speed': 0.6});
+	$('.s08').scrollParallax({'speed': 0.8});
+	$('.s10').scrollParallax({'speed': 1.0});
+	$('.s12').scrollParallax({'speed': 1.2});
+	$('.s14').scrollParallax({'speed': 1.4});
+	$('.s16').scrollParallax({'speed': 1.6});
+	$('.s18').scrollParallax({'speed': 1.8});
+	$('.s20').scrollParallax({'speed': 2.0});
+	
+	/* page's scroll */
+	$('a[href^=#]').click(function() {
+        var speed = 1000;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+    });
+    
+    /* mousewheel easing */
+	var scrolly = 0;
+	var speed = 100;
+	$('html').mousewheel(function(event, mov) {
+		if(jQuery.browser.webkit){
+			if (mov > 0) scrolly =  $('body').scrollTop() - speed;
+			else if (mov < 0) scrolly =  $('body').scrollTop() + speed;
+		} else {
+			if (mov > 0) scrolly =  $('html').scrollTop() - speed;
+			else if (mov < 0) scrolly =  $('html').scrollTop() + speed;
+		}
+		$('html,body')
+			.stop()
+			.animate({scrollTop: scrolly}, 'slow',$.easie(0,0,0,1));
+			//イージングプラグイン使わない場合
+			//.animate({ scrollTop: scrolly }, 'normal');
+		return false;
+	});
+});
+</script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.easie.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<div id="gnav">
+	<img src="images/nav_top.png" width="199" height="80" />
+	<ul id="gnav_in">
+        <li><a href="#item03"><img src="images/nav01.png" width="164" height="30" /></a></li>
+        <li><a href="#item02"><img src="images/nav02.png" width="164" height="30" /></a></li>
+        <li><a href="#item01"><img src="images/nav03.png" width="164" height="30" /></a></li>
+        <li><a href="#item00"><img src="images/nav04.png" width="164" height="30" /></a></li>
+        <li><a href="#item000"><img src="images/nav05.png" width="164" height="30" /></a></li>
+    </ul>
+	<img src="images/nav_bottom.png" width="199" height="115" />
+</div>
+
+<div id="gopen"><img src="images/grandopen.png" width="582" height="56" /></div>
+<div id="scroll"><a href="#item000"><img src="images/scroll.png" width="220" height="200" /></a></div>
+<div id="footer">
+	<img src="images/footer_text.png" width="1200" height="42" />
+</div>
+
+<ul class="items">
+	
+    <li class="item item00 s_02" id="item000">
+    	<div class="content">アクセス</div>
+        <h1 style="color:#fff; text-align:center;">Now loading</h1>
+        <div style="text-align:center; top:70%;"><img src="images/icon_load.gif" width="29" height="29" /></div>
+    </li>
+    <li class="item item0 s_02" id="item00">
+    	<div class="content">フロアーマップ</div>
+    	<div class="inner inner0_1 s14"></div>
+		<div class="inner inner0_2 s02"></div>
+		<div class="inner inner0_3 s_08"></div>
+		<div class="inner inner0_4 s_04"></div>
+		<div class="inner inner0_5 s_14"></div>
+		<div class="inner inner0_6 s20"></div>
+		<div class="inner inner0_7 s10"></div>
+		<div class="inner inner0_8 s_18"></div>
+		<div class="inner inner0_9 s20"></div>
+    </li>
+    <li class="item item1 s_02" id="item01">
+    	<div class="content">ニュース</div>
+    	<div class="inner inner1_1 s_14"></div>
+		<div class="inner inner1_2 s02"></div>
+		<div class="inner inner1_3 s_08"></div>
+		<div class="inner inner1_4 s04"></div>
+		<div class="inner inner1_5 s14"></div>
+		<div class="inner inner1_6 s_20"></div>
+		<div class="inner inner1_7 s_10"></div>
+		<div class="inner inner1_8 s_18"></div>
+		<div class="inner inner1_9 s20"></div>
+    </li>
+    
+	<li class="item item2 s_04" id="item02">
+    	<div class="inner inner2_1 s07"></div>
+		<div class="inner inner2_2 s_04"></div>
+		<div class="inner inner2_3 s08"></div>
+		<div class="inner inner2_4 s02"></div>
+		<div class="inner inner2_5 s14"></div>
+		<div class="inner inner2_6 s18"></div>
+		<div class="inner inner2_7 s_04"></div>
+		<div class="inner inner2_8 s_12"></div>
+		<div class="inner inner2_9 s10"></div>
+	</li>
+    
+	<li class="item item3 s_02" id="item03">
+		<div class="inner inner3_1 s04"></div>
+		<div class="inner inner3_2 s02"></div>
+		<div class="inner inner3_3 s08"></div>
+	</li>
+</ul>
+
+</body>

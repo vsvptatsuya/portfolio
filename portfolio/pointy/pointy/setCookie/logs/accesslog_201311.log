@@ -1,0 +1,435 @@
+2013-11-01 08:07:33 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 182.249.12.176
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; U; Android 2.3.5; ja-jp; ISW11K Build/145.0.0002) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Thu 30 Jan 2014 08:07:33 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-02 12:02:08 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 182.249.162.188
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Safari/9537.53
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Fri 31 Jan 2014 12:02:08 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-02 16:51:52 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 118.109.225.36
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Fri 31 Jan 2014 04:51:52 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-03 18:43:47 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 27.143.93.42
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sat 01 Feb 2014 06:43:47 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-03 23:08:56 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 1.115.199.201
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Safari/9537.53
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sat 01 Feb 2014 11:08:56 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-07 18:52:10 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 180.13.24.168
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 05 Feb 2014 06:52:10 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-09 12:36:08 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 118.19.156.96
+    [HTTP_USER_AGENT] => Mozilla/5.0 (iPad; CPU OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Safari/9537.53
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Fri 07 Feb 2014 12:36:08 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-10 19:46:46 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 182.249.85.151
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sat 08 Feb 2014 07:46:46 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-11 18:45:50 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 126.13.38.58
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sun 09 Feb 2014 06:45:50 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Mon, 11 Nov 2013 09:45:50 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Fri, 13 Sep 2013 13:03:50 GMT
+            [4] => ETag: "180156-308f-4e6437c579d5e"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 12431
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-11-13 17:14:44 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 124.155.112.237
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Tue 11 Feb 2014 05:14:44 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-15 11:52:57 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Thu 13 Feb 2014 11:52:57 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-15 18:04:09 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.138.245.125
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Thu 13 Feb 2014 06:04:09 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-16 13:26:40 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 49.97.31.222
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; SonySO-05D Build/7.0.D.1.137) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Fri 14 Feb 2014 01:26:40 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-19 21:06:11 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 118.9.252.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Mon 17 Feb 2014 09:06:11 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-19 23:53:30 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 115.163.245.93
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Mon 17 Feb 2014 11:53:30 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-20 12:03:56 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 111.232.42.2
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Tue 18 Feb 2014 12:03:56 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-21 13:51:02 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.196.120.152
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 19 Feb 2014 01:51:02 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-27 13:53:34 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 210.136.166.172
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; CMDTDF; InfoPath.2)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Tue 25 Feb 2014 01:53:34 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-29 09:14:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 211.253.248.194
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Thu 27 Feb 2014 09:14:12 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-30 22:49:41 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 49.98.175.119
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; T-02D Build/V19R50B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Fri 28 Feb 2014 10:49:41 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-11-30 22:51:41 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 49.98.175.119
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; T-02D Build/V19R50B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Sat, 30 Nov 2013 13:51:41 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Fri, 13 Sep 2013 13:03:50 GMT
+            [4] => ETag: "180156-308f-4e6437c579d5e"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 12431
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+

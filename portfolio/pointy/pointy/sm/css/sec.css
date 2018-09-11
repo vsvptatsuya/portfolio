@@ -1,0 +1,827 @@
+@charset "utf-8";
+
+/* CSS Document */
+.title img{
+    width:100%;}
+
+
+/*second page cssスタート
+****************************************************************************************************************************/
+.details{}
+.price{}
+.point{margin-bottom:15px;}
+.support{}
+.type{}
+.otoiawase{}
+.company{}
+.privacy{}
+.sitemap{}
+
+#pankuzu{
+    margin-left:2%;
+}
+#pankuzu ol li{
+    float:left;
+    margin-right:1%;
+    
+}
+
+.sec{
+    width:96%;
+    margin:0 auto;
+}
+.sec img{
+    text-align:center;
+    width:100%;
+}
+.sec a:link{
+    color: #22bbdd;
+    display:inline-block;
+}
+
+.sec table{
+    width:100%;
+}
+.cap{
+	color:#595959;
+	font-size:0.9rem;
+	margin-top:5px;
+	}
+
+	
+
+/*details cssスタート
+****************************************************************************************************************************/
+#details01{
+	margin-top:15px;}
+#details01 p span{
+	color:#0090f0;
+    font-size:1.2rem;
+}
+#details02 p span{
+	color:#ff3366;
+	}
+#details04 div{
+    width:86%;
+    margin:0 auto;
+}
+
+#details04 div a{
+    margin-top:10px;
+}
+
+.details #details05 table{
+	vertical-align:middle;
+	}	
+.details #details05 table tr{}
+.details #details05 table th{
+	width:180px;
+	background:#909090;
+	color:#fff;
+	text-align:center;
+	vertical-align:middle;
+}
+.details #details05 table td{
+	width:505px;
+	background:#efefef;
+	padding-left:10px;
+	vertical-align:middle;
+}
+.details table, td, th { border: 2px #fff solid; }
+
+.details .cap{
+	color:#595959;
+	margin-top:5px;
+    font-size:0.9rem;
+	}
+.details .sec img{
+    text-align:center;
+}
+.details a{
+    text-align:center;
+    display:block;
+    margin:0 auto;
+}
+.details a:link{
+    display:block;}
+.details a img{
+    width:100%;}
+
+/*price cssスタート
+****************************************************************************************************************************/
+.price a{
+    color: #22bbdd;
+    display:inline-block;
+}
+.price .cap{
+	color:#595959;
+	font-size:0.9rem;}
+.price .contents img:first-child{
+	margin-bottom:15px;}
+.price .contents img{
+	margin-bottom:10px;
+}
+.price #price06 ul li{
+	margin-bottom:15px;
+	text-indent:-10px;
+	margin-left:10px;
+}
+
+.price table,.type table{
+	background:#efefef;
+    width:100%;
+}
+
+.price table th,.price table td{
+	vertical-align:middle;
+}
+.price table, td, th { border: 2px #fff solid; }
+
+.price table th,.type table th{
+	background:#5e5e5e;
+	color:#fff;
+}
+#price03 table,#price03 table th,#price04 table th,#price05 table{
+	text-align:center;}
+#price03{position:relative;}
+#price03 table tr{height:34px;}
+#price03 table td img{padding-top:12px;}
+.price_banner{
+	position:absolute;
+	right:0;
+	top:0;}
+#price04 table td{padding-left:20px;}
+#price04 table tr,#price05 table tr{
+	height:34px;}	
+	
+.country{
+	background:#5e5e5e;
+	color:#fff;
+}
+.att{
+	background:#daedfd;
+}
+.att img{
+	margin-top:15px;}
+#price06 p{
+	margin-left:2em;
+	text-indent:-2em;}
+
+
+/*point cssスタート
+****************************************************************************************************************************/
+
+#point01{
+	margin-top:15px;
+}
+#point02 .l{
+	width:333px;
+	float:left;}
+#point02 .r{
+	width:332px;
+	float:left;
+	margin-left:3px;}
+#point02a{
+	margin-top:10px;}
+#point02 p span{
+	color:#fe1d67;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.point .cap{}
+.point .blue{
+	color:#1583dd;
+	font-size:18px;}
+.point .pink{
+	color:#fe1d67;
+	font-weight:bold;}
+.point .big{
+	font-size:22px;
+	font-weight:bold;}
+	
+.point_elne{
+	position:relative;
+	width:333px;
+	height:255px;
+	background:url(../images/point_03.jpg) 0 0 no-repeat;
+	float:right;
+}
+.point .point_elne .point_img{
+	position:absolute;
+	top:60px;
+	left:0;
+}
+.point .point_elne .point_img img{
+	margin-bottom:30px;
+}
+
+
+
+
+/*support cssスタート
+****************************************************************************************************************************/
+
+.support .sec{
+}
+.support h2{
+	margin-bottom:15px;
+}
+.support h3{
+	font-size:20px;
+	color:#2c97fc;
+	margin:30px 0 15px 3px;
+}
+.support dl a{
+    color: #22bbdd;
+    display:inline;}
+.support dl{
+    width:96%;
+    margin:0 auto;
+}
+.support dl dt{
+	text-indent:-23px;
+	margin-left:23px;
+	margin-bottom:5px;
+    }
+.support dl dd{
+	text-indent:-23px;
+	margin-left:23px;
+	margin-bottom:20px;}
+
+.support dl dt:before{
+    content: " ";
+	display:inline-block;
+    height: 12px;
+    width: 23px;
+	background:url(../images/supportq.jpg) 0 0 no-repeat;
+	margin-right:5px;
+	vertical-align:text-bottom;
+}
+.support dl dd:before{
+    content: " ";
+	display: inline-block;
+    height: 12px;
+    width: 23px;
+	background:url(../images/supporta.jpg) 0 0 no-repeat;
+	margin-right:5px;
+	vertical-align:text-bottom;
+}
+	
+	
+#use {
+    padding-top:0px;
+    margin-top:10px;
+}
+#use .useInner .useItem {
+    margin:0 auto 20px;
+    text-align:center;
+}
+.useBtn {
+    text-align:center;
+    width:100%;
+    height:40px;
+}
+.useBtn.open {
+    font-weight:bold;
+} 
+.useBtn span {
+    display:block;
+    margin:0 auto;
+    background:url(../images/support02@2x.jpg) 0 0 no-repeat;
+    background-size: 100%;
+    width:293px;
+    height:26px;
+}
+.useBtn.open span {
+    display:block;
+    margin:0  auto;
+    background:url(../images/support02@2x.jpg) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.useBtn span span,
+.useBtn.open span span {display:none;}
+
+.YoutubeWrapper{
+position: relative ;
+margin-top: 1.2em ;
+margin-bottom: 1.2em ;
+padding-top: 69px ;
+padding-bottom: 50% ;
+overflow: hidden ;
+}
+
+.YoutubeWrapper iframe {
+position: absolute ;
+top: 0 ;
+left: 0 ;
+height: 100% ;
+width: 100% ;
+}
+
+ul.category_search{
+    display:table;
+    table-layout: fixed;
+    width:96%;
+    margin:0 auto;
+    }
+ul.category_search li{
+    display:table-cell;
+    padding:0 0.4%;
+    list-style:none;
+    }
+ul.category_search li img{
+    width:100%;
+}
+
+
+/*type cssスタート
+****************************************************************************************************************************/
+.type h3{
+	color:#2c97fc;
+	font-size:20px;
+	margin:30px 0 13px 0;
+}
+#typeh302{
+	margin-top:30px;
+}
+#typeh303{
+	color:#000;
+}
+.type .sec_border{
+	border-top:1px dashed #ccc;
+	margin:50px 10px 50px 10px;
+}
+.type table	{
+}
+	
+.type table	tr{
+	height:30px;}
+.type table th{
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;}
+.type table td{
+	padding:5px;
+	font-size:11px;
+	text-align:center;
+	vertical-align:middle;
+}
+.type .country{
+	font-size:12px;
+}
+.type #type01{
+	margin-top:30px;}
+.type #type04{
+	margin-top:30px;}
+.type #type01 table{
+    background:#f4f4ff;}
+.type #type01 th{
+    background:#45a5ff;}
+
+.type #type01 .country{
+    background:#1683DE;}
+
+.type #type03 table{
+    background:#ddd;
+}
+.type h2.no{}
+.type h2.no span{}
+
+
+
+/*support/form cssスタート
+****************************************************************************************************************************/
+.otoiawase{
+    width:96%;
+    margin:0 auto;
+}
+.otoiawase .postBody{
+	margin:0 auto;
+}
+.otoiawase textarea{
+    width:95%;
+    min-height:100px;
+}
+.otoiawase table{
+    widows:100%;}
+.otoiawase table tr{
+    height:1.6rem;
+}
+.otoiawase .postBody input{
+    width:95%;}	
+.otoiawase textarea{
+}
+.otoiawase .agree{}
+	
+.otoiawase .agree input{
+    width:20px;}
+	
+.otoiawase table th{
+    font-size:1.1rem;
+    width:25%;
+	}
+.otoiawase table td{
+    width:75%;
+}
+.button_mfp_goconfirm{
+	margin: 0 auto;
+    text-align:center;}
+
+input#button_mfp_goconfirm {
+	width: 275px;
+	height: 67px;
+	overflow: hidden;
+	background:url(../../images/submit.jpg) 0 0 no-repeat;
+	border: none;
+	border-style: none;
+	cursor: pointer;
+	}
+	
+.otoiawase #ssl{}
+.otoiawase #ssl .left{
+}
+.otoiawase #ssl .right{
+}
+	
+.otoiawase .submit{
+    margin-top:20px;}
+
+.otoiawase .submit .left{
+    text-align:center;
+}
+.otoiawase .submit .right{
+    text-align:center;
+}
+	
+.thanks p{}
+
+.thanks .thanks_back{
+}
+
+.thanks .thanks_back img{
+}
+
+/*company cssスタート
+****************************************************************************************************************************/
+.company .contents{
+	overflow:hidden;}
+.company table.company01{
+	margin:15px 0 30px 0;
+}
+.company table{
+	background:#EFEFEF;}
+
+.company table th{
+	background:#ccc;
+	vertical-align:middle;
+	text-align:center;
+	width:150px;
+	padding:5px;}
+.company table td{
+	vertical-align:middle;
+	width:450px;
+	padding:5px;
+}
+.company table tr{
+	height:30px;}
+	
+
+	
+
+/*privacy cssスタート
+****************************************************************************************************************************/
+
+.privacy .contents p{
+	margin-top:15px;
+	padding-right:30px;
+	line-height:1.5em;
+	}
+.privacy p{
+	text-indent:-1em;
+	margin-left:1em;
+	margin-bottom:10px;
+	}
+.privacy .contents ul{
+	margin:0 0 10px 5px;
+}
+
+
+
+
+/*sitemap cssスタート
+****************************************************************************************************************************/
+.sitemap ul.sm{}
+.sitemap ul.sm li{
+	margin-bottom:20px;
+}
+.sitemap ul.sm li:first-child{
+	margin-left:-25px;}
+
+.sitemap ul.sm li:before{
+    content: "・";
+	display: inline-block;
+	background:&bull;
+	margin-right:15px;}
+	
+
+
+/*pointy sim cssスタート
+****************************************************************************************************************************/
+.pointysim{
+}
+.pointysimtop{}
+
+.pointysim h2,.pointysimtop h2{
+    margin:15px 0}
+
+.pointysim ul.sim_moushikomia{
+    margin-top:30px;}
+ul.sim_moushikomia{
+    width:96%;
+    margin:0 auto;
+    display:table;
+    table-layout:fixed;
+    background:#e5f3fb;
+    border:1px solid #ccc:
+}
+ul.sim_moushikomia li{
+    display:table-cell;
+    text-align:center;
+    padding:0 4%;
+}
+.sim_moushikomia img{
+    width:100%;
+    margin:5px 0;
+}
+ul.simmenu01{
+    width:74.5%;
+    margin:10px auto 0;
+    display:table;
+    table-layout:fixed;
+}
+ul.simmenu01 li{
+    display:table-cell;
+    width:24%;
+    text-align:center;
+}
+ul.simmenu01 li a{
+    display:block;
+}
+ul.simmenu01 li img{
+    width:98%;
+}
+ul.simmenu02{
+    width:96%;
+    margin:0 auto;
+    display:table;
+    table-layout:fixed;
+}
+ul.simmenu02 li{
+    display:table-cell;
+    text-align:center;
+    width:24%;
+}
+ul.simmenu02 li a{
+    display:block;
+}
+ul.simmenu02 li img{
+    width:98%;
+}
+.pointysimtop p{
+    font-size:0.8rem;
+}
+.simbtn{
+    display:block;
+    text-align:center;
+    width:64%;
+    margin:0 auto;
+}
+.simbtn img{
+    display:block;
+    width:100%;
+}
+table.simToptable{
+	table-layout:fixed;
+	margin-left:1%;
+}
+table.simToptable th{
+    width:35%;
+}
+table.simToptable td{
+	text-align:left;
+    width:65%;}
+ul.simcap{
+}
+ul.simcap li{
+	text-align:left;
+	text-indent:-2em;
+	margin-left:1.5em;
+	font-size:11px;
+}
+
+#tabcontent{
+	text-align:center;
+	width:98%;
+    min-height:100px;
+}
+
+.pointysim table.type {
+	border-style:none;
+    table-layout:fixed;
+    width:100%;
+    margin:0 auto;
+}
+.pointysim table.type  tr{
+	background-color:#efefef;
+	}
+.pointysim table.type  th{
+	background-color:#909090;
+	color:#fff;
+	text-align:center;
+}
+.pointysim table.type td,th{
+	}
+
+.pointysim table.type .tableblue{
+	background-color:#d6e9f1;
+	text-align:left;
+	padding-left:10px;
+}
+ul#tabnavi{
+}
+#tabnavi li{
+	float:left;
+    width:30%;
+    margin-right:1%
+	
+}
+#tabnavi li a{
+	display:inline-block;
+	background:#6d6dd1;
+	color:#fff;
+    width:100%;
+	margin-top:14px;
+	padding:5px 0;
+	border-radius:5px 5px 0 0;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:bottom;
+    font-size:0.7rem;
+    overflow:hidden;
+}
+
+#tabnavi li a:hover,
+#tabnavi li a.active{
+	background:#2222ae;
+	color:#fff;
+	height:40px;
+	position:relative;
+	margin-top:0;
+}
+
+#tab01,#tab02,#tab03{
+	float:left;
+}
+
+.pointysim table.price00{
+    width:98%;
+    margin:0 auto;
+    margin-bottom:40px;
+    table-layout:fixed;}
+.pointysim table.price00 tr{
+	height:40px;
+	text-align:center;
+	}
+.pointysim table.price00 th{
+	background-color:#46a7ee;
+	color:#fff;
+	text-align:center;
+}
+.pointysim table.price00 td{
+}
+.pointysim table.price00 .paka{
+    background:#006dba;
+    color:#fff;
+}
+
+.pointysim table.price00 .pakb{
+    background:#d84669;
+    color:#fff;
+}
+
+.pointysim table.price{
+    width:98%;
+    margin:0 auto;
+    table-layout:fixed;}
+.pointysim table.price tr{
+	height:40px;
+	text-align:center;
+	}
+.pointysim table.price th{
+	background-color:#46a7ee;
+	color:#fff;
+	text-align:center;
+	width:25%;
+}
+.pointysim table.price td{
+	width:25% !important;}
+.pointysim table.price .color00,.pointysim table.price00 .color00{background-color:#909090; color:#fff;}
+.pointysim table.price .color01{background-color:#f39800; color:#fff;}
+.pointysim table.price .color02{background-color:#e95283; color:#fff;}
+.pointysim table.price .color03{background-color:#6eb92b; color:#fff;}
+.pointysim table.price .color04,.pointysim table.price00 .color04{background-color:#fffcdb; color:#f39800;}
+.pointysim table.price .color05,.pointysim table.price00 .color05{background-color:#fdeef4; color:#e95283;}
+.pointysim table.price .color06,.pointysim table.price00 .color06{background-color:#f5f8e4; color:#6eb92b;}
+.pointysim table.price .color07,.pointysim table.price00 .color07{background-color:#d6e9f1;}
+.pointysim table.price .color08,.pointysim table.price00 .color08{background-color:#efefef;}
+
+.pointysim table.price02{
+    width:98%;
+    margin:0 auto;
+　　table-layout: fixed;
+	text-align:center;}
+
+.pointysim table.price02 th{
+	font-weight:bold;}
+.pointysim table.price02 th,.pointysim table.price02 td{
+	text-align:center;
+	width:33%;}
+.pointysim table.price02 tr{
+	height:55px;
+}
+.pointysim table.price02 .color00{background-color:#d84669; color:#fff; font-weight:bold;}
+.pointysim table.price02 .color01{background-color:#e8c2cb; color:#000;}
+.pointysim table.price02 .color02{background-color:#f6e5e9; color:#000;}
+
+.pointysim table.price02 span{
+	font-size:20px;
+	color:#f00;
+	font-weight:bold;}
+.pointysimPrice ul{}
+.pointysimPrice ul li{
+	margin-left:1.5em;
+	text-indent:-1.5em;
+	margin-bottom:10px;
+}
+
+.pointysim .cap{
+	text-align:right;
+}
+.pointysim .tablepad{
+	padding:35px 20px ;
+	text-align:left;
+}
+.otoku_outer{
+}
+.otoku{
+	position:relative;}
+.otoku img{
+	display:block;
+	position:absolute;
+	left:0;
+	top:-4px;
+}
+
+ ul.simSupport{
+    width:96%;
+    margin:0 auto;
+}
+ ul.simSupport li{
+	margin-left:1.5em;
+	line-height:2em
+}
+ ul.simSupport li a{
+    display:inline-block;}
+
+.simPolicy{
+}
+.simPolicy h3{
+	margin:15px 0 5px 2%;
+	font-size:13px;
+	font-weight:bold;
+}
+.simPolicy p{
+    width:96%;
+    margin:0 auto;
+}
+.simPolicy ul{
+}
+.simPolicy ul li{
+	margin-bottom:5px;
+	margin-left:1em;
+}
+
+.simPolicy table{
+    width:96%;
+    margin:20px auto;}
+.simPolicy table th,.simPolicy table td{
+	border:1px solid #000;
+	padding:3px;
+}
+
+.simPolicy table th{
+    width:30%;}
+.simPolicy table td{}
+

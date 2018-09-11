@@ -1,0 +1,14 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.pointy.jp/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^(pointy\.jp)(:80)? [NC]
+RewriteRule ^(.*) http://www.pointy.jp/$1 [R=301,L]
+Redirect permanent /support/flow.html http://www.pointy.jp/
+Redirect permanent /type/ok.html http://www.pointy.jp/type/
+Redirect permanent /type/no.html http://www.pointy.jp/type/
+
+order deny,allow 

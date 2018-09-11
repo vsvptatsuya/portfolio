@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body class="container">
+	
+<h1 id="%E8%81%B7%E5%8B%99%E7%B5%8C%E6%AD%B4">職務経歴</h1>
+<h2 id="%E8%81%B7%E5%8B%99%E7%B5%8C%E6%AD%B4%E8%A6%81%E7%B4%84">職務経歴要約</h2>
+<p>現職では、自社メディア及びサービスのディレクション、動物病院業界におけるディレクション及び外注管理、制作、コンテンツマーケティング等10社以上担当。<br>
+前職ではファッションコーディネートアプリのディレクション、及びフロントエンド、UI/UXデザイン、プロトタイピングを基本に、以下の業務を経験しております。<br>
+2012年より並行してフリーランスとしても活動しております。</p>
+<p><strong>ポートフォリオURL</strong><br>
+<a href="http://r2d2.click/">http://r2d2.click/</a></p>
+<h3 id="%E5%BE%97%E6%84%8F%E5%88%86%E9%87%8E%EF%BC%8F%E6%8A%80%E8%A1%93">得意分野／技術</h3>
+<ul>
+<li>SEOを意識した効果の出やすいWebサイトを作るためのディレクション</li>
+<li>Sassやgitを用い、エンジニアとの連携をスムーズに行うことができる、効率的なコード管理</li>
+<li>アクセス解析やリスティング広告の配信結果をベースとし、A/Bテストを随時動かしながらのUI/UX改善</li>
+</ul>
+<h3 id="%E3%83%84%E3%83%BC%E3%83%AB%EF%BC%8F%E8%A8%80%E8%AA%9E">ツール／言語</h3>
+<ul>
+<li>OS：Mac / Windows</li>
+<li>オフィスツール<br>
+Google スプレッドシート,Word、Excel、PowerPoint</li>
+<li>クリエイティブツール<br>
+Adobe XD、Photoshop、Illustrator</li>
+<li>エディタ<br>
+vs code,Atom</li>
+<li>言語<br>
+HTML5,CSS3（SASS）,Javascript/jQuery</li>
+<li>サービス
+google analytics,google adwords,google search console,bitbucket,github,trello,Slack</li>
+</ul>
+<h3 id="%E8%87%AA%E5%B7%B1%EF%BD%90%EF%BD%92">自己ＰＲ</h3>
+<ol>
+<li>業務上での強み/心がけてきたこと</li>
+</ol>
+<ul>
+<li>ディレクション能力
+自分自身、ディレクション/デザイン/マーケティングと幅広く、Webと接してきました。「エンジニアだから～」「デザイナーだから～」となりがちですが、自らがハブとなりチームメンバーの気持ちを壁を無くし、よりフラットなチームを形成することが得意です。
+その結果、より良いサイトやサービスが生まれると考えております。</li>
+<li>ユーザーを意識したサイト制作・企画
+解析より仮説を立て、細かくA/Bテストを廻すことにより「ユーザーに響くサイトとは何か？」という事を思考の柱としております。
+机上の空論について長く話し合う必要はないと考えております。</li>
+<li>新しい技術の習得
+自らの領域を決めつけないことにより、ここまでのキャリアを積んできました。
+営業職→フリーランスWebデザイナーとしてのキャリアの中で、非効率的な現場を多く見てきました。その時に「デザインに数値的な意味を持たせたい」と考えSEOやマーケティング等のノウハウ等も積極的に学んできました。
+制作技術においても、CSS3やSASS、Git等を積極的に利用し、良い物はどんどん周囲に普及させていく事を行っております。</li>
+</ul>
+<ol>
+<li>今後の展望<br>
+今後「社会的な意義」を打ち出せていないサービスやサイトはどんどん淘汰されていくのではないかと考えております。今よりもよりユーザーの目線に立ち、本当のユーザー目線を得るためには細かなPDCAをなるべく早く廻す必要性があり、その為に必要なのは、制作及び運用チームの
+効率化が不可欠だと思います。<br>
+今までの経験を更に深いものとし、より良いチームが作れるプロデューサー的なポジションに立てればと考えております。</li>
+</ol>
+<h3 id="%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%88%E8%A8%AD%E8%A8%88%EF%BC%89%E6%A5%AD%E5%8B%99">ディレクション（設計）業務</h3>
+<ul>
+<li>新規サービス立ち上げ</li>
+<li>UXデザイン</li>
+<li>サイトマップ作成</li>
+<li>ワイヤーフレーム作成</li>
+<li>制作ディレクション</li>
+<li>スケジュール作成</li>
+<li>デザインガイドライン策定</li>
+</ul>
+<h3 id="%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%A5%AD%E5%8B%99">デザイン業務</h3>
+<ul>
+<li>UIデザイン</li>
+<li>プロトタイピング</li>
+<li>レスポンシブサイトコーディング</li>
+</ul>
+<h3 id="%E9%81%8B%E7%94%A8">運用</h3>
+<ul>
+<li>定期更新、追加ページ制作のデザイン・ディレクション</li>
+<li>アクセス解析</li>
+<li>SEO</li>
+<li>SEM</li>
+<li>LPO</li>
+<li>UI/UXデザイン改善業務</li>
+<li>リスティング運用</li>
+<li>メディア記事執筆</li>
+</ul>
+<hr>
+<h2 id="%E8%81%B7%E5%8B%99%E7%B5%8C%E6%AD%B4%E8%A9%B3%E7%B4%B0">職務経歴詳細</h2>
+<h3 id="%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEhumo">株式会社HUMO</h3>
+<p>2016年11月～在職中
+業務委託へ移行予定</p>
+<h4 id="%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9">事業内容</h4>
+<p>自社メディア事業「有楽町.today」「petvalley」の企画、運営
+動物病院、獣医師業界向けWebコンサルティング</p>
+<h4 id="%E8%81%B7%E5%8B%99%E5%86%85%E5%AE%B9">職務内容</h4>
+<h5 id="%E8%87%AA%E7%A4%BE%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E4%BA%8B%E6%A5%AD">自社メディア事業</h5>
+<p>有楽町.today<br>
+<a href="http://yurakucho.today/">http://yurakucho.today/</a><br>
+ディレクション、制作、コンテンツマーケティング</p>
+<p>petvalley<br>
+<a href="https://petvalley.jp/">https://petvalley.jp/</a><br>
+ディレクション、制作、コンテンツマーケティング</p>
+<h5 id="%E5%8B%95%E7%89%A9%E7%97%85%E9%99%A2%E5%90%91%E3%81%91web%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E4%BA%8B%E6%A5%AD">動物病院向けWebコンサル事業</h5>
+<p>動物病院及び獣医師関連をメインとした　Webサイト ディレクション 制作 Webコンサルティング<br>
+DVMs 腎泌尿器科センター<br>
+<a href="http://www.yokohama-dvms.com/sp/jinhinyoukicenter">http://www.yokohama-dvms.com/sp/jinhinyoukicenter</a><br>
+One for Animals<br>
+<a href="http://www.one-for-animals.com/">http://www.one-for-animals.com/ </a></p>
+<p>ななみ整骨院<br>
+<a href="http://www.773happy.com/">http://www.773happy.com/</a></p>
+<hr>
+<h3 id="%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%83%AC%E3%82%B7%E3%83%94">株式会社スタイルレシピ</h3>
+<p>2016年4月～2016年10月
+事業撤退、会社終了の為退職</p>
+<h4 id="%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9">事業内容</h4>
+<p>ファッションコーディネートアプリ「Sutarepi」運営、自社メディアの企画・運営</p>
+<h4 id="%E8%81%B7%E5%8B%99%E5%86%85%E5%AE%B9">職務内容</h4>
+<p>ファッションコーディネートアプリのディレクション＆デザイン。
+新規事業案件のプロトタイピング。</p>
+<h5 id="2016%E5%B9%B44%E6%9C%88%EF%BD%9E-%E6%96%B0%E8%A6%8F%E4%BA%8B%E6%A5%AD%E3%83%97%E3%83%AD%E3%83%88%E3%82%BF%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0">2016年4月～ 新規事業プロトタイピング</h5>
+<p>AdobeXDを用いたデザイン、プロトタイピング業務
+LPデザイン</p>
+<ul>
+<li>
+<p><a href="https://xd.adobe.com/view/9701746b-9b5f-44d3-76b0-9bc5d90b33fb-e130/">Fintechアプリ</a></p>
+</li>
+<li>
+<p><a href="https://xd.adobe.com/view/bca5bb38-9582-4f34-4b9d-a1a73d088cd3-ca94/">Fintechアプリ用Web管理  </a></p>
+</li>
+<li>
+<p><a href="https://xd.adobe.com/view/4665a181-73af-4a46-40f4-5608297504de-3054/">釣専門 フリマアプリ  </a></p>
+</li>
+</ul>
+<h5 id="2016%E5%B9%B44%E6%9C%88%EF%BD%9E2016%E5%B9%B49%E6%9C%88-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%8D%E3%83%BC%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA%E3%80%8Csutarepi%E3%80%8D">2016年4月～2016年9月 ファッションコーディネートアプリ「Sutarepi」</h5>
+<p>IonicFrameworkを用いたHTML5ハイブリッドアプリ開発、ロゴデザイン、プロトタイピング、デザイン、マークアップを担当<br>
+<a href="https://xd.adobe.com/view/e63584f9-0d44-4c8a-6961-1856f76a48e7-9004/">URL</a></p>
+<hr>
+<h3 id="%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B7%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88">株式会社シー・コネクト</h3>
+<p>2014年6月～2016年3月</p>
+<h4 id="%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9">事業内容</h4>
+<p>EC運営 オリジナル商品等の製造・販売 WEB開発
+従業員数:50名
+設立年:2009年8月
+資本金:3000万円</p>
+<h4 id="%E8%81%B7%E5%8B%99%E5%86%85%E5%AE%B9">職務内容</h4>
+<p>Webサイト制作、ディレクション、SEO/SEM、リスティング広告運用、Webデザイナー採用/育成、サイト運用業務全般</p>
+<h5 id="2014%E5%B9%B48%E6%9C%88%EF%BD%9E-%E5%B0%B1%E6%B4%BB%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E9%81%8B%E7%94%A8">2014年8月～ 就活サービスサイト制作/運用</h5>
+<p><a href="http://www.c-colors.co.jp">http://www.c-colors.co.jp  </a><br>
+<a href="http://www.c-colors.co.jp/organize/">http://www.c-colors.co.jp/organize/</a></p>
+<p>[担当]<br>
+ECCUBE、WordpressをベースにしたレスポンシブWebサイト制作。<br>
+ディレクション、SEO設計、デザイン、コーディング、インターン教育業務、運用、コンテンツ運用<br>
+[人員構成]<br>
+Webディレクター兼デザイナー:1名（本人）、インターンWebデザイナー:1名、プログラマ :1名</p>
+<p>[プロジェクト解説]<br>
+課題、背景</p>
+<ul>
+<li>ファーストキャリアにおける会社選択の幅を広げる</li>
+</ul>
+<p>意図、目的</p>
+<ol>
+<li>学生目線のフロント及び企業目線の管理画面</li>
+<li>就活生の役に立つコンテンツ
+行動</li>
+<li>管理画面を含むすべてのコンテンツのマルチデバイス対応</li>
+<li>魅力的なコンテンツ生成のためのチームビルディング</li>
+</ol>
+<p>結果</p>
+<ul>
+<li>キーワード「インターンシップ」３位<br>
+2015年09月 11万PV/月達成</li>
+</ul>
+<h5 id="2015%E5%B9%B406%E6%9C%88-%E8%87%AA%E7%A4%BEec%E3%82%B5%E3%82%A4%E3%83%88cvr%E6%94%B9%E5%96%84%E6%96%BD%E7%AD%96">2015年06月 自社ECサイトCVR改善施策</h5>
+<p><a href="http://ink-revolution.com/">http://ink-revolution.com/  </a><br>
+[担当]<br>
+UI設計、ディレクション<br>
+[プロジェクト解説]</p>
+<ul>
+<li>課題・背景
+既存ECサイトのCVR、離脱率の改善</li>
+<li>意図・目的
+<ol>
+<li>CVR改善</li>
+<li>カゴ落ちを無くす施策</li>
+</ol>
+</li>
+<li>行動
+<ol>
+<li>メインユーザーである40代以上の中高年の世代のお客様に「見やすいこと」、「操作しやすいこと」を徹底的に意識し、字や入力スペースのサイズを大きくするだけでなく、見づらい配色を避けるなどの配慮。</li>
+<li>「インクを探し、購入することを手軽に！」を目標に、TOPページ上部に大きく商品検索用のボタンを設置。探したい商品が最短5秒で見つけられるよう設計。</li>
+<li>ネットショップに不慣れなユーザーが迷って離脱していた不満に着手。「カート(注文商品)確認」から「注文完了」までのステップ間のサイドバー・フッターなどを削除。他のページへの遷移を制限。</li>
+<li>一定時間経過した場合に、チャットや電話を促すメッセージを配置し、より安心を提供。</li>
+<li>TOPページに“お客様の声”を配置。他のお客様のクチコミを喜怒哀楽のイラストアイコンによって一目で確認できるようになりました。</li>
+</ol>
+</li>
+<li>結果<br>
+<strong>＜TOPページへのランディングから注文完了のCVRの増加＞</strong><br>
+TOPページのランディングから注文完了までのＣＶＲが全体として1.37％、新規ユーザーに関しては2.35％の向上。<br>
+<strong>＜離脱率の低下＞</strong><br>
+CVR向上の要因のひとつに、注文ステップにおける離脱率が、10.93％改善されたことが考えられる。</li>
+</ul>
+<h5 id="2015%E5%B9%B403%E6%9C%88-%E8%87%AA%E7%A4%BE%E6%8E%A1%E7%94%A8%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C">2015年03月 自社採用サイト制作</h5>
+<p><a href="http://recruiting.c-connect.co.jp/">http://recruiting.c-connect.co.jp/  </a></p>
+<p>[担当]<br>
+レスポンシブWebサイト制作。
+デザイン、コーディング
+[人員構成]<br>
+Webディレクター/ライター:1名、 Webデザイナー/コーダー:1名（本人）
+[プロジェクト解説]</p>
+<ul>
+<li>課題・背景
+<ul>
+<li>新卒採用</li>
+</ul>
+</li>
+<li>意図・目的
+<ol>
+<li>学生目線のフロント</li>
+<li>グローバル採用を視野に入れた英語コンテンツ</li>
+</ol>
+</li>
+<li>行動
+<ol>
+<li>コーポレートのオフィシャル感とライトなイメージの両立</li>
+<li>多言語に対応するjQueryプラグイン導入</li>
+</ol>
+</li>
+<li>結果<br>
+これまで外部の新卒採用サービスに頼っていたが、自社サイト経由の応募の増加</li>
+</ul>
+<h5 id="2014%E5%B9%B412%E6%9C%88%EF%BD%9E-%E5%A4%96%E9%83%A8%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%A8%98%E4%BA%8B%E5%9F%B7%E7%AD%86">2014年12月～　外部メディア記事執筆</h5>
+<p>[141219公開]<br>
+<strong>顧客に支持されるデザインに育てよう　創造的な自社ECサイトのためのUI/UX最適化</strong><br>
+<a href="http://eczine.jp/article/detail/1525">http://eczine.jp/article/detail/1525 </a><br>
+[150218公開]<br>
+<strong>ユーザに喜ばれるサイトを作ろう　創造的な自社ECサイトのための「SEO対策」4つのポイン
+ト</strong><br>
+<a href="http://eczine.jp/article/detail/1695">http://eczine.jp/article/detail/1695</a></p>
+<hr>
+<h3 id="2011%E5%B9%B401%E6%9C%88%EF%BD%9E2014%E5%B9%B406%E6%9C%88-%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%82%B9web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC-seo%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88">2011年01月～2014年06月　フリーランスWebデザイナー / SEOコンサルタント</h3>
+<h4 id="%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9">事業内容</h4>
+<p>Webサイト制作、運用、SEOコンサル</p>
+<h4 id="%E8%81%B7%E5%8B%99%E5%86%85%E5%AE%B9">職務内容</h4>
+<p>Webサイト制作、デザイン、コーディング、ディレクション、SEO施策、SEOコンサル</p>
+<h5 id="2014%E5%B9%B404%E6%9C%88-aws%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%80%81%E6%96%B0%E8%A6%8F%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C">2014年04月　AWSセキュリティサービス、新規サイト制作</h5>
+<p><a href="http://splus.asgent.co.jp/aws/">http://splus.asgent.co.jp/aws/ </a><br>
+[担当]<br>
+デザイン・コーディング
+[人員構成]<br>
+Webデザイナー:1名（本人）、Webプログラマ :1名</p>
+<h5 id="2014%E5%B9%B403%E6%9C%88-%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%83%97%E3%83%AD%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%82%AC%E3%82%A4%E3%83%89%E3%82%B5%E3%82%A4%E3%83%88%E6%A7%8B%E7%AF%89">2014年03月　イベントプロモーター・プレイガイドサイト構築</h5>
+<p><a href="http://www.duke.co.jp/">http://www.duke.co.jp/ </a><br>
+[担当]<br>
+PC用Webサイト・スマートフォンサイト構築（レスポンシブデザイン・レスポンシブコーディング・jQuery）<br>
+[人員構成]<br>
+Webデザイナー:1名（本人）、Webプログラマ :1名</p>
+<h5 id="2013%E5%B9%B412%E6%9C%88-ip%E9%9B%BB%E8%A9%B1%E3%82%A2%E3%83%97%E3%83%AA%EF%BC%8Fpc%E3%83%BB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88web%E3%82%B5%E3%82%A4%E3%83%88%E6%A7%8B%E7%AF%89">2013年12月　ip電話アプリ／PC・スマートフォンサイトWebサイト構築</h5>
+<p><a href="http://www.pointy.jp/">http://www.pointy.jp/ </a><br>
+<a href="http://www.pointy.jp/special/rusuden/">http://www.pointy.jp/special/rusuden/  </a><br>
+[担当]<br>
+ディレクション・コーディング・SEO設計<br>
+[人員構成]
+Web/SEOディレクター、コーダー:1名（本人）、外部Webデザイナー:1名</p>
+<h5 id="2013%E5%B9%B44%E6%9C%88-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%BB%E3%83%99%E3%82%A2%E3%83%BC-seo%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%80%81%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC">2013年4月　株式会社ホワイト・ベアー SEOコンサル、ディレクター</h5>
+<p>業務委託契約
+<a href="https://whitebear-seo.com/">https://whitebear-seo.com/ </a><br>
+[担当]<br>
+ディレクション・SEO設計・レポーティング</p>
+<h5 id="2013%E5%B9%B43%E6%9C%88-%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E3%83%BB%E9%81%8B%E7%94%A8">2013年3月　アーティストアルバムキャンペーンサイト制作・運用</h5>
+<p><a href="http://captainhouse.com/musik_anatomia/">http://captainhouse.com/musik_anatomia/ </a><br>
+[担当]<br>
+レスポンシブデザイン・レスポンシブコーディング・jQuery<br>
+[人員構成]<br>
+デザイナー：1名（本人）</p>
+<h5 id="2013%E5%B9%B42%E6%9C%88-%E3%82%A2%E3%83%91%E3%83%AC%E3%83%AB%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C">2013年2月　アパレルメーカーサイト制作</h5>
+<p><a href="http://shadeyoshiya.com/">http://shadeyoshiya.com/  </a><br>
+[担当]<br>
+レスポンシブデザイン・レスポンシブコーディング・Wordpress・jQuery<br>
+[人員構成]<br>
+デザイナー：1名（本人）</p>
+<h5 id="2013%E5%B9%B41%E6%9C%88-%E5%A4%A7%E6%89%8B%E5%8C%96%E7%B2%A7%E5%93%81%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E6%88%90">2013年1月　大手化粧品メーカーキャンペーンサイト作成</h5>
+<p><a href="http://r2d2.click/portfolio/revitalift/">http://r2d2.click/portfolio/revitalift/  </a><br>
+[担当]<br>
+デザイン・コーディング・jQuery<br>
+[人員構成]<br>
+デザイナー：1名（本人）</p>
+<h5 id="2012%E5%B9%B44%E6%9C%88-%E3%82%A2%E3%83%91%E3%83%AC%E3%83%ABec%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E3%83%BB%E9%81%8B%E7%94%A8">2012年4月　アパレルECサイト制作・運用</h5>
+<p>アパレルECサイトcatina運営（現在閉鎖）<br>
+アパレルECサイトVABEL STYLE立ち上げ （現在Touch styleへ名称変更）<br>
+ページデザイン、コーディングを担当。商品仕入れも補助。</p>
+<hr>
+<h3 id="2007%E5%B9%B404%E6%9C%88%EF%BD%9E2010%E5%B9%B404%E6%9C%88-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%AB%E3%83%BC%E3%83%A0%E3%82%BA">2007年04月～2010年04月　株式会社ルームズ</h3>
+<h4 id="%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9">事業内容</h4>
+<p>パブリシティ PR企画立案</p>
+<h4 id="%E8%81%B7%E5%8B%99%E5%86%85%E5%AE%B9">職務内容</h4>
+<ul>
+<li>ＴＶＰＲ業務（通算３年間）
+<ul>
+<li>企画営業</li>
+<li>ＴＶ媒体へのアプローチ</li>
+<li>タレント及びドラマセットスタイリング業務</li>
+</ul>
+</li>
+<li>自社制作HP制作運営業務（通算３年間）
+<ul>
+<li>HTML CSS Adobe CS4</li>
+</ul>
+</li>
+<li>社内PC管理業務（通算３年間）
+<ul>
+<li>営業資料作成・社内ＰＣセットアップ・管理・ネットワーク構築メンテナンス
+実績</li>
+</ul>
+</li>
+<li>売上に貢献
+ＰＲ業務では、ＰＲ内容に満足してもらえないクライアントがあるという問題があったが、新
+規の媒体の開拓をすることで解決することができた。その結果、クライアントの満足度が高ま
+り、売上アップという成果につながった。</li>
+<li>人材育成経験（新入社員１０名のOJTを担当）</li>
+</ul>
+<hr>
+<h3 id="2005%E5%B9%B404%E6%9C%88%EF%BD%9E2007%E5%B9%B403%E6%9C%88-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%BA%E3%83%BC%E3%83%A0">2005年04月～2007年03月　株式会社ズーム</h3>
+<h4 id="%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9">事業内容</h4>
+<p>電子楽器の開発・製造・販売 並びに輸出入</p>
+<h4 id="%E8%81%B7%E5%8B%99%E5%86%85%E5%AE%B9">職務内容</h4>
+<h5 id="%E7%B5%8C%E9%A8%93%E8%A6%81%E7%B4%84">経験要約</h5>
+<p>約２年間、アフターサービスや製品検証を担当。
+開発においても、問題点を時期製品にフィードバックすることができた。</p>
+<h5 id="%E6%A5%AD%E5%8B%99%E5%86%85%E5%AE%B9">業務内容</h5>
+<ul>
+<li>製品開発業務（通算２年）</li>
+<li>新製品パッチ作成</li>
+<li>アフターサービス業務（通算２年）
+<ul>
+<li>製品修理</li>
+<li>カスタマーサポート</li>
+</ul>
+</li>
+<li>製品検証業務（通算１年６ヶ月間）
+<ul>
+<li>新製品のバグ出し（ハード・ソフト）</li>
+<li>不良商品の検証</li>
+</ul>
+</li>
+</ul>
+<h5 id="%E5%AE%9F%E7%B8%BE">実績</h5>
+<ul>
+<li>エンドユーザーの対応<br>
+エンドユーザーとやり取りする事により、技術面だけではなく、営業力や接客力を養う事が出来た。</li>
+<li>新製品開発に貢献<br>
+既存商品の不具合等の見直しをすることで、新製品の開発にも携わる事が出来た。</li>
+</ul>
+<p>以上</p>
+
+</body>
+</html>
+
+

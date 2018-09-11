@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>premiere</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<style>
+	html,body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#container,#container-scroll {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.bg {
+		-webkit-background-size:cover;
+		background-size: cover;
+	    	background-repeat: no-repeat;
+	    	background-position: 50% 0;
+	 	width: 100%;
+	 	height: 100%;
+	 	overflow: hidden;
+	 	position: relative;
+	 	font-size: 64px;
+		color: #fff;
+		text-shadow: 2px 2px 4px #333;
+	}
+	.bg > span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-size: 64px;
+		margin-left: 50px;
+		-webkit-transform: translate(-50%,-50%);
+	}
+	.bg img{
+		position: absolute;
+		top: 40%;
+		left:5%;
+		font-size: 64px;
+		margin-left: 50px;
+		-webkit-transform: translate(-20%,-20%);
+		transform: translate(50px,20px);
+	}
+	.left img{
+		position: absolute;
+		top: 40%;
+		left:5%;
+		font-size: 64px;
+		margin-left: 50px;
+		-webkit-transform: translate(-20%,-20%);
+		transform: translate(50px,20px);
+	}
+	.right img{	
+		position: absolute;
+		top: 50%;
+		left: 55%;
+		font-size: 64px;
+		margin-left: 50px;
+		-webkit-transform: translate(-30%,-30%);
+		transform: translate(50px,20px);
+	}
+	
+	#p01 {
+		background-image: url(images/top01.jpg) ;
+	}
+	#p02 {
+		background-image: url(images/top02.jpg) ;
+	}
+	#p03 {
+		background-image: url(images/top01.jpg) ;
+	}
+	#p04 {
+		background-image: url(images/top02.jpg) ;
+	}
+	#p05 {
+		background-image: url(images/top01.jpg);
+	}
+	#navi {
+		position: absolute;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: #333;
+		height: 45px;
+		line-height: 45px;
+		z-index: 100;
+		width: 100%;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#navi li {
+		float: left;
+		margin-right: 2px;
+	}
+	#navi li a {
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		padding: 0 10px;
+		font-size: 12px;
+	}
+	
+</style>
+</head>
+<body>
+	<ul id="navi">
+		<li><a href="#p01">Page01</a></li>
+		<li><a href="#p02">Page02</a></li>
+		<li><a href="#p03">Page03</a></li>
+		<li><a href="#p04">Page04</a></li>
+		<li><a href="#p05">Page05</a></li>
+	</ul>
+	<div id="container">
+		<div id="container-scroll">
+			<div id="p01" class="bg"><span>Page01</span></div>
+			<div id="p02" class="bg"><span>Page02</span>
+            	<span><img src="images/tile01.png" width="50%" height="50%"></span>
+            	<span><img src="images/tile02.png" width="60%" height="60%"></span>
+            </div>
+			<div id="p03" class="bg"><span>Page03</span></div>
+			<div id="p04" class="bg"><span>Page04</span>
+            	<span><img src="images/tile01.png" width="50%" height="50%"></span>
+            	<span><img src="images/tile02.png" width="60%" height="60%"></span>
+            	<div class="left"><img src="images/photo01.png" width="40%" height="30%"></div>
+            	<div class="right"><img src="images/photo02.png" width="40%" height="30%"></div>
+            </div>
+			<div id="p05" class="bg"><span>Page05</span></div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="iParallax.js"></script>
+<script>
+var images = $("#container .bg");
+var ipara = new iParallax(document.getElementById("container"));
+$("#navi a").on("click",function(e) {
+	e.preventDefault();
+	var id = $(this).attr("href");
+	var target = $(id).offset();
+	ipara.animate(target.left+ipara.x,target.top+ipara.y,750);
+});
+$.each(images,function(i) {
+	var para = new iParallaxObject(this);
+	para.setStart({
+		y: (window.innerHeight)*i-50
+	});
+	para.setEnd({
+		y: window.innerHeight*(i+1)
+	});
+	para.setCallback({
+		before: function(x,y) {
+			this.style.backgroundPosition = 50 + "% " + 0+ "%";
+		},
+		during: function(x,y,sx,sy) {
+			this.style.backgroundPosition = 50 + "% " + sy + "%";
+		},
+		after: function(x,y) {
+			this.style.backgroundPosition = 50 + "% " + 100 + "%";
+		}
+	});
+	ipara.addObject("spot-"+i,para);
+
+	var para2 = new iParallaxObject($(this).children("span").get(0));
+	para2.setStart({
+		y: (window.innerHeight)*i
+	});
+	para2.setEnd({
+		y: window.innerHeight*(i+1)
+	});
+	para2.setCallback({
+		before: function(x,y) {
+			this.style.fontSize = "64px";
+			this.style.marginLeft = "50px";
+			this.style.marginTop = "0px"
+		},
+		during: function(x,y,sx,sy) {
+			this.style.fontSize = 64-(64*(sy/100)) + "px";
+			this.style.marginLeft = 50-(100*(sy/100)) + "px";
+			this.style.marginTop = (100*(sy/100)) + "px";
+		},
+		after: function(x,y) {
+			this.style.fontSize = "0px";
+			this.style.marginLeft = "-50px";
+			this.style.marginTop = "100px";
+		}
+	});
+	ipara.addObject("spot2-"+i,para2);
+});
+$(window).resize(function() {
+	$.each(images,function(i) {
+		var para = ipara.getObject("spot-"+i);
+		para.setStart({
+			y: (window.innerHeight/2)*i
+		});
+		para.setEnd({
+			y: window.innerHeight*(i+1)
+		});
+	});
+});
+</script>
+</body>
+</html>

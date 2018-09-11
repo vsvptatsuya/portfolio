@@ -1,0 +1,279 @@
+<?php
+//セッションを利用するのでここは削除しないで下さい
+session_start();
+if (SID) Err('Cookieを有効にして下さい');
+if (!$_SESSION) header('Location: completion.html');
+
+function Err($err) {
+	echo <<< EOM
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>エラー：$err</title></head>
+<body style="font-size: 12px; line-height: 1.8em;">
+<strong>エラー : </strong>$err<br>
+<input type="button" value="戻る" onclick="history.back();">
+</body></html>
+EOM;
+	exit;
+}
+//ここまで
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="icon" href="images/favicon.gif" type="image/gif" />
+<!--gnav-->
+<link rel="stylesheet" href="gnav/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="gnav/dark.css" type="text/css" media="screen" />
+<!--[if IE]
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a.js"></script>
+<!--[endif]--> 
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/smoothRollOver.js"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+		$(function() {
+			 $("#five").lavaLamp({
+				fx: "backout", 
+				speed: 1000,
+				click: function(event, menuItem) {
+					return true;
+				}
+			 });
+		});
+</script>
+
+<script type="text/javascript">
+		Cufon.replace('li a', {hover: true,});
+</script>
+<!--ここまでgnav-->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Contact us</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+
+
+<body>
+
+<div id="wrapper">
+    
+<!-- twitter follow badge by go2web20 -->
+<script src='http://www.go2web20.net/twitterfollowbadge/1.0/badge.js' type='text/javascript'></script><script type='text/javascript' charset='utf-8'><!--
+tfb.account = 'endorcom';
+tfb.label = 'follow-me';
+tfb.color = '#019df0';
+tfb.side = 'r';
+tfb.top = 136;
+tfb.showbadge();
+--></script>
+<!-- end of twitter follow badge -->
+	
+    <div id="header">
+        	<div id="logo">
+	            <h1><a href="index.html"><img src="images/endor_logo_off.png" />Endor official shop site</a></h1>
+					<div id="blog_icon">
+					<a href="http://wp.tatsuya-uk.com"><img src="images/blog_off.png" /></a>
+					</div>
+			<!-- InstanceBeginEditable name="iphonebadge" -->
+	
+	<!-- InstanceEndEditable --> </div>
+            <div id="headertext">
+				
+            </div>
+
+	 </div><!--headder end-->
+    
+    <div id="gnav">
+    
+        <div class="darkmenu">
+          <ul class="darkBlue" id="five">
+          	<!-- InstanceBeginEditable name="gnav" -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="ladies.html">Ladies</a></li>
+            <li><a href="mens.html">Mens</a></li>
+            <li><a href="goods.html">Goods</a></li>
+            <li class="current"><a href="contact.html">Contact us</a></li>
+			<!-- InstanceEndEditable -->
+          </ul>
+          <div class="searchbox">
+                        
+                        <!-- SiteSearch Google -->
+						<center>
+						<form method=get action="http://www.google.co.jp/search">
+						<td>
+						<input type="text" value="" onfocus="doClear(this)" name="s" class="darksearch" />
+						
+						<input type=hidden name=ie value=UTF-8>
+						<input type=hidden name=oe value=UTF-8>
+						<input type=hidden name=hl value="ja">
+						
+						<font size=-1>
+						<input type=hidden name=domains value="a787.sunaba.biz">
+						<input type=radio name=sitesearch value="">google
+						<input type=radio name=sitesearch value="a787.sunaba.biz" checked>Endor
+						</font>
+						</td></tr></table>
+						</form>
+				</center>
+						<!-- SiteSearch Google -->
+          </div>
+		</div>
+    </div><!--gnav end-->
+    
+    <div id="main">
+
+	<!-- InstanceBeginEditable name="main" -->
+	
+
+		<div id="left">
+				<div id="contents">
+				<div id="about">
+				<a><img src="images/about_top_off.png" alt="contact us" width="680" height="200" /> </a>
+				<br />
+				<h1><span id="blue">C</span>ontact us</h1>
+				<div id="FORM">							
+						<form id="form" name="form" method="post" action="sformmail.php">
+						
+						<br />
+                        <dt>Name</dt>
+						<dd><?=$_SESSION['name']?></dd>
+						
+						<dt>Mail address</dt>
+						<dd><?=$_SESSION['email']?></dd>
+						
+						<dt>Phone</dt>
+						<dd><?=$_SESSION['tel']?></dd>
+						
+						<dt>Gender</dt>
+						<dd><?=$_SESSION['gender']?></dd>
+						
+						<dt>Brand</dt>
+						<dd><?=$_SESSION['brand']?></dd>
+						
+						<dt>Subject</dt>
+						<dd><?=$_SESSION['subject']?></dd>
+						
+						<dt>Message</dt>
+						<dd><?=$_SESSION['message']?></dd>
+										
+						<?php
+						//入力項目エラー判定
+						if($_SESSION['inputErr']){
+							echo'<input type="button" value="戻 る" onclick="history.back()" style="width:80px" />';
+						}else{
+							echo'<p>入力が正しければ、送信ボタンを押して下さい。</p>
+						<input name="mode" type="hidden" id="mode" value="SEND" />
+						
+						<input type="submit" style="width:80px; margin-left:150px;" value="送 信" />
+						<input type="button" value="戻 る" onclick="history.back()" style="width:80px" />';
+						}
+						?>
+						</form>	
+					</div>
+					</div>
+					</div>	
+					
+					
+	
+		</div><!--div left end-->
+		
+		<div id="right">
+        	
+            <div id="twitter">
+				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 4,
+                  interval: 30000,
+                  width: 200,
+                  height: 290,
+                  theme: {
+                    shell: {
+                      background: 'none',
+                      color: '#00afef'
+                    },
+                    tweets: {
+                      background: 'none',
+                      color: '#ffffff',
+                      links: '#00afef'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: true,
+                    live: true,
+                    behavior: 'default'
+                  }
+                }).render().setUser('endorcom').start();
+                </script>
+		  	</div> 
+            <div id="banner">
+             <p><a href="#"><img src="images/banner03_off.png" alt="banner01" width="200" height="100" /></a></p><br />
+             <p><a href="#"><img src="images/banner03_off.png" alt="banner01" width="200" height="100" /></a></p><br />
+			 <p><a href="#"><img src="images/banner02_off.png" alt="banner03" width="200" height="40" /></a></p><br />
+	         <p><a href="#"><img src="images/banner02_off.png" alt="banner04" width="200" height="40" /></a></p><br />
+	         <p><a href="#"><img src="images/banner01.png" alt="banner05" width="120" height="60" /></a></p><br />
+	         <p><a href="#"><img src="images/banner01.png" alt="banner06" width="120" height="60" /></a></p>
+            </div>
+ 		 </div><!--right end-->	
+		 <!-- InstanceEndEditable -->	
+    </div><!--main end-->
+    
+    <div id="footer">
+		<div id="footer_box">	
+          	<div id="footer_left">
+			 	<div id="footer_navi">
+		             <ul>
+		             	<!-- InstanceBeginEditable name="footer_nav" -->
+				       	<li><a href="index.html">Home</a></li>
+			            <li><a href="about.html">About us</a></li>
+			            <li><a href="ladies.html">Ladies</a></li>
+			            <li><a href="mens.html">Mens</a></li>
+			            <li><a href="goods.html">Goods</a></li>
+			            <li class="current">Contact us</li>
+		             	<!-- InstanceEndEditable -->
+					 </ul>
+             　	</div>
+        	
+	        	<div id="footer_logo"><a><img src="images/footer_logo_off.png" alt="" width="100" height="65" /></a></div>
+				<div id="footer_text">
+	             <p>〒150-0042 東京都渋谷区宇田川町XXX-XXX-XXX<br />
+				 	03-6666-6666<br/>
+			 	 	Copyright(c) 2011 Endor.net</p> 
+	        	 </div>
+			</div>
+    
+    		 <div id="sns">
+        		<a><img src="images/sns_off.png" width="450" height="250" border="0" usemap="#Map" /></a>
+            	<map name="Map" id="Map">
+                  <area shape="poly" coords="330,6,405,44,441,66,414,105,369,78,311,46" href="https://twitter.com/" alt="twitter" />
+                  <area shape="poly" coords="59,40,136,56,177,71,161,115,113,98,50,87" href="#" alt="rss" />
+                  <area shape="poly" coords="200,59,284,61,325,66,321,112,273,106,203,108" href="http://www.facebook.com/" alt="fb" />
+                  <area shape="poly" coords="8,185,73,143,114,123,137,166,88,193,35,228" href="https://www.tumblr.com/" alt="tumblr" />
+                  <area shape="poly" coords="105,182,135,181,181,187,175,232,122,229,58,230,57,214" href="http://www.flickr.com/" alt="flickr" />
+                  <area shape="poly" coords="308,132,401,131,434,137,431,186,388,181,310,184" href="http://www.youtube.com/" alt="youtube" />
+                  <area shape="poly" coords="265,125,307,162,307,185,329,184,358,210,322,246,231,163" href="http://www.lastfm.jp/" alt="lastfm" />
+                </map>
+            </div>
+        </div>		
+	</div>
+</div>
+
+
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Shade YOSHIYA KEIKO</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<link rel="stylesheet" href="css/common.css" type="text/css" />
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+        <script type="text/javascript" src="js/jquery.rollover.js"></script>
+		<script type="text/javascript">
+	   $(document).ready(
+				function(){
+					
+					$('ul#topimg').innerfade({
+						speed: 2000,
+						timeout: 4000,
+						type: 'sequence',
+						containerheight: '470px'
+					});
+					
+				$(function(){
+				$('a img').hover(function(){
+					$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+						}, function(){
+						   if (!$(this).hasClass('current')) {
+						   $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+					}
+				});
+});
+
+
+			});
+  	</script>
+</head>
+
+<body>
+<div id="wrap">
+
+<div id="header">
+    <div id="nav">
+        <h1 id="nav_logo"><img src="images/logo.jpg" alt="Shade YOSHIYA KEIKO" /></h1>
+        <ul>
+            <li><a href="#"><img src="images/nav01_off.jpg" alt="news" /></a></li>
+            <li><a href="#"><img src="images/nav02_off.jpg" alt="collection" /></a></li>
+            <li><a href="#"><img src="images/nav03_off.jpg" alt="shop" /></a></li>
+            <li><a href="#"><img src="images/nav04_off.jpg" alt="shopping" /></a></li>
+        </ul>
+        <div id="header_blog"><a href="#"><img src="images/blog_03.jpg" alt="blog" /></a></div>
+    </div><!--nav-->
+</div>
+
+<div id="contents">
+	<div id="shop">
+        <p><img src="images/shop_open_01.jpg" width="213" height="145" alt="" /></p>
+        <p id="shopopen02"><img src="images/shop_open_02.jpg" width="213" height="21" alt="" /></p>
+        <p><img src="images/shop_open_03.jpg" width="340" height="155" alt="" /></p>
+        <p id="shopopen03"><a href="https://maps.google.co.jp/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E7%A5%9E%E5%AE%AE%E5%89%8D+6%E2%88%9216%E2%88%9212&ie=UTF8&ll=35.665342,139.70217&spn=0.005082,0.009602&hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E7%A5%9E%E5%AE%AE%E5%89%8D%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%96%E2%88%92%EF%BC%91%EF%BC%92&gl=jp&t=m&z=17&iwloc=A&brcurrent=3,0x60188ca42b94a6f1:0x10ea88c844df2aa2,0">〈google map〉</a></p>
+        <p>
+            〒150-0001 東京都渋谷区神宮前　6−16−12<br />
+            tel.03-6805-0047
+        </p>
+	</div>
+</div>
+
+<div id="foot">
+	<div class="foot_item"><a href="#"><img src="images/foot_contact.jpg" /></a></div>
+	<div class="foot_item"><img src="images/foot_copyright.jpg" /></div>
+	<div class="foot_item"><a href="#" onclick="javascript:window.open('music.html','win1','width=380,height=210');return false;"><img src="images/foot_music.jpg" alt="" /></a></div>
+
+</div><!--foot-->
+
+
+</div><!--wrap-->
+</body>
+</html>

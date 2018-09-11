@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* CSS Document */
+/******↓共通↓*****/
+body {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 10px;
+	font-size:12px;
+	font-family:"小塚ゴシック Pr6N", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #000;
+}
+div#nav {
+	background-color: #2357e0;
+	overflow: hidden;
+	height: 90px;
+	width: 1024px;
+	/*position: relative;*/
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size:16px;
+}
+h1 {
+	float: left;
+	width:172px;
+	margin:15px 0 0 130px;
+	/*position: absolute;
+	top: 15px;
+	left: 130px;*/
+}
+div#nav ul {
+	float: right;
+	color: #fff;
+	margin:30px 130px 0 0;
+	/*position: absolute;
+	top: 30px;
+	right: 130px;*/
+}
+div#nav ul li {
+	list-style: none;
+	display: inline;
+	padding: 30px 25px;
+	font-size: 14px;
+	text-align: center;
+}
+div#content {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+/*footer*/
+div#footer {
+	background: url(../images/footer_bg.gif) repeat-x;
+	overflow: hidden;
+	/*position: relative;*/
+	height: 78px;
+	margin-top: 50px;
+	font-weight:lighter;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+div#footer div.footer1 ul li {
+	list-style: none;
+	display: inline;
+	border-right: solid #000 1px;
+	padding-right: 5px;
+	font-size: 13px;
+}
+div.footer1{
+	width: 300px;
+	float:right;
+	margin:45px 320px 0 130px;
+}
+
+/*div#footer div.footer1 ul{
+	position: absolute;
+	top: 45px;
+	left: 100px;
+	width: 300px;
+	float:right;
+	margin:45px 320px 0 130px;
+}*/
+div#footer div.footer1 ul li.blog {
+	border-right-style: none;
+}
+div.footer2 {
+	float:right;
+	width:200px;
+	margin-right:55px;
+
+	/*position: absolute;
+	top: 45px;
+	right: 85px;*/
+}
+div#footer div.footer2 ul li {
+	list-style: none;
+	display: inline;
+	/*float: right;*/
+	padding-right: 40px;
+	font-size: 13px;
+}
+div#footer address {
+	float:left;
+	width: 280px;
+	font-size: 10px;
+	margin-left:138px;
+	/*position: absolute;
+	bottom: 1px;
+	left: 100px;*/
+}
+p.pagetop {
+	/*background: url(../images/pagetop_bg.gif);*/
+	width: 156px;
+	height: 30px;
+	float: right;
+	margin-right:110px;
+	/*position: absolute;
+	right: 110px;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 12px;*/
+}
+/*リンク*/
+a {
+	text-decoration: none;
+}
+a.nav {
+	color: #fff;
+}
+a.nav:visited {
+	color: #fff;
+}
+a.nav:hover {
+	color: #000;
+}
+a.footer {
+	color: #000;
+}
+a.footer:visited {
+	color: #000;
+}
+a.footer:hover {
+	color: #fff;
+}
+/*****content*****/
+div#title {
+	height: 30px;
+	border-left: solid 3px #2357e0;
+	padding: 0 10px;
+	margin: 50px 25px;
+	overflow: hidden;
+	position: relative;
+}
+div#title div.title_left {
+	float: left;
+	width: 70px;
+}
+div#title div.title_right {
+	float: right;
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	right: 15px;
+}
+/*****↑共通↑*****/
+/*****nav*****/
+li.item{
+	color:#000;
+}
+
+/*****content*****/
+div.item{
+	background:url(../images/item_bg_new.gif) no-repeat;
+	margin-left:20px;
+}
+div.item_nav{
+	float:left;
+	width:155px;
+	height:1150px;
+	font-size:16px;
+	margin-left:20px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+div.new,div.outer{
+	padding:20px 0;
+	text-align:center;
+	margin:0;
+}
+div.tops,div.bottom,div.goods{
+	padding:15px 0;
+	text-align:center;
+	margin:0;
+}
+div#item1{
+	float:left;
+	overflow:hidden;
+	height:320px;
+}
+div.item1{
+	float:left;
+	width:140px;
+	padding:40px 20px 20px 60px;
+	margin:0;
+}
+div.item2{
+	float:left;
+	width:140px;
+	padding:40px 20px 20px 20px;
+	margin:0;
+}
+div.item3{
+	float:left;
+	width:140px;
+	padding:40px 50px 20px 20px;
+	margin:0;
+}
+div.item4,div.item7{
+	float:left;
+	width:140px;
+	padding:0 20px 20px 60px;
+	margin:0;
+}
+div.item5,div.item8{
+	float:left;
+	width:140px;
+	padding:0 20px 20px 20px;
+	margin:0;
+}
+div.item6,div.item9{
+	float:left;
+	width:140px;
+	padding:0 50px 20px 20px;
+	margin:0;
+}
+
+
+div#item1 p,div#item2 p,div#item3 p{
+	text-align:center;
+	margin:20px 0 0 0;
+}
+div#item2,div#item3{
+	float:left;
+	overflow:hidden;
+	width:610px;
+}
+div.item_nav a:link{
+	color:#000;
+}
+div.item_nav a:hover{
+	color:#2357e0;
+}
+div.item_nav a:visited{
+	color:#000;
+}

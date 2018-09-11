@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*reset css
+*******************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ 
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+ 
+/* tables still need 'cellspacing=&quot;0&quot;' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix {zoom:1;}
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+}
+
+body{
+	height:100%;
+	position:relative;
+}
+
+#gnav{
+	width:200px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:2000;
+}
+#gnav_in{
+	background:url(../images/nav_repeat.png) 0 0 repeat-y;
+	height:150px;
+	padding:20px;
+	line-height:1.5em
+}
+
+#gnav_in li a{
+}
+
+
+#gopen{
+	position:fixed;
+	bottom:160px;
+	margin-left:210px;
+	width:582px;
+	height:56px;
+	z-index:2002;
+}
+#scroll{
+	position:fixed;
+	bottom:-10px;
+	left:50%;
+	margin-left:-110px;
+	width:220px;
+	height:200px;
+	z-index:2001;
+}
+#footer{
+	background:url(../images/footer_back) 0 0 repeat-x;
+	height:50px;
+	width:100%;
+	bottom:0px;
+	z-index:2000;
+	position:fixed;
+}
+
+
+/* vertical version */
+.items{
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+
+.item{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	height:1000px;
+}
+.inner,.inner-lev1,.inner-lev2{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:1;
+}
+.content{
+	background:rgba(0,0,0,0.2);
+	padding:15px;
+	width:400px;
+	margin:100px 300px;
+	position:relative;
+	z-index:4;
+	color: white;
+}
+
+/* alterations for horizontal version */
+.items-horizontal{
+	width:5120px;	
+}
+	.items-horizontal .item{
+		width:1024px;	
+		float:left;
+	}
+
+/* parallax images */
+.item00{background: #ddd; z-index:5;}
+.item0{background: #79684e url(../images/bg01.jpg) 0px 0px fixed repeat; z-index:5;}
+
+.inner0_1{background: url(../images/tile01.png) 100px 0px fixed no-repeat; z-index:3;}
+.inner0_2{background: url(../images/tile02.png) 400px 50px fixed no-repeat; z-index:3;}
+.inner0_3{background: url(../images/tile03.png) 250px 0px fixed no-repeat; z-index:4;}
+.inner0_4{background: url(../images/tile04.png) 200px 130px fixed no-repeat;}
+.inner0_5{background: url(../images/tile07.png) 0px 30px fixed no-repeat;}
+.inner0_6{background: url(../images/tile07.png) 500px 400px fixed no-repeat; z-index:4;}
+.inner0_7{background: url(../images/tile05.png) 30000px 100px fixed no-repeat; z-index:2;}
+.inner0_8{background: url(../images/tile03.png) 700px 700px fixed no-repeat;}
+.inner0_9{background: url(../images/tile06.png) 800px 350px fixed no-repeat;}
+
+.item1{background: #79684e url(../images/bg01.jpg) 0px 0px fixed repeat;}
+.inner1_1{background: url(../images/tile01.png) 200px 0px fixed no-repeat; z-index:3;}
+.inner1_2{background: url(../images/tile02.png) 600px 50px fixed no-repeat; z-index:3;}
+.inner1_3{background: url(../images/tile03.png) 100px 0px fixed no-repeat; z-index:4;}
+.inner1_4{background: url(../images/tile04.png) 200px 130px fixed no-repeat;}
+.inner1_5{background: url(../images/tile07.png) 0px 0px fixed no-repeat;}
+.inner1_6{background: url(../images/tile07.png) 200px 600px fixed no-repeat; z-index:4;}
+.inner1_7{background: url(../images/tile05.png) 100px 100px fixed no-repeat; z-index:2;}
+.inner1_8{background: url(../images/tile03.png) 700px 700px fixed no-repeat;}
+.inner1_9{background: url(../images/tile06.png) 800px 350px fixed no-repeat;}
+
+.item2{background: #2d1003 url(../images/top02.jpg) 0px 0px fixed no-repeat;}
+.inner2_1{background: url(../images/photo01.png) 200px 250px fixed no-repeat; z-index:3;}
+.inner2_2{background: url(../images/photo02.png) 600px 50px fixed no-repeat; z-index:3;}
+.inner2_3{background: url(../images/tile03.png) 100px 50px fixed no-repeat; z-index:4;}
+.inner2_4{background: url(../images/tile04.png) 200px 100px fixed no-repeat;}
+.inner2_5{background: url(../images/tile07.png) 0px 0px fixed no-repeat;}
+.inner2_6{background: url(../images/tile07.png) 200px 600px fixed no-repeat; z-index:4;}
+.inner2_7{background: url(../images/tile05.png) 100px 300px fixed no-repeat; z-index:3;}
+.inner2_8{background: url(../images/tile03.png) 700px 50px fixed no-repeat;}
+.inner2_9{background: url(../images/tile06.png) 800px 350px fixed no-repeat;}
+
+.item3{background: #79684e url(../images/top01.jpg) 0px 0px fixed no-repeat;}
+.inner3_1{background: url(../images/tile03.png) 100px 300px fixed no-repeat;}
+.inner3_2{background: url(../images/tile02.png) 200px 500px fixed no-repeat;}
+.inner3_3{background: url(../images/tile01.png) 800px 100px fixed no-repeat;}

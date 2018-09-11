@@ -1,0 +1,60 @@
+2014-03-02 11:54:02 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 126.122.206.32
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sat 31 May 2014 11:54:02 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2014-03-03 17:20:54 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 60.56.45.199
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sun 01 Jun 2014 05:20:54 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2014-03-05 08:30:57 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 49.98.134.29
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; U; Android 4.2.2; ja-jp; SH-07E Build/S9261) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Tue 03 Jun 2014 08:30:57 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+

@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.jkit.1.1.3.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	$('body').jKit({ 
+		'plugins': {
+			date: { 'path': "plugins/datepicker/js/datepicker.js", 'fn': 'DatePicker' },
+			hint: { 'path': "plugins/jquery.ztinputhint-1.2.js", 'fn': 'ztInputHint' },
+			maxlength: { 'path': "plugins/maxlength/jquery.maxlength-min.js", 'fn': 'maxlength' },
+			grow: { 'path': "plugins/jquery.jgrow-0.4.js", 'fn': 'jGrow' },
+			confirm: { 'path': "plugins/jquery.confirm-1.3.js", 'fn': 'confirm' },
+			time: { 'path': "plugins/timePicker/jquery.timePicker.min.js", 'fn': 'timePicker' },
+			mask: { 'path': "plugins/jquery.maskedinput-1.2.2.min.js", 'fn': 'mask', 'option': 'mask' }
+		},
+		'replacements': {
+			'encode': specialEncodeCommand
+		}
+	});
+	
+	$('ul#navigation > li > a').each( function(){
+		$('body').data('jKit').executeCommand(this, 'scroll', { 'speed': 1000, 'dynamic': 'no' });
+	});
+
+});
+
+function specialEncodeCommand(that, type, options){
+	
+	var s = this.settings; // we don't need this one, but I'll leave it here so you know how to get the plugin settings in case you need them
+	var $that = $(that);
+	
+	this.executeCommand(that, type, options); // execute the original command
+	
+	// now add some additional functionality:
+	
+	if (options.format == 'uppercase'){
+		$that.html($that.html().toUpperCase());
+	}
+	
+}
+
+</script>
+
+<style>
+#cont{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+#navi {
+		position: absolute;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: #333;
+		height: 45px;
+		line-height: 45px;
+		z-index: 100;
+		width: 100%;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#navi li {
+		float: left;
+		margin-right: 2px;
+	}
+	#navi li a {
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		padding: 0 10px;
+		font-size: 12px;
+	}
+
+div.parallax-container {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	background: #333;
+}
+div.parallax-container div.parallax {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 2500px;
+	text-align: center;
+	height: 250px;
+	font-weight: bold;
+}
+.parallax1 {
+	color: #555;
+	font-size: 250px;
+	line-height: 80%;
+}
+.parallax2 {
+	color: #999;
+	font-size: 100px;
+	line-height: 320%;
+}
+.parallax3 {
+	color: #fff;
+	font-size: 50px;
+	line-height: 760%;
+}
+</style>
+
+
+
+</head>
+
+<body>
+
+<div id="cont">
+	<ul id="navi">
+		<li><a href="#p01">Photo01</a></li>
+		<li><a href="#p02">Photo02</a></li>
+		<li><a href="#p03">Photo03</a></li>
+		<li><a href="#p04">Photo04</a></li>
+		<li><a href="#p05">Photo05</a></li>
+	</ul>
+
+    <div id="p05" class="parallax-container" data-jkit="[parallax:strength=2;axis=both]">
+        <div class="parallax parallax1">Background Layer</div>
+        <div class="parallax parallax2">Middle Layer</div>
+        <div class="parallax parallax3">Foreground Layer</div>
+	</div> 
+    <!--
+    <div id="p04" class="parallax-container" data-jkit="[parallax:strength=2;axis=both]">
+        <div class="parallax parallax1">Background Layer</div>
+        <div class="parallax parallax2">Middle Layer</div>
+        <div class="parallax parallax3">Foreground Layer</div>
+	</div> 
+    
+    <div id="p03" class="parallax-container" data-jkit="[parallax:strength=2;axis=both]">
+        <div class="parallax parallax1">Background Layer</div>
+        <div class="parallax parallax2">Middle Layer</div>
+        <div class="parallax parallax3">Foreground Layer</div>
+	</div> 
+    
+    <div id="p02" class="parallax-container" data-jkit="[parallax:strength=2;axis=both]">
+        <div class="parallax parallax1">Background Layer</div>
+        <div class="parallax parallax2">Middle Layer</div>
+        <div class="parallax parallax3">Foreground Layer</div>
+	</div> 
+    
+    <div id="p01" class="parallax-container" data-jkit="[parallax:strength=2;axis=both]">
+        <div class="parallax parallax1">Background Layer</div>
+        <div class="parallax parallax2">Middle Layer</div>
+        <div class="parallax parallax3">Foreground Layer</div>
+	</div>
+    -->
+</div>
+</body>
+</html>

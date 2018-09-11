@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>http://www.pointy.jp/</loc>
+  <priority>1.0</priority>
+  <lastmod>2014-01-14T09:16:57+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/details/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:37+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/price/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:38+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/point/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:38+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/support/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:40+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/type/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-02-05T17:54:52+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sim/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-03-24T11:22:17+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/support/pointyOperationManual.pdf</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-03-24T09:39:43+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/support/form/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.pointy.jp/company/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:37+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/privacy/</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:38+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sitemap.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-01-06T16:46:39+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/price/tariff_2013_03_21.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2013-09-02T13:13:57+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sim/support/iOS7.x_APN_Setup_Manual.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2014-03-24T10:51:47+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sim/price/</loc>
+  <priority>0.6</priority>
+  <lastmod>2014-01-06T16:46:39+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sim/type/</loc>
+  <priority>0.6</priority>
+  <lastmod>2014-01-06T16:46:39+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sim/support/</loc>
+  <priority>0.6</priority>
+  <lastmod>2014-01-06T16:46:39+09:00</lastmod>
+</url>
+<url>
+  <loc>http://www.pointy.jp/sim/policy/</loc>
+  <priority>0.6</priority>
+  <lastmod>2014-01-06T16:46:38+09:00</lastmod>
+</url>
+
+</urlset>

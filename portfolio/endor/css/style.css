@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0;
+	padding:0;
+	text-align:center;/*IE6用にセンターに配置*/
+	background-color:#333333;
+	/*
+	background-image:url(../images/endor.png);
+	background-repeat:no-repeat;
+	*/
+	color:#d8d8d8;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Myriad Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:12px;
+}
+
+/****リセットCSS******************************************/
+
+h1,h2,h3,p,ul,li,dl,dt,dd{
+	margin:0;
+	padding:0;
+}
+
+a img {/*IE6のリンク画像の枠線をトル*/
+	border:0;
+}
+
+ul li {
+	list-style-type:none;/*頭のポイントをトル*/
+}
+
+li a {
+	text-decoration:none;/*リスト内のリンクの下線をトル*/
+}
+
+
+/****clearfix******************************************/
+
+.clearfix:after {
+content: '';
+display: block;
+clear: both;
+height:0;
+}
+
+.clearfix { /zoom: 1; } /* IE */
+
+
+
+/****メイン******************************************/
+
+div#wrapper{
+	width:100%;/*影を含めた左右幅*/
+	margin:0 auto;
+	height:1428px;
+}
+
+div#header{
+	height:115px;
+	margin:0 auto;
+	background:url(../images/header_back.png) 0 0 repeat-x;
+	z-index:1;
+}
+		div#logo{
+			width:970px;
+			margin:0 auto;
+			position:relative;
+		}
+		
+		div#headertext{
+		
+		}
+		
+		div#blog_icon{
+			position:absolute;
+			top:0;
+			left:650px;
+			z-index:25;
+		}
+		
+
+
+h1 a{
+	position:absolute;
+	top:20px;
+	width:139px;
+	height:87px;
+	text-indent:-9999px;
+	display:block;
+	/*
+	background:url(../images/endor_logo.png);
+*/
+}
+
+h2{
+	color:#019df0;
+	font-size:14px;
+}
+
+div#gnav{
+	height:70px;
+	margin:0 auto;
+	background:url(../images/gnav_back.png) 0 0 repeat-x;
+	z-index:1;
+	position:relative;
+
+}
+
+div#darkmenu{
+	position:relative;
+	}
+
+.current{
+	color:#019df0;
+}
+span#blue{
+	color:#019df0;}
+
+
+
+div#main{
+	margin:0 auto;
+	height:993px;
+	width:990px;
+	background:url(../images/base.png) 0 0 no-repeat;
+	overflow:hidden;
+	
+}
+
+div#left{
+	float:left;
+	width:750px;
+	height:1013px;
+	position:relative;}
+div#right{
+	float:left;
+	width:240px;
+	height:1013px;
+}
+
+/*right*******************************************************/
+div#flash{
+	width:710px;
+	height:633px;
+	float:left;
+	margin:20px 20px 20px 30px;
+	cursor:pointer;
+
+}
+
+div#news{
+	float:left;
+	width:466px;
+	height:300px;
+	margin-left:30px;
+	background:url(../images/news_03.png) 0 0 no-repeat;
+	}
+	
+div#news dl{
+	width:440px;
+	text-align:left;
+	padding:15px;
+	font-size:12px;
+	}
+div#news dt{
+	clear:both;
+	float:left;
+	color:#019df0;
+}
+div#news dd{
+
+	font-weight:bold;
+	margin-bottom:15px;/*行間の設定*/
+	border-bottom:1px solid #333;
+	padding-bottom:5px;/*文字と線の隙間*/
+	padding-left:100px;
+
+}
+
+div#mobile{
+	float:left;
+	width:263px;
+	height:300px;
+	z-index:10;
+	position:absolute;
+	margin-left:473px;
+	margin-top:670px;
+
+}
+
+
+
+
+/**right******************************/
+
+	div#twitter{
+		width:200px;
+		height:390px;
+		margin-top:10px;
+		margin-left:10px;
+}
+
+	div#banner{
+		display:block;
+		height:523px;
+		margin-top:30px;
+		margin-left:10px;
+	}
+	div#banner a{
+		display:block;
+	}
+		
+/**footer******************************/
+div#footer{
+	clear:both;
+	width:100%;
+	height:250px;
+	background:url(../images/footer.png) 0 0 no-repeat;
+	margin:0 auto;
+
+}
+
+	div#footer_box{
+
+			width:970px;
+			height:250px;
+			margin:0 auto;
+			text-align:left;
+
+			}
+		
+	div#footer_left{
+		float:left;
+		width:485px;
+		height:250px;
+	
+		}
+	
+	div#footer_navi{
+			height:50px;
+			width:485px;
+			margin-top:10px;
+			font-size:14px;
+		}
+			div#footer_navi li{
+				float:left;
+				border-left:solid 1px #333;
+				padding-left:5px;
+			}
+				div#footer_navi li a{
+					color:#fff;}
+				div#footer_navi li a:hover{
+					color:#019df0;}
+				div#footer_navi li a:visited{
+					color:#019df0;}
+		
+		div#footer_logo{
+			padding-top:60px;
+		}
+		div#footer_logo img{
+		}
+		
+		div#footer_text{
+		}
+	div#sns{
+		float:left;
+		width:485px;
+		height:250px;
+		cursor:pointer;
+		}
+		
+/**セカンドページ用******/
+div#contents h1{
+	border-left: 10px solid #019df0;
+	font-size:15px;
+	background:url(../images/form_back.png) 0 0 repeat-x;}
+
+/**aboutus***************/
+div#contents{
+	width:710px;
+	height:953px;
+	margin:20px 20px 20px 30px;
+	background:url(../images/contents_back.png) 0 0 no-repeat;
+	text-align:left;
+	}
+div#contents h1{
+}
+div#about{
+	width:680px;
+	height:923px;
+	margin:15px;
+	padding-top:15px;
+}
+div#map{
+	width:400px;
+	height:300px;
+	float:left;}
+div#shop1{
+	float:left;
+	margin-left:15px;}
+div#shop2{
+	clear:both;
+	padding-top:40px;
+	
+	}
+
+/**contact****************/
+#form { width: 100%;
+font-size:14px; }  
+  
+#form dt { 
+  margin: 0 0 5px;    
+  border-left: 10px solid #019df0;
+  background:url(../images/form_back.png) 0 0 repeat-x; 
+}  
+  
+#form dt span {  
+  font-weight: normal; /* (必須) */  
+  color: #ff0000;  
+  padding: 0 1em;
+   
+}  
+  
+#form dd {  
+  margin: 0 0 0.5em;  
+  padding-left:10px;
+}
+  
+textarea {
+  resize:none;
+}
+.form{
+	border:none;
+	color:#fff;
+	background-color:#5a5a5a;
+	position:relative;
+	height:18px;}
+button{
+    width: auto;
+    padding:0;
+    margin:0;
+    background:none;
+    border:0;
+    font-size:0;
+    line-height:0;
+    overflow:visible;
+    cursor:pointer;
+	vertical-align:bottom;
+}
+.submit{
+	margin-left:150px;
+	position:absolute;
+	}
+.reset{
+	margin-left:300px;
+	position:absolute;
+}
+
+/***************************************************/
+#confirm { width: 100%; }  
+  
+#confirm dt {  
+  margin: 0 0 5px;  
+  padding: 5px 0 5px 5px;  
+  border-left: 10px solid #019df0;
+  background:url(../images/form_back.png) 0 0 repeat-x; 
+  font-size:14px;
+}  
+  
+#confirm dd {  
+  margin: 0 0 1.5em;  
+  padding-left:10px;
+  font-size:14px;
+}
+
+
+div#iphonebadge{
+	position:absolute;
+	z-index:30;
+	top:70px;
+	left:432px;
+	}

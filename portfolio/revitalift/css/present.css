@@ -1,0 +1,74 @@
+body{
+	background:url("../images/present/bg_sky.jpg") no-repeat top center;
+	background-color:#FFF;
+	margin:0;
+	padding0;
+}
+
+div#logoArea{
+	width:900px;
+	margin:0px auto;
+	padding:9px 1px 4px 0;
+}
+
+div#contents{
+	width:900px;
+	height:835px;
+	background:url("../images/present/bg_contents.gif") no-repeat top left;
+	position:relative;
+	margin:0 auto;
+	padding:0;
+}
+
+div#contents div.title{
+	position:absolute;
+	top:-37px;
+	left:10px;
+	margin:0px;
+	padding:0px;
+}
+div#contents div.bgContents{
+	position:absolute;
+	top:235px;
+	left:10px;
+	margin:0px;
+	padding:0px;
+}
+div#contents div.bgContents div.contents01{
+	position:absolute;
+	top:0px;
+	left:26px;
+	z-index:2;
+}
+div#contents div.bgContents div.contents01 div.btn01{
+	position:absolute;
+	top:181px;
+	left:257px;
+	z-index:2;
+}
+div#contents div.bgContents div.contents02{
+	position:absolute;
+	top:249px;
+	left:40px;
+	z-index:2;
+}
+div#contents div.bgContents div.contents02 div.btn02{
+	position:absolute;
+	top:187px;
+	left:243px;
+	z-index:2;
+}
+div#contents div.notes{
+	font-size:12px;
+	line-height:1.4;
+	margin:14px 0px 0px 11px;
+	_margin:8px 0px 0px 11px;
+	padding:0px;
+}
+
+div#copyArea{
+	width:900px;
+	text-align:right;
+	margin:22px auto;
+	padding:0;
+}

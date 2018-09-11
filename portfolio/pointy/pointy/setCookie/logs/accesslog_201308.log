@@ -1,0 +1,3410 @@
+2013-08-22 16:37:00 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3012&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3012
+            [EXP] => Wed 20 Nov 2013 04:37:00 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-22 16:57:01 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Wed 20 Nov 2013 04:57:01 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 22 Aug 2013 07:57:01 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 22 Aug 2013 07:57:01 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-22 16:57:50 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:10:54 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sun 24 Nov 2013 03:10:54 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:12:24 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sun 24 Nov 2013 03:12:24 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:12:37 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:12:52 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sun 24 Nov 2013 03:12:52 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:13:03 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:13:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Mon, 26 Aug 2013 06:13:12 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Mon, 26 Aug 2013 06:13:12 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-26 15:28:20 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sun 24 Nov 2013 03:28:20 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Mon, 26 Aug 2013 06:28:20 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Mon, 26 Aug 2013 06:28:20 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-26 15:30:16 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 15:40:16 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www.accelia.jp/support/test.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sun 24 Nov 2013 03:40:16 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Mon, 26 Aug 2013 06:40:16 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Mon, 26 Aug 2013 06:40:16 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-26 17:54:31 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sun 24 Nov 2013 05:54:31 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 18:06:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Sun 24 Nov 2013 06:06:25 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Mon, 26 Aug 2013 09:06:25 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Mon, 26 Aug 2013 09:06:25 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-26 18:06:37 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 18:10:50 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sun 24 Nov 2013 06:10:50 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Mon, 26 Aug 2013 09:10:50 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Mon, 26 Aug 2013 09:10:50 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-26 18:10:57 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-26 20:54:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.16
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Sun 24 Nov 2013 08:54:12 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 10:26:20 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Mon 25 Nov 2013 10:26:20 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 10:26:23 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=http://www.pointy.jp/
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 01:26:23 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 01:26:23 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 10:27:17 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 10:54:19 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Mon 25 Nov 2013 10:54:19 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 10:54:53 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 01:54:53 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 01:54:53 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 11:11:00 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 11:11:09 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 02:11:09 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 02:11:09 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 11:11:16 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 15:44:27 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 15:44:37 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 15:51:13 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 06:51:13 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 06:51:13 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 15:51:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 06:51:25 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 06:51:25 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 15:52:05 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 06:52:05 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 06:52:05 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 15:52:40 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-27 15:59:11 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 06:59:11 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 06:59:11 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-27 16:04:31 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Tue, 27 Aug 2013 07:04:31 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Tue, 27 Aug 2013 07:04:31 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-28 14:20:35 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Tue 26 Nov 2013 02:20:35 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:29:39 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 FirePHP/0.7.2
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:31:43 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 FirePHP/0.7.2
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:32:11 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 FirePHP/0.7.2
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:32:47 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Tue 26 Nov 2013 02:32:47 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:33:34 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:47:39 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.point...
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-28 14:47:46 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:47:56 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-28 14:48:03 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.point...
+    [HTTP_REFERER] => https://www.chatwork.com/
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-28 14:48:14 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 11:22:55 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0 FirePHP/0.7.2
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 11:25:35 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Wed 27 Nov 2013 11:25:35 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 11:32:02 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 02:32:02 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 02:32:02 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 11:32:13 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 11:32:53 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 11:34:55 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 02:34:55 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 02:34:55 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 11:57:30 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:03:37 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:04:08 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:05:05 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:05:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 12:05:12 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:09:00 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:09:00 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:09:00 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:11:15 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:11:23 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:11:35 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:11:43 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:11:43 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:11:43 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:11:51 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:14:59 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:15:16 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www.shinya.dev.lancers.jp/landingpage/pointy/pointy.html
+    [REMOTE_ADDR] => 183.77.213.196
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:19:18 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:19:29 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:19:29 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:19:29 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:19:49 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:20:16 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:22:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:22:30 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:24:14 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 12:24:14 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:24:14 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:24:14 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:24:27 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:24:27 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:24:27 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:24:54 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:24:54 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:24:54 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:25:35 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:26:13 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 12:26:14 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 301 Moved Permanently
+            [1] => Date: Thu, 29 Aug 2013 03:26:14 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Location: http://www.pointy.jp/point/
+            [4] => Content-Length: 314
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=iso-8859-1
+            [7] => HTTP/1.1 302 Found
+            [8] => Date: Thu, 29 Aug 2013 03:26:14 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => X-Powered-By: PHP/5.3.3
+            [11] => Location: ./index.html
+            [12] => Content-Length: 0
+            [13] => Connection: close
+            [14] => Content-Type: text/html; charset=nl
+            [15] => HTTP/1.1 200 OK
+            [16] => Date: Thu, 29 Aug 2013 03:26:14 GMT
+            [17] => Server: Apache/2.2.15 (CentOS)
+            [18] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [19] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [20] => Accept-Ranges: bytes
+            [21] => Content-Length: 8864
+            [22] => Connection: close
+            [23] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:26:24 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:26:24 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:26:24 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:26:32 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/index.html
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Thu, 29 Aug 2013 03:26:32 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [4] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 8864
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/index.html
+)
+
+2013-08-29 12:27:00 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:27:00 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:27:00 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:27:34 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:27:34 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:27:34 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 12:27:51 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 03:27:51 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 03:27:51 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:00:49 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 01:00:49 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 13:01:00 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:01:00 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:01:00 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:20:00 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:20:00 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:20:00 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:20:34 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.22 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 01:20:34 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:20:34 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:20:34 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:20:42 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:20:42 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:20:42 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:21:01 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:21:01 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:21:01 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:21:18 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:21:18 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:21:18 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:21:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:21:25 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:21:25 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:21:37 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:21:37 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:21:37 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:22:43 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 01:22:43 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:22:43 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:22:43 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:23:17 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MDDS; InfoPath.2; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 01:23:17 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:23:17 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:23:17 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:23:28 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:23:28 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:23:28 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:32:05 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:32:05 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:32:05 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:36:35 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MDDS; InfoPath.2; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:36:35 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:36:35 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:36:39 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MDDS; InfoPath.2; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:36:39 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:36:39 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:47:48 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/index.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; YTB730; .NET4.0C)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 01:47:48 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 200 OK
+            [1] => Date: Thu, 29 Aug 2013 04:47:48 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [4] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [5] => Accept-Ranges: bytes
+            [6] => Content-Length: 8864
+            [7] => Connection: close
+            [8] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/index.html
+)
+
+2013-08-29 13:54:53 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 13:55:01 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 13:55:33 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 13:56:48 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 13:57:10 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 13:57:25 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:57:25 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:57:25 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:58:22 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 01:58:22 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:58:22 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:58:22 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:58:42 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:58:42 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:58:42 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 13:58:46 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 04:58:46 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 04:58:46 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:06:43 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:06:43 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:06:43 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:07:13 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:07:13 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:07:13 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:07:47 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:07:47 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:07:47 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:16:32 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:16:32 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:16:32 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [12] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 8864
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:30:05 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:30:05 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:30:05 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:33:39 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:33:39 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:33:39 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:36:53 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:36:53 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Content-Length: 0
+            [6] => Connection: close
+            [7] => Content-Type: text/html; charset=nl
+            [8] => HTTP/1.1 200 OK
+            [9] => Date: Thu, 29 Aug 2013 05:36:53 GMT
+            [10] => Server: Apache/2.2.15 (CentOS)
+            [11] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [12] => ETag: "18023a-2784-4e364d6a87e90"
+            [13] => Accept-Ranges: bytes
+            [14] => Content-Length: 10116
+            [15] => Connection: close
+            [16] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 14:55:55 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:55:55 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 05:55:55 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [11] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 8864
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-08-29 14:57:11 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:57:11 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 05:57:11 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 14:57:16 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 14:57:22 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 14:58:42 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 02:58:42 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 05:58:42 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 05:58:42 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [11] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 8864
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-08-29 15:00:42 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 06:00:42 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/index.html
+)
+
+2013-08-29 15:01:41 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 06:01:41 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 06:01:41 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [11] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 8864
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-08-29 15:02:02 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/sasaasasasasasasa.html
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 404 Not Found
+            [1] => Date: Thu, 29 Aug 2013 06:02:02 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Connection: close
+            [4] => Content-Type: text/html; charset=iso-8859-1
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 15:02:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:07:10 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; YTB730; .NET4.0C)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 301 Moved Permanently
+            [1] => Date: Thu, 29 Aug 2013 06:07:10 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => Location: http://www.pointy.jp/point/
+            [4] => Connection: close
+            [5] => Content-Type: text/html; charset=iso-8859-1
+            [6] => HTTP/1.1 302 Found
+            [7] => Date: Thu, 29 Aug 2013 06:07:10 GMT
+            [8] => Server: Apache/2.2.15 (CentOS)
+            [9] => X-Powered-By: PHP/5.3.3
+            [10] => Location: ./index.html
+            [11] => Connection: close
+            [12] => Content-Type: text/html; charset=nl
+            [13] => HTTP/1.1 200 OK
+            [14] => Date: Thu, 29 Aug 2013 06:07:10 GMT
+            [15] => Server: Apache/2.2.15 (CentOS)
+            [16] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [17] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [18] => Accept-Ranges: bytes
+            [19] => Content-Length: 8864
+            [20] => Connection: close
+            [21] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point
+)
+
+2013-08-29 15:13:06 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 06:13:06 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 06:13:06 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [11] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 8864
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-08-29 15:13:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 06:13:12 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 06:13:12 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 15:19:14 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:19:45 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:20:19 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:20:43 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:31:12 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:31:24 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:31:37 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:56:49 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 15:56:55 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:06:33 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3013
+            [EXP] => Wed 27 Nov 2013 04:06:33 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:06:42 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.214.150.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:15:30 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:16:03 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:16:28 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:16.0) Gecko/20100101 Firefox/16.0
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:19:03 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.17) Gecko/20110420 Firefox/3.6.17 (.NET CLR 3.5.30729)
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 16:38:48 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.14
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 07:38:48 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 07:38:48 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 16:43:08 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 07:43:08 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 07:43:08 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 16:44:04 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.11
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 07:44:04 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 07:44:04 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 16:44:27 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 210.133.104.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 07:44:27 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 07:44:27 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 16:46:05 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 122.208.159.114
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 04:46:05 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 07:46:05 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 07:46:05 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [11] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 8864
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-08-29 16:46:22 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 202.214.150.12
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 07:46:22 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 07:46:22 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-29 20:35:46 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/point/
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 08:35:46 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 11:35:46 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: ./index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 11:35:46 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:37:26 GMT
+            [11] => ETag: "1801cd-22a0-4e364dcbd97c0"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 8864
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/point/
+)
+
+2013-08-29 21:31:23 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 199.246.2.161
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_WRITE_STATUS] => OK
+    [COKKIE_WRITE_CONTENTS] => Array
+        (
+            [KEY] => agency_cd
+            [VAL] => 3014
+            [EXP] => Wed 27 Nov 2013 09:31:23 Asia/Tokyo
+            [DOM] => pointy.jp
+        )
+
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 21:43:20 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 199.246.2.161
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-29 21:45:15 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=http://www.pointy.jp/
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 199.246.2.161
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => Array
+        (
+            [0] => HTTP/1.1 302 Found
+            [1] => Date: Thu, 29 Aug 2013 12:45:15 GMT
+            [2] => Server: Apache/2.2.15 (CentOS)
+            [3] => X-Powered-By: PHP/5.3.3
+            [4] => Location: http://www.pointy.jp/index.html
+            [5] => Connection: close
+            [6] => Content-Type: text/html; charset=nl
+            [7] => HTTP/1.1 200 OK
+            [8] => Date: Thu, 29 Aug 2013 12:45:15 GMT
+            [9] => Server: Apache/2.2.15 (CentOS)
+            [10] => Last-Modified: Thu, 08 Aug 2013 00:35:44 GMT
+            [11] => ETag: "18023a-2784-4e364d6a87e90"
+            [12] => Accept-Ranges: bytes
+            [13] => Content-Length: 10116
+            [14] => Connection: close
+            [15] => Content-Type: text/html; charset=nl
+        )
+
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+
+2013-08-30 14:30:57 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3014&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [HTTP_REFERER] => http://www-stg2.tv-tokyo.co.jp/pointy/
+    [REMOTE_ADDR] => 111.89.165.122
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-30 17:35:04 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.214.150.13
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [COKKIE_SETTINGS] => agency_cd=3013
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-30 17:43:19 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3013&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-30 17:45:15 [INFO] 
+Array
+(
+    [QUERY_STRING] => agency_cd=3020&r=https://my.pointy.jp/myorder/OrderApply/addContractor
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => https://my.pointy.jp/myorder/OrderApply/addContractor
+)
+
+2013-08-30 17:47:59 [INFO] 
+Array
+(
+    [REMOTE_ADDR] => 202.212.92.129
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+    [COKKIE_SETTINGS] => agency_cd=3014
+    [get_headers] => 
+    [REDIRECT_URL] => http://www.pointy.jp/
+)
+

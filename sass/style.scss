@@ -88,6 +88,7 @@ h2 {
   text-align: center;
   font-size: 100px;
   margin: 80px 0;
+  font-family: 'Play', sans-serif;
 }
 h3{
   font-size: 20px;
@@ -196,6 +197,10 @@ a.btn {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   padding-top: 20px;
+}
+
+.flexbox{
+  display: flex;
 }
 
 .topimg {
@@ -368,7 +373,6 @@ a.btn {
             color: #fff;
             padding: 5px;
             text-align: center;
-            padding-bottom: 9px;
           }
         }
         a.imgHolder {
@@ -391,6 +395,7 @@ a.btn {
             padding: 0;
           }
           img{
+            display: block;
             max-width: 100%;
             -webkit-transition: .5s;
             transition: .5s;
@@ -466,6 +471,13 @@ a.btn {
   }
   a.btn{
     margin-top: 30px;
+  }
+  .flexbox{
+    flex-direction: row;
+    margin-top: 30px;
+    .imgOuter{
+      padding: 0 2%;
+    }
   }
 }
 
